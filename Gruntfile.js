@@ -32,6 +32,13 @@ module.exports = function (grunt) {
                     spawn : false
                 }
             },
+            stencil : {
+                files : ['<%= paths.app %>/**/*.html'],
+                tasks : ['stencil:server'],
+                options : {
+                    spawn : false
+                }
+            },
             livereload: {
                 files: [
                     '<%= paths.app %>/*.html',
@@ -213,6 +220,35 @@ module.exports = function (grunt) {
                 tagMessage : 'Version %VERSION%',
                 push : false
             }
+        },
+        stencil : {
+            options : {
+                env : {
+                  title : '豌豆荚'
+                },
+                partials : '<%= paths.app %>/partials',
+                templates : '<%= paths.app %>/templates'
+            },
+            server : {
+                files : [{
+                    expand : true,
+                    cwd : '<%= paths.app %>/pages/',
+                    src : "**/*.dot.html",
+                    dest : '<%= paths.tmp %>',
+                    ext : '.html',
+                    flatten : true
+                }]
+            },
+            dist : {
+                files : [{
+                    expand : true,
+                    cwd : '<%= paths.app %>/pages/',
+                    src : "**/*.dot.html",
+                    dest : '<%= paths.dist %>',
+                    ext : '.html',
+                    flatten : true
+                }]
+            }
         }
     });
 
@@ -221,6 +257,7 @@ module.exports = function (grunt) {
         'compass:server',
         'connect:server',
         'karma:server',
+        'stencil:server',
         'open',
         'watch'
     ]);
@@ -238,6 +275,7 @@ module.exports = function (grunt) {
     grunt.registerTask('build', [
         'clean:dist',
         'concurrent:dist',
+        'stencil:dist',
         'useminPrepare',
         'concat',
         'uglify',
