@@ -15,30 +15,11 @@ $blueprint-container-size: 990px;
 @import "header";
 @import "footer";
 
+@import "featbanner";
+
 
 a {
     color:#38d;
-}
-
-.featbanner {
-    border-bottom: 1px solid #f1f1f1;
-    margin: 0 0 10px 0;
-    padding: 0 0 30px 0;
-
-    h2 {
-        font-size: 26px;
-        line-height: 50px;
-        margin-top: 30px;
-        padding: 0 40px;
-    }
-
-    h3 {
-        color: #666;
-        font-size: 15px;
-        font-weight: normal;
-        line-height: 1.6;
-        padding: 10px 40px;
-    }
 }
 
 .featdesc  {
@@ -56,12 +37,12 @@ a {
             font-size: 14px;
             padding: 5px 20px;
         }
-        
+
         strong {
             color: #38d;
         }
     }
-    
+
     p {
         color: #666;
         font-size: 14px;
@@ -137,7 +118,7 @@ a {
         float: left;
         width: 282px;
     }
-    
+
     li {
         line-height: 21px;
         margin-bottom: 10px;
@@ -178,5 +159,3 @@ a {
     margin-left: 40px;
     padding: 7px 20px;
 }
-
-
