@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{{= it.title }}</title>
+    <meta http-equiv="mobile-agent" content="format=html5; url=http://m.wandoujia.com">
+    <meta name="keywords" content="豌豆荚,安卓游戏,安卓软件下载,安卓游戏下载,安卓手机助手">
+    <meta name="description" content="豌豆荚让您的安卓手机简单好用，轻松管理手机，免费下载应用、视频和音乐，管理通讯录，快速备份手机。" >
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/www/android.css" />
+
+    <!--[if lte IE 8]>
+    <script type="text/javascript" src="http://s.wdjimg.com/style/js/util/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+    {{= it.include('header') }}
+
+    <div class="grid-24 wrapper">
+        <div id="hero" class="featbanner">
+            <div class="grid-12 intro-android">
+            </div>
+            <div id="description" class="featdesc grid-12">
+                <h2>在 Android 手机上安装豌豆荚</h2>
+                <h3>安装豌豆荚可以随时随地获取海量应用游戏，<br/>轻松管理你的 Android 。</h3>
+                <span class="step-title" id="android-step">安装方式</span>
+                <div class="install-tips" id="step-tip">
+                    <h4>手机上安装豌豆荚：</h4>
+                    <ul>
+                        <li>手机浏览器打开<strong>wandoujia.com</strong>，按照提示下载安装（推荐）。或<a rel="nofollow" href="{$androidRelease|replace:"wap.apk":"web.apk"}" track="download/phoenix2/page_android">下载安装文件</a>手动安装。</li>
+                        <li>你也可以通过扫描右边的二维码来下载安装。</li>
+                        <li>要在电脑上安装豌豆荚: <a href="/windows" rel="nofollow">查看&raquo;</a></li>
+                    </ul>
+                    <img src="http://img.wdjimg.com/image/www/qr.png" alt="豌豆荚安卓版二维码" class="phoenix-qr">
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <ul id="features" class="featlist grid-23">
+            <li class="feature grid-11">
+                <div class="featimg feature-free">
+                </div>
+                <h4>应用游戏 免费获取</h4>
+                <p> 强大的应用搜索及应用推荐功能，帮你随时随地获取超过 500 000 款应用和游戏。</p>
+            </li>
+            <li class="feature grid-11">
+                <div class="featimg feature-manage">
+                </div>
+                <h4>手机内容 高效管理</h4>
+                <p> 高效管理手机应用、音乐、图片及视频，支持应用一键升级、卸载及批量移动，让手机内容变得更加有序！</p>
+            </li>
+            <li class="feature grid-11">
+                <div class="featimg feature-push">
+                </div>
+                <h4>应用推送 轻松享用</h4>
+                  <p>全新的应用推送功能，在网页上轻轻一点就可以魔术般的安装应用到手机。（需要手机连接 Wi-Fi 并登录豌豆荚账号）</p>
+            </li>
+        </ul>
+    </div>
+
+    {{= it.include('footer') }}
+</body>
+</html>

@@ -41,9 +41,9 @@ module.exports = function (grunt) {
             },
             livereload: {
                 files: [
-                    '<%= paths.app %>/*.html',
                     '<%= paths.app %>/javascripts/**/*.js',
                     '<%= paths.app %>/images/**/*.*',
+                    '<%= paths.tmp %>/**/*.html',
                     '<%= paths.tmp %>/stylesheets/**/*.css',
                     '<%= paths.tmp %>/images/**/*.*'
                 ],
@@ -224,13 +224,16 @@ module.exports = function (grunt) {
         },
         stencil : {
             options : {
-                env : {
-                  title : '豌豆荚'
-                },
                 partials : '<%= paths.app %>/partials',
                 templates : '<%= paths.app %>/templates'
             },
             server : {
+                options : {
+                    env : {
+                        title : '豌豆荚',
+                        prefix : ''
+                    }
+                },
                 files : [{
                     expand : true,
                     cwd : '<%= paths.app %>/pages/',
@@ -241,6 +244,12 @@ module.exports = function (grunt) {
                 }]
             },
             dist : {
+                options : {
+                    env : {
+                      title : '豌豆荚',
+                      prefix : 'http://www.wandoujia.com'
+                    }
+                },
                 files : [{
                     expand : true,
                     cwd : '<%= paths.app %>/pages/',
