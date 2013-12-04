@@ -1,0 +1,21 @@
+$base-color: #333;
+$minor-color: #666;
+$tip-color: #999;
+$blue: #38d;
+$light-blue: #51aae8;
+$orange: #ff7519;
+$yellow: yellow;
+$green: #2f7c2f;
+$font-base: "Lantinghei SC", "Microsoft Yahei", "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+$sidebar-width: 200px;
+
+/*pattern*/
+.fixed-width {
+	margin: 0 auto;
+    width: 990px;
+}
+
+.container-border {
+    border: 1px solid #ededed;
+}

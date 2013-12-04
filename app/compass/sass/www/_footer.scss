@@ -1,0 +1,95 @@
+@import "blueprint";
+@import "vars";
+
+$blueprint-container-size: 990px;
+
+footer {
+    padding: 30px 0 0;
+    width: 100%;
+    
+    a {
+        color: $tip-color;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+.ft-inner {
+    margin: 0 auto;
+    position: relative;
+    width: 940px;
+
+    dl {
+        margin-bottom: 30px;
+    }
+
+    dt {
+        font-weight: bold;
+        position: relative;
+        width: 260px;
+    }
+
+    dt,
+    dd {
+        @include inline-block();
+
+        float: left;
+    }
+
+    dd {
+        margin: 28px 0 0 -259px;
+        vertical-align: top;
+        width: 260px;
+
+        ul li {
+            line-height: 1.8;
+        }
+    }
+
+    .others {
+        color: #999;
+        line-height: 1.8;
+        padding:30px 0;
+        text-align: center;
+    }
+}
+
+
+.socials {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    .sc-icon {
+        @include inline-block();
+        @include opacity(.7);
+        @include transition(opacity 0.2s linear);
+        
+        height: 32px;
+        margin-right: 9px;
+        width: 32px;
+    
+
+        &:hover {
+            @include opacity(1);
+        }
+    }
+
+    .weibo-icon {
+        @include use-sprite('weibo_icon');
+    }
+
+    .twitter-icon {
+        @include use-sprite('twitter_icon');
+    }
+
+    .blog-icon {
+        @include use-sprite('blog_icon');
+    }
+
+    .bbs-icon {
+        @include use-sprite('bbs_icon');
+    }
+}
