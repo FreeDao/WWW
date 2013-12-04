@@ -65,14 +65,8 @@
             email : '{if isset($email)}{$email}{/if}'
         };
         </script>
-        {if (isset($smarty.cookies.debug) and $smarty.cookies.debug == 1) or $smarty.const.APPLICATION_ENV=="development"}
-        {assign var="showGA" value=False}
-        {else}
-        {assign var="showGA" value=True}
-        {/if}
-        {if 1}
-        <script type="text/javascript">
 
+        <script type="text/javascript">
           var _gaq = _gaq || [];
           _gaq.push(['_setAccount', 'UA-15790641-1']);
           _gaq.push(['_trackPageview']);
@@ -83,19 +77,18 @@
             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
           })();
 
-        </script> 
-        {/if}
+        </script>
+
         {include file="baidu.tpl"}
         {include file="partials/download_url.tpl"}
 
         <!--[if IE 6]>
         <script type="text/javascript" src="http://s.wdjimg.com/style/b/js/run/mini/mini-png-hack.js?v=201302051430"></script>
         <![endif]-->
-        {if !empty($smarty.get.debug)}
+
+        <script type="text/javascript"></script>
+
         <script src="{$smarty.const.WDJ_STYLE_URL}style/min/?g=jquery|web/pack|snshare|{math equation=rand(1,1000000)}.js&debug=1"></script>
         <script src="{$smarty.const.WDJ_STYLE_URL}style/min/?g=web/home|{math equation=rand(1,1000000)}.js&debug=1"></script>
-        {else}
-        <script src="{$smarty.const.WDJ_STYLE_URL}style/min/g=jquery|web/pack|snshare|web/home|{$smarty.const.WDJ_VERSION}.js"></script>
-        {/if}
     </div>
 </footer>
