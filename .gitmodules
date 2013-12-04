@@ -1,0 +1,3 @@
+[submodule "app/thirdparty/style"]
+	path = app/thirdparty/style
+	url = ssh://git.wandoujia.com:29418/style.git
