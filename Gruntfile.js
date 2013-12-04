@@ -120,20 +120,21 @@ module.exports = function (grunt) {
                 sassDir : '<%= paths.app %>/compass/sass',
                 imagesDir : '<%= paths.app %>/compass/images',
                 fontsDir : '<%= paths.app %>/compass/fonts',
-                relativeAssets : true
-            },
-            dist : {
-                options : {
-                    cssDir : '<%= paths.dist %>/stylesheets',
-                    generatedImagesDir : '<%= paths.dist %>/images',
-                    outputStyle : 'compressed'
-                }
+                relativeAssets : true,
+                require : 'compass-blueprint'
             },
             server : {
                 options : {
                     cssDir : '<%= paths.tmp %>/stylesheets',
                     generatedImagesDir : '<%= paths.tmp %>/images',
                     debugInfo : true
+                }
+            },
+            dist : {
+                options : {
+                    cssDir : '<%= paths.dist %>/stylesheets',
+                    generatedImagesDir : '<%= paths.dist %>/images',
+                    outputStyle : 'compressed'
                 }
             }
         },
