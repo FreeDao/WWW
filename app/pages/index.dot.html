@@ -1,141 +1,119 @@
-<!doctype html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>{{= it.title }}</title>
-    <meta http-equiv="mobile-agent" content="format=html5; url=http://m.wandoujia.com">
-    <meta name="keywords" content="豌豆荚,安卓游戏,安卓软件下载,安卓游戏下载,安卓手机助手">
-    <meta name="description" content="豌豆荚让您的安卓手机简单好用，轻松管理手机，免费下载应用、视频和音乐，管理通讯录，快速备份手机。" >
+{
+  "template" : "main",
+  "stylesheet" : "index"
+}
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/www/index.css" />
+<!--
+<section class="desc-sum">
+    <div class="desc-inner clearfix">
+        <div class="txts">
+            <img src="http://img.wdjimg.com/image/xiaodi/enter@2x.gif" alt="豌小豆" class="wdson" onclick="(_gaq || []).push(['_trackEvent', 'wdson', 'Click', 'Open']);"/>
+            <strong class="slogan">您的安卓手机加油站</strong>
+            <p class="full">最丰富的应用、游戏、音乐、视频和壁纸免费下载到手机。</p>
 
-    <!--[if lte IE 8]>
-    <script type="text/javascript" src="http://s.wdjimg.com/style/js/util/html5shiv.js"></script>
-    <![endif]-->
-</head>
-<body>
-    <div class="international-tip" style="display:none;" data-lang="{$smarty.server.HTTP_ACCEPT_LANGUAGE}" data-ip="{$smarty.server.REMOTE_ADDR}">
-        <span class="hello">Hello!</span>&nbsp;&nbsp;Looking for our international version? It's here: <a href="http://www.snappea.com/?utm_source=wandoujia&utm_medium=toptip&utm_campaign=international" data-track="tips/click/snappea">www.snappea.com</a>
-        <span class="close"></span>
+            <a rel="nofollow" href="{$durl}" data-track="download/client2/{$src}" id="downloadbutton" target="_self" class="button-green button-medium"><i class="pngFix"></i>下载豌豆荚</a>
+
+            <div class="others">
+                <span>其他下载：</span>
+                <a href="{$beta['url']}" data-track="download/clientbeta/home" id="beta-download" target="_self">Beta 测试版</a>
+                <a href="http://www.wandoujia.com/android"  >在手机上安装豌豆荚</a>
+            </div>
+        </div>
+        <img class="screenshot" src="http://img.wdjimg.com/style/images/www/new-ia.jpg" alt="豌豆荚 - 安卓手机助手" width="556" height="352" />
     </div>
+</section>
 
-    {{= it.include('header') }}
-    <!--
-    <section class="desc-sum">
-        <div class="desc-inner clearfix">
-            <div class="txts">
-                <img src="http://img.wdjimg.com/image/xiaodi/enter@2x.gif" alt="豌小豆" class="wdson" onclick="(_gaq || []).push(['_trackEvent', 'wdson', 'Click', 'Open']);"/>
-                <strong class="slogan">您的安卓手机加油站</strong>
-                <p class="full">最丰富的应用、游戏、音乐、视频和壁纸免费下载到手机。</p>
+<section class="features">
+    <ul>
+        <li class="many-apps">
+            <h3>想到，就能下载到。</h3>
+            <p>
+                豌豆荚收录了超过 50 万款优质 Android 应用和游戏，以及 130 多家内容提供商提供的音乐、视频、电子书、壁纸和主题。让您的手机比您想象中更强大更好玩。
+            </p>
+            <a class="more" href="http://www.wandoujia.com/apps">前往豌豆荚应用搜索<i class="more-arrow"></i></a>
+            <div class="split"></div>
+        </li>
+        <li class="conv-safe">
+            <h3>要省心，更要放心。</h3>
+            <p>
+                豌豆荚提供的应用都清晰标示了安全、隐私、广告和官方验证信息。特色的 <strong><a href="http://www.wandoujia.com/xibaibai">豌豆洗白白</a> </strong>功能，可将山寨应用、广告应用替换成官方版或无广告版，让您使用更放心。
+            </p>
+            <div class="split"></div>
+        </li>
+        <li class="easy-manage">
+            <h3>管理手机，得心应手。</h3>
+            <p>
+               在手机上操作起来很繁琐的事情，在电脑上变得好高效。您可以使用豌豆荚收发短信，管理手机中的应用、联系人、图片和视频，备份手机数据到电脑和云端，管理手机就是这样得心应手。
+            </p>
+        </li>
+    </ul>
+</section>
 
-                <a rel="nofollow" href="{$durl}" data-track="download/client2/{$src}" id="downloadbutton" target="_self" class="button-green button-medium"><i class="pngFix"></i>下载豌豆荚</a>
+<section class="apps">
+    <div class="apps-inner clearfix">
 
-                <div class="others">
-                    <span>其他下载：</span>
-                    <a href="{$beta['url']}" data-track="download/clientbeta/home" id="beta-download" target="_self">Beta 测试版</a>
-                    <a href="http://www.wandoujia.com/android"  >在手机上安装豌豆荚</a>
-                </div>
-            </div>
-            <img class="screenshot" src="http://img.wdjimg.com/style/images/www/new-ia.jpg" alt="豌豆荚 - 安卓手机助手" width="556" height="352" />
+        <div class="app-box">
+            <h2>精选安卓软件</h2>
+            <ul class="clearfix">
+                {foreach from=$appRankList item=item name=el}
+                    {if $smarty.foreach.el.iteration <= 8}
+                    <li class="app-item">
+                        <a href="{$host}/apps/{$item['packageName']}">
+                            {if $isIE6}
+                            <img alt="{$item['title']}" src="{$item['iconIeSrc'][48]}" />
+                            {else}
+                            <img alt="{$item['title']}" src="{$item['iconSrc'][48]}" />
+                            {/if}
+                            <span class="name {$otherClass|default:''}">{$item['title']}</span>
+                        </a>
+                    </li>
+                    {/if}
+                {/foreach}
+            </ul>
+            <a class="more" href="http://www.wandoujia.com/tag/app">查看更多安卓软件<i class="more-arrow"></i></a>
         </div>
-    </section>
-
-    <section class="features">
-        <ul>
-            <li class="many-apps">
-                <h3>想到，就能下载到。</h3>
-                <p>
-                    豌豆荚收录了超过 50 万款优质 Android 应用和游戏，以及 130 多家内容提供商提供的音乐、视频、电子书、壁纸和主题。让您的手机比您想象中更强大更好玩。
-                </p>
-                <a class="more" href="http://www.wandoujia.com/apps">前往豌豆荚应用搜索<i class="more-arrow"></i></a>
-                <div class="split"></div>
-            </li>
-            <li class="conv-safe">
-                <h3>要省心，更要放心。</h3>
-                <p>
-                    豌豆荚提供的应用都清晰标示了安全、隐私、广告和官方验证信息。特色的 <strong><a href="http://www.wandoujia.com/xibaibai">豌豆洗白白</a> </strong>功能，可将山寨应用、广告应用替换成官方版或无广告版，让您使用更放心。
-                </p>
-                <div class="split"></div>
-            </li>
-            <li class="easy-manage">
-                <h3>管理手机，得心应手。</h3>
-                <p>
-                   在手机上操作起来很繁琐的事情，在电脑上变得好高效。您可以使用豌豆荚收发短信，管理手机中的应用、联系人、图片和视频，备份手机数据到电脑和云端，管理手机就是这样得心应手。
-                </p>
-            </li>
-        </ul>
-    </section>
-
-    <section class="apps">
-        <div class="apps-inner clearfix">
-
-            <div class="app-box">
-                <h2>精选安卓软件</h2>
-                <ul class="clearfix">
-                    {foreach from=$appRankList item=item name=el}
-                        {if $smarty.foreach.el.iteration <= 8}
-                        <li class="app-item">
-                            <a href="{$host}/apps/{$item['packageName']}">
-                                {if $isIE6}
-                                <img alt="{$item['title']}" src="{$item['iconIeSrc'][48]}" />
-                                {else}
-                                <img alt="{$item['title']}" src="{$item['iconSrc'][48]}" />
-                                {/if}
-                                <span class="name {$otherClass|default:''}">{$item['title']}</span>
-                            </a>
-                        </li>
-                        {/if}
-                    {/foreach}
-                </ul>
-                <a class="more" href="http://www.wandoujia.com/tag/app">查看更多安卓软件<i class="more-arrow"></i></a>
-            </div>
-            <div class="app-box left-box">
-                <h2>精选安卓游戏</h2>
-                <ul class="clearfix">
-                    {foreach from=$gameRankList item=item name=el}
-                        {if $smarty.foreach.el.iteration <= 8}
-                        <li class="app-item">
-                            <a href="{$host}/apps/{$item['packageName']}">
-                                {if $isIE6}
-                                <img alt="{$item['title']}" src="{$item['iconIeSrc'][48]}" />
-                                {else}
-                                <img alt="{$item['title']}" src="{$item['iconSrc'][48]}" />
-                                {/if}
-                                <span class="name {$otherClass|default:''}">{$item['title']}</span>
-                            </a>
-                        </li>
-                        {/if}
-                    {/foreach}
-                </ul>
-                <a class="more" href="http://www.wandoujia.com/tag/game">查看更多安卓游戏<i class="more-arrow"></i></a>
-            </div>
-        </div>
-    </section>
-
-    <div class="wdson-wp wdson-first">
-        <div class="wdson-img-wp">
-            <img src="http://img.wdjimg.com/image/xiaodi/child1.png" alt="豌小豆登场" class="wdson-1-child">
-            <img src="http://img.wdjimg.com/image/xiaodi/child2.png" alt="豌小豆登场" class="wdson-2-child">
-            <img src="http://img.wdjimg.com/image/xiaodi/child3.png" alt="豌小豆登场" class="wdson-3-child">
-        </div>
-        <div class="wdson-controls">
-            <a href="###" class="wdson-close-btn">×</a>
-            <span class="wdson-really-close"></span>
-            <div class="wdson-arrow">
-                <span class="wdson-left-arrow"></span>
-                <span class="wdson-right-arrow"></span>
-                <span class="wdson-repeat-arrow"></span>
-            </div>
-            <div class="wdson-last-child">
-                <a href="http://service.weibo.com/share/share.php?appkey=1483181040&relateUid=1727978503&title=%E9%80%9A%E7%9F%A5%EF%BC%9A%40%E8%B1%8C%E8%B1%86%E8%8D%9A%20%E7%9A%84%E4%BA%B2%E5%84%BF%E5%AD%90%E8%B1%8C%E5%B0%8F%E8%B1%86%E4%BA%8E%202013%20%E5%B9%B4%207%20%E6%9C%88%2023%20%E6%97%A5%E9%9B%B6%E7%82%B9%E5%87%BA%E7%94%9F%EF%BC%8C%E7%9B%AE%E6%B5%8B%E5%85%B6%E4%B8%89%E8%A7%82%E6%AD%A3%E3%80%81%E6%A0%BC%E8%B0%83%E9%AB%98%E3%80%81%E8%A2%AB%E4%BA%BA%E7%BE%9E%E8%BE%B1%E8%83%BD%E5%82%B2%E5%A8%87%E3%80%82%E5%8A%B3%E7%83%A6%E5%A4%A7%E5%AE%B6%E8%BD%AC%E5%8F%91%E6%AD%A4%E9%94%A6%E9%B2%A4%E5%B9%B6%E8%89%BE%E7%89%B9%E4%B8%89%E4%B8%AA%E5%A5%BD%E5%8F%8B%EF%BC%8C%E7%84%B6%E5%90%8E%E4%BB%80%E4%B9%88%E6%84%8F%E6%83%B3%E4%B8%8D%E5%88%B0%E7%9A%84%E4%BA%8B%E6%83%85%E9%83%BD%E4%B8%8D%E4%BC%9A%E5%8F%91%E7%94%9F%E3%80%82%E5%8F%A6%E5%A4%96%EF%BC%8C%E8%B1%8C%E5%B0%8F%E8%B1%86%E7%9A%84%E5%85%A8%E5%A5%97%E6%BF%80%E8%90%8C%E9%AB%98%E6%B8%85%E6%97%A0%E7%A0%81%E8%A1%A8%E6%83%85%E5%B7%B2%E7%BB%8F%E6%94%BE%E5%87%BA%EF%BC%8C%E4%BD%A0%E4%BB%AC%E5%8F%AF%E4%BB%A5%E9%9A%8F%E4%BE%BF%E6%84%9F%E5%8F%97%E4%B8%80%E4%B8%8B%EF%BC%9A&url=http%3A%2F%2Fwww.wandoujia.com%2Fblog%2Fsnappeahellyeah&pic=http%3A%2F%2Fimg.wdjimg.com%2Fimage%2Fxiaodi%2Fson-weibo.jpg" class="wdson-weibo" target="_blank" onclick="(_gaq || []).push(['_trackEvent', 'wdson', 'Click', 'Sina']);">分享到新浪微博</a>
-                <a href="http://share.v.t.qq.com/index.php?c=share&a=index&appkey=100273333&title=%E9%80%9A%E7%9F%A5%EF%BC%9A%40%E8%B1%8C%E8%B1%86%E8%8D%9A%20%E7%9A%84%E4%BA%B2%E5%84%BF%E5%AD%90%E8%B1%8C%E5%B0%8F%E8%B1%86%E4%BA%8E%202013%20%E5%B9%B4%207%20%E6%9C%88%2023%20%E6%97%A5%E9%9B%B6%E7%82%B9%E5%87%BA%E7%94%9F%EF%BC%8C%E7%9B%AE%E6%B5%8B%E5%85%B6%E4%B8%89%E8%A7%82%E6%AD%A3%E3%80%81%E6%A0%BC%E8%B0%83%E9%AB%98%E3%80%81%E8%A2%AB%E4%BA%BA%E7%BE%9E%E8%BE%B1%E8%83%BD%E5%82%B2%E5%A8%87%E3%80%82%E5%8A%B3%E7%83%A6%E5%A4%A7%E5%AE%B6%E8%BD%AC%E5%8F%91%E6%AD%A4%E9%94%A6%E9%B2%A4%E5%B9%B6%E8%89%BE%E7%89%B9%E4%B8%89%E4%B8%AA%E5%A5%BD%E5%8F%8B%EF%BC%8C%E7%84%B6%E5%90%8E%E4%BB%80%E4%B9%88%E6%84%8F%E6%83%B3%E4%B8%8D%E5%88%B0%E7%9A%84%E4%BA%8B%E6%83%85%E9%83%BD%E4%B8%8D%E4%BC%9A%E5%8F%91%E7%94%9F%E3%80%82%E5%8F%A6%E5%A4%96%EF%BC%8C%E8%B1%8C%E5%B0%8F%E8%B1%86%E7%9A%84%E5%85%A8%E5%A5%97%E6%BF%80%E8%90%8C%E9%AB%98%E6%B8%85%E6%97%A0%E7%A0%81%E8%A1%A8%E6%83%85%E5%B7%B2%E7%BB%8F%E6%94%BE%E5%87%BA%EF%BC%8C%E4%BD%A0%E4%BB%AC%E5%8F%AF%E4%BB%A5%E9%9A%8F%E4%BE%BF%E6%84%9F%E5%8F%97%E4%B8%80%E4%B8%8B%EF%BC%9A&url=http%3A%2F%2Fwww.wandoujia.com%2Fblog%2Fsnappeahellyeah&pic=http%3A%2F%2Fimg.wdjimg.com%2Fimage%2Fxiaodi%2Fson-weibo.jpg" class="wdson-tencent" target="_blank" onclick="(_gaq || []).push(['_trackEvent', 'wdson', 'Click', 'Tencent']);">分享到腾讯微博</a>
-                <a href="http://www.wandoujia.com/blog/snappeahellyeah" class="wdson-download" onclick="(_gaq || []).push(['_trackEvent', 'wdson', 'Click', 'Download']);">下载豌小豆全套表情包</a>
-            </div>
+        <div class="app-box left-box">
+            <h2>精选安卓游戏</h2>
+            <ul class="clearfix">
+                {foreach from=$gameRankList item=item name=el}
+                    {if $smarty.foreach.el.iteration <= 8}
+                    <li class="app-item">
+                        <a href="{$host}/apps/{$item['packageName']}">
+                            {if $isIE6}
+                            <img alt="{$item['title']}" src="{$item['iconIeSrc'][48]}" />
+                            {else}
+                            <img alt="{$item['title']}" src="{$item['iconSrc'][48]}" />
+                            {/if}
+                            <span class="name {$otherClass|default:''}">{$item['title']}</span>
+                        </a>
+                    </li>
+                    {/if}
+                {/foreach}
+            </ul>
+            <a class="more" href="http://www.wandoujia.com/tag/game">查看更多安卓游戏<i class="more-arrow"></i></a>
         </div>
     </div>
-    -->
+</section>
 
-    {{= it.include('footer') }}
-
-</body>
-</html>
+<div class="wdson-wp wdson-first">
+    <div class="wdson-img-wp">
+        <img src="http://img.wdjimg.com/image/xiaodi/child1.png" alt="豌小豆登场" class="wdson-1-child">
+        <img src="http://img.wdjimg.com/image/xiaodi/child2.png" alt="豌小豆登场" class="wdson-2-child">
+        <img src="http://img.wdjimg.com/image/xiaodi/child3.png" alt="豌小豆登场" class="wdson-3-child">
+    </div>
+    <div class="wdson-controls">
+        <a href="###" class="wdson-close-btn">×</a>
+        <span class="wdson-really-close"></span>
+        <div class="wdson-arrow">
+            <span class="wdson-left-arrow"></span>
+            <span class="wdson-right-arrow"></span>
+            <span class="wdson-repeat-arrow"></span>
+        </div>
+        <div class="wdson-last-child">
+            <a href="http://service.weibo.com/share/share.php?appkey=1483181040&relateUid=1727978503&title=%E9%80%9A%E7%9F%A5%EF%BC%9A%40%E8%B1%8C%E8%B1%86%E8%8D%9A%20%E7%9A%84%E4%BA%B2%E5%84%BF%E5%AD%90%E8%B1%8C%E5%B0%8F%E8%B1%86%E4%BA%8E%202013%20%E5%B9%B4%207%20%E6%9C%88%2023%20%E6%97%A5%E9%9B%B6%E7%82%B9%E5%87%BA%E7%94%9F%EF%BC%8C%E7%9B%AE%E6%B5%8B%E5%85%B6%E4%B8%89%E8%A7%82%E6%AD%A3%E3%80%81%E6%A0%BC%E8%B0%83%E9%AB%98%E3%80%81%E8%A2%AB%E4%BA%BA%E7%BE%9E%E8%BE%B1%E8%83%BD%E5%82%B2%E5%A8%87%E3%80%82%E5%8A%B3%E7%83%A6%E5%A4%A7%E5%AE%B6%E8%BD%AC%E5%8F%91%E6%AD%A4%E9%94%A6%E9%B2%A4%E5%B9%B6%E8%89%BE%E7%89%B9%E4%B8%89%E4%B8%AA%E5%A5%BD%E5%8F%8B%EF%BC%8C%E7%84%B6%E5%90%8E%E4%BB%80%E4%B9%88%E6%84%8F%E6%83%B3%E4%B8%8D%E5%88%B0%E7%9A%84%E4%BA%8B%E6%83%85%E9%83%BD%E4%B8%8D%E4%BC%9A%E5%8F%91%E7%94%9F%E3%80%82%E5%8F%A6%E5%A4%96%EF%BC%8C%E8%B1%8C%E5%B0%8F%E8%B1%86%E7%9A%84%E5%85%A8%E5%A5%97%E6%BF%80%E8%90%8C%E9%AB%98%E6%B8%85%E6%97%A0%E7%A0%81%E8%A1%A8%E6%83%85%E5%B7%B2%E7%BB%8F%E6%94%BE%E5%87%BA%EF%BC%8C%E4%BD%A0%E4%BB%AC%E5%8F%AF%E4%BB%A5%E9%9A%8F%E4%BE%BF%E6%84%9F%E5%8F%97%E4%B8%80%E4%B8%8B%EF%BC%9A&url=http%3A%2F%2Fwww.wandoujia.com%2Fblog%2Fsnappeahellyeah&pic=http%3A%2F%2Fimg.wdjimg.com%2Fimage%2Fxiaodi%2Fson-weibo.jpg" class="wdson-weibo" target="_blank" onclick="(_gaq || []).push(['_trackEvent', 'wdson', 'Click', 'Sina']);">分享到新浪微博</a>
+            <a href="http://share.v.t.qq.com/index.php?c=share&a=index&appkey=100273333&title=%E9%80%9A%E7%9F%A5%EF%BC%9A%40%E8%B1%8C%E8%B1%86%E8%8D%9A%20%E7%9A%84%E4%BA%B2%E5%84%BF%E5%AD%90%E8%B1%8C%E5%B0%8F%E8%B1%86%E4%BA%8E%202013%20%E5%B9%B4%207%20%E6%9C%88%2023%20%E6%97%A5%E9%9B%B6%E7%82%B9%E5%87%BA%E7%94%9F%EF%BC%8C%E7%9B%AE%E6%B5%8B%E5%85%B6%E4%B8%89%E8%A7%82%E6%AD%A3%E3%80%81%E6%A0%BC%E8%B0%83%E9%AB%98%E3%80%81%E8%A2%AB%E4%BA%BA%E7%BE%9E%E8%BE%B1%E8%83%BD%E5%82%B2%E5%A8%87%E3%80%82%E5%8A%B3%E7%83%A6%E5%A4%A7%E5%AE%B6%E8%BD%AC%E5%8F%91%E6%AD%A4%E9%94%A6%E9%B2%A4%E5%B9%B6%E8%89%BE%E7%89%B9%E4%B8%89%E4%B8%AA%E5%A5%BD%E5%8F%8B%EF%BC%8C%E7%84%B6%E5%90%8E%E4%BB%80%E4%B9%88%E6%84%8F%E6%83%B3%E4%B8%8D%E5%88%B0%E7%9A%84%E4%BA%8B%E6%83%85%E9%83%BD%E4%B8%8D%E4%BC%9A%E5%8F%91%E7%94%9F%E3%80%82%E5%8F%A6%E5%A4%96%EF%BC%8C%E8%B1%8C%E5%B0%8F%E8%B1%86%E7%9A%84%E5%85%A8%E5%A5%97%E6%BF%80%E8%90%8C%E9%AB%98%E6%B8%85%E6%97%A0%E7%A0%81%E8%A1%A8%E6%83%85%E5%B7%B2%E7%BB%8F%E6%94%BE%E5%87%BA%EF%BC%8C%E4%BD%A0%E4%BB%AC%E5%8F%AF%E4%BB%A5%E9%9A%8F%E4%BE%BF%E6%84%9F%E5%8F%97%E4%B8%80%E4%B8%8B%EF%BC%9A&url=http%3A%2F%2Fwww.wandoujia.com%2Fblog%2Fsnappeahellyeah&pic=http%3A%2F%2Fimg.wdjimg.com%2Fimage%2Fxiaodi%2Fson-weibo.jpg" class="wdson-tencent" target="_blank" onclick="(_gaq || []).push(['_trackEvent', 'wdson', 'Click', 'Tencent']);">分享到腾讯微博</a>
+            <a href="http://www.wandoujia.com/blog/snappeahellyeah" class="wdson-download" onclick="(_gaq || []).push(['_trackEvent', 'wdson', 'Click', 'Download']);">下载豌小豆全套表情包</a>
+        </div>
+    </div>
+</div>
+-->
