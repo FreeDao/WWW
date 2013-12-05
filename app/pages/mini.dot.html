@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+        <title>迷你豌豆荚</title>
+        <meta name="description" content="迷你豌豆荚">
+        <meta name="keywords" content="迷你豌豆荚,豌豆荚,安卓游戏,安卓软件下载,安卓游戏下载,安卓手机助手">
+        <link rel="stylesheet" type="text/css" href="stylesheets/www/mini.css">
+        <link rel="stylesheet" type="text/css" href="{$smarty.const.WDJ_STYLE_URL}style/css/biz/www/static.css?v={$smarty.const.WDJ_VERSION}" />
+        <!--[if lte IE 8]>
+        <script type="text/javascript" src="http://s.wdjimg.com/style/js/util/html5shiv.js"></script>
+        <![endif]-->
+        <style type="text/css">
+            .grid-24 img {
+                width: 200px;
+                height: 200px;
+                margin: 60px auto;
+                display: block;
+                text-align: center;
+            }
+
+            .grid-24 p {
+                text-align: center;
+                font-size: 16px;
+                margin: 15px 0;
+            }
+
+            .grid-24 .subtitle {
+                margin: 0;
+                color: #999;
+            }
+        </style>
+    </head>
+    <body>
+    {{= it.include('header') }}
+    <div class="grid-24">
+        <img src="http://img.wdjimg.com/mini/xiaodi.png" alt="豌豆小弟">
+        <p class="title">非常抱歉，迷你豌豆荚已经停止维护了。还是试试新版豌豆荚吧。</p>
+        <p class="subtitle">5秒后自动跳转到 <a href="http://www.wandoujia.com"> 豌豆荚首页</a></p>
+    </div>
+
+    {{= it.include('footer') }}
+    <script type="text/javascript">
+        setTimeout(function () {
+            window.location.href = 'http://www.wandoujia.com';
+        }, 5000);
+    </script>
+    </body>
+</html>
