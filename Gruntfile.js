@@ -82,6 +82,15 @@ module.exports = function (grunt) {
             }, {
                 from : '^/branding',
                 to : '/branding.html'
+            }, {
+                from : '^/xibaibai',
+                to : '/xibaibai/index.html'
+            }, {
+                from : '^/xibaibai/air',
+                to : '/xibaibai/air/index.html'
+            }, {
+                from : '^/zhuizhuikan',
+                to : '/zhuizhuikan.html'
             }],
             server : {
                 options : {
@@ -279,7 +288,7 @@ module.exports = function (grunt) {
                 files : [{
                     expand : true,
                     cwd : '<%= paths.app %>/pages/',
-                    src : "**/*.dot.html",
+                    src : '**/*.dot.html',
                     dest : '<%= paths.tmp %>',
                     ext : '.html',
                     flatten : false
@@ -288,14 +297,14 @@ module.exports = function (grunt) {
             dist : {
                 options : {
                     env : {
-                      title : '豌豆荚',
-                      prefix : 'http://www.wandoujia.com'
+                        title : '豌豆荚',
+                        prefix : 'http://www.wandoujia.com'
                     }
                 },
                 files : [{
                     expand : true,
                     cwd : '<%= paths.app %>/pages/',
-                    src : "**/*.dot.html",
+                    src : '**/*.dot.html',
                     dest : '<%= paths.tmp %>',
                     ext : '.html',
                     flatten : false
@@ -306,10 +315,10 @@ module.exports = function (grunt) {
 
     grunt.registerTask('server', [
         'clean:server',
-        'concurrent:server',
+        // 'concurrent:server',
         'configureRewriteRules',
         'connect:server',
-        'karma:server',
+        // 'karma:server',
         'stencil:server',
         'open',
         'watch'
