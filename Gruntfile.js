@@ -107,7 +107,7 @@ module.exports = function (grunt) {
             server : '<%= paths.tmp %>'
         },
         useminPrepare : {
-            html : ['<%= paths.app %>/*.html'],
+            html : ['<%= paths.tmp %>/**/*.html'],
             options : {
                 dest : '<%= paths.dist %>'
             }
@@ -122,7 +122,7 @@ module.exports = function (grunt) {
             dist : {
                 files : [{
                     expand : true,
-                    cwd : '<%= paths.app %>',
+                    cwd : '<%= paths.tmp %>',
                     src : ['*.html'],
                     dest : '<%= paths.dist %>'
                 }]
@@ -171,17 +171,18 @@ module.exports = function (grunt) {
                 options : {
                     cssDir : '<%= paths.dist %>/stylesheets',
                     generatedImagesDir : '<%= paths.dist %>/images',
-                    outputStyle : 'compressed'
+                    outputStyle : 'compressed',
+                    httpGeneratedImagesPath: 'http://img.wdjimg.com/www/images/',
+                    relativeAssets : false
                 }
             }
         },
-        rev: {
-            dist: {
-                files: {
-                    src: [
+        rev : {
+            dist : {
+                files : {
+                    src : [
                         '<%= paths.dist %>/javascripts/**/*.js',
-                        '<%= paths.dist %>/stylesheets/**/*.css',
-                        '<%= paths.dist %>/images/**/*.*'
+                        '<%= paths.dist %>/stylesheets/**/*.css'
                     ]
                 }
             }
@@ -263,7 +264,10 @@ module.exports = function (grunt) {
         stencil : {
             options : {
                 partials : '<%= paths.app %>/partials',
-                templates : '<%= paths.app %>/templates'
+                templates : '<%= paths.app %>/templates',
+                dot_template_settings : {
+                    strip : false
+                }
             },
             server : {
                 options : {
@@ -278,7 +282,7 @@ module.exports = function (grunt) {
                     src : "**/*.dot.html",
                     dest : '<%= paths.tmp %>',
                     ext : '.html',
-                    flatten : true
+                    flatten : false
                 }]
             },
             dist : {
@@ -292,9 +296,9 @@ module.exports = function (grunt) {
                     expand : true,
                     cwd : '<%= paths.app %>/pages/',
                     src : "**/*.dot.html",
-                    dest : '<%= paths.dist %>',
+                    dest : '<%= paths.tmp %>',
                     ext : '.html',
-                    flatten : true
+                    flatten : false
                 }]
             }
         }
@@ -328,7 +332,6 @@ module.exports = function (grunt) {
         'useminPrepare',
         'concat',
         'uglify',
-        // 'requirejs:dist', // Uncomment this line if using RequireJS in your project
         'imagemin',
         'htmlmin',
         'rev',
