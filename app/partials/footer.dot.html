@@ -76,15 +76,22 @@
             ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
           })();
-        </script> 
+        </script>
 
         {{= it.include("baidu") }}
 
-        <!--[if IE 6]>
-        <script type="text/javascript" src="http://s.wdjimg.com/style/b/js/run/mini/mini-png-hack.js?v=201302051430"></script>
-        <![endif]-->
-
         <script src="thirdparty/style/min/g=jquery|web/pack|snshare|web/home|123456.js"></script>
 
+        <!-- build:js javascripts/util/html5shiv.js -->
+        <!--[if lte IE 8]>
+        <script type="text/javascript" src="javascripts/util/html5shiv.js"></script>
+        <![endif]-->
+        <!-- endbuild -->
+
+        <!-- build:js javascripts/util/png-hack.js -->
+        <!--[if IE 6]>
+        <script type="text/javascript" src="javascripts/util/png-hack.js"></script>
+        <![endif]-->
+        <!-- endbuild -->
     </div>
 </footer>

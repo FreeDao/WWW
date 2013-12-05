@@ -22,12 +22,6 @@
 // @import "device";
 @import "footer";
 
-body {
-    @include text-shadow(0 1px 0 #fff);
-
-    background: generated-image-url('www/2013_home_bg.png');
-}
-
 .international-tip {
     @include single-box-shadow(0, 1px, 1px, false, rgba(0, 0, 0, .2), false);
     @include text-shadow(0 1px 0 rgba(255, 255, 255, .4));

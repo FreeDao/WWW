@@ -147,6 +147,7 @@ module.exports = function (grunt) {
                     cwd : '<%= paths.app %>',
                     dest : '<%= paths.dist %>',
                     src : [
+                        'statics/**/*.{html,json}',
                         'images/**/*.{webp,gif,png,jpg,jpeg}'
                     ]
                 }]
