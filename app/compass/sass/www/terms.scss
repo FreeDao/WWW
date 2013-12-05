@@ -16,108 +16,50 @@ $blueprint-container-size: 990px;
 @import "footer";
 
 @import "featbanner";
+@import "tos";
 
 #tos {
-    margin: 0 auto;
-    overflow: hidden;
+    .content > ul > li:hover .explanation {
+        border-left-color: #ddd;
+        color: #777;
 
-    .content {
-        display: block;
-        float: none;
-        left: 0;
-        margin: 0 auto 0;
-        overflow: hidden;
-        padding-bottom: 50px;
-        width: 100%;
-        
-        width: 960px\9;
-
-        h2 {
-            margin-top: 10px;
-        }
-
-        h3,
-        h3 a {
-            color:#333;
-            font-size: 16px;
-            font-weight: bold;
-            line-height: 1.6;
-            padding: 10px 0 6px;
-            text-decoration: none;
-        }
-
-        p {
-            color: #666;
-            font-size: 14px;
-            line-height: 1.8;
-            margin-bottom: 20px;
-            padding: 0 40px;
-            padding-right: 360px;
-        }
-
-        & > ul > li {
-            color: #666;
-            font-size: 14px;
-            line-height: 1.6;
-            list-style: disc;
-            margin-left: 60px;
-            margin-top: 10px;
-            padding: 0;
-            padding-right: 360px;
-            position: relative;
+        &::before,
+        &::after {
+            border-top-color: #ddd;
         }
     }
 }
 
 .explanation {
-    position: absolute;
-    font-size: 16px;
-    top: 32px;
-    left: 556px;
-    color: #aaa;
-    font-weight: normal;
     border-left: 8px solid #f6f6f6;
+    color: #aaa;
+    font-size: 16px;
+    font-weight: normal;
     height: 90%;
+    left: 556px;
     padding: 10px 0 0 20px;
+    position: absolute;
+    top: 32px;
     vertical-align: middle;
     _display: none;
-}
 
-.explanation:before {
-    content: '';
-    border-top: 8px solid #f6f6f6;
-    position: absolute;
-    left: -24px;
-    top: 0;
-    width: 24px;
-    height: 0;
-}
-.explanation:after {
-    content: '';
-    border-top: 8px solid #f6f6f6;
-    position: absolute;
-    left: -24px;
-    bottom: 0;
-    width: 24px;
-    height: 0;
-}
+    &::before {
+        border-top: 8px solid #f6f6f6;
+        content: '';
+        height: 0;
+        left: -24px;
+        position: absolute;
+        top: 0;
+        width: 24px;
+    }
 
-#tos .content > ul > li:hover .explanation {
-    color: #777;
-    border-left-color: #ddd;
-
-}
-
-#tos .content > ul > li:hover .explanation:before,
-#tos .content > ul > li:hover .explanation:after {
-    border-top-color: #ddd;
-}
-
-#tos .content > ul li > ul li {
-    list-style: circle;
-    margin-left: 40px;
-}
-
-#tos .content > ul li > ul li > ul li {
-    list-style: square;
+    &::after {
+        border-top: 8px solid #f6f6f6;
+        bottom: 0;
+        content: '';
+        height: 0;
+        left: -24px;
+        position: absolute;
+        width: 24px;
+    }
 }
