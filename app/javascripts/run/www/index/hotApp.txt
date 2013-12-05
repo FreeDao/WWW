@@ -1,0 +1,28 @@
+<% var gamedata = '',gamecontent; 
+
+if(typeof app.extensionPacks != 'undefined' && app.extensionPacks.length>0){
+    _.each(app.extensionPacks,function(gc, index){
+        gamedata = gamedata + ' data-gtype' + index + '="' + gc['type'] + '" data-gurl' + index + '="' + gc['url'] + '" data-gsize' + index + '="' + gc['humansize'] + '"';
+    });
+    gamecontent = '1" ' + gamedata;
+}else{
+    gamecontent='0';
+};
+var page = '${page}';
+var apk = app.apks[0];
+var appUrl  = "http://apps.wandoujia.com/apps/"+app.packageName+(app.detailParam?('?'+app.detailParam):'');
+var iconUrl = app.icons.px48;
+var dUrl = apk.downloadUrl.url + '#name=' + app.title + '&icon=' + iconUrl + '&content-type=application';
+%>
+
+<li class="app mini" data-pn="<%=app.packageName%>">
+    <div class="icon-wrap">
+        <a href="http://www.wandoujia.com/apps/<%=app.packageName%>">
+            <img src="<%=iconUrl%>" width="48" height="48" alt="<%=app.title%>" class="icon"></a>
+    </div>
+    <div class="desc">
+        <a class="title name" href="http://www.wandoujia.com/apps/<%=app.packageName%>"><%=app.title%></a>
+
+
+    </div>
+</li>
