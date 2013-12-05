@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>豌豆洗白白 - 豌豆荚</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="../stylesheets/www/static.css" />
+
+    <style type="text/css">
+        #wash-ctn {
+            background-color: #f6f6f6;
+            background-image: url('http://img.wdjimg.com/image/windows/wash-bg.png');
+            background-position: center bottom; 
+            background-repeat: no-repeat;
+            margin: 0 auto;
+            padding-top: 6%;
+            height: 500px;
+            text-align: center;
+            line-height: 24px;
+        }
+
+        #wash-ctn .title {
+            color: #3c7800;
+            font-size: 25px;
+            font-weight: normal;
+            line-height: 1.5em;
+            margin-bottom: 15px;
+        }
+        
+        #wash-ctn p {
+            color: #555;
+            font-size: 14px;
+            line-height: 1.5em;
+        }
+
+        .btn-green {
+            background-color: #4fab00;
+            color: #fff;
+            text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+            border: 1px solid #2c8e00;
+            background-image: -webkit-linear-gradient(#4eb23a,#359921);
+            background-image: -moz-linear-gradient(#4eb23a,#359921);
+            background-image: -o-linear-gradient(#4eb23a,#359921);
+            background-image: linear-gradient(#4eb23a,#359921);
+            border-radius: 3px;
+            box-shadow: #72c261 0 1px 1px 0 inset,#fff 0 1px 1px;
+        }
+        .btn-green:hover {
+            background-image: -webkit-linear-gradient(#57c840,#3eaf27);
+            background-image: -moz-linear-gradient(#57c840,#3eaf27);
+            background-image: -o-linear-gradient(#57c840,#3eaf27);
+            background-image: linear-gradient(#57c840,#3eaf27);
+            box-shadow: #79d367 0 1px 1px 0 inset,#FFF 0 1px 1px;
+        }
+        .btn-green:active {
+            box-shadow: none;
+            background-image: -webkit-linear-gradient(#359920,#4eb23a);
+            background-image: -moz-linear-gradient(#359920,#4eb23a);
+            background-image: -o-linear-gradient(#359920,#4eb23a);
+            background-image: linear-gradient(#359920,#4eb23a);
+        }
+        .xbb-btn {
+            color: #fff;
+            display: block;
+            font-size: 14px;
+            height: 30px;
+            line-height: 30px;
+            margin: 10px auto;
+            padding: 3px 4px 2px;
+            width: 120px;
+        }
+        .xbb-btn:hover, .xbb-btn:active {
+            color: #fff;
+            text-decoration: none;
+        }
+        .footer {
+            margin-top: 0;
+        }
+    </style>
+<body>
+    {{= it.include('header') }}
+
+    <div id="wash-ctn">
+        <h2 class="title">豌豆洗白白</h2>
+        <p>山寨应用有风险，广告应用很烦人！</p>
+        <p>豌豆洗白白会帮您找出这些应用，并协助您把它们更换成官方版或没有广告的版本。</p>
+        <p>立即使用豌豆荚洗白白一下享受放心应用的乐趣吧！</p>
+        <a onclick="addTimestamp()" href="http://mir.wandoujia.com/getwdj/homepage" class="xbb-btn btn-green">下载豌豆荚</a>
+    </div>
+
+    {{= it.include('footer') }}
+
+
+
+    <script type="text/javascript">
+        function addTimestamp() {
+            event.preventDefault();
+            var timestamp = Date.parse(new Date()),
+                url = 'http://mir.wandoujia.com/getwdj/homepage?timestamp=' + timestamp;
+
+            _gaq.push(['_trackEvent', 'Xibaibai', 'Click', 'Xibaibai']);
+            location.href=url;
+        }
+
+    </script>
+
+</body>
+</html>
