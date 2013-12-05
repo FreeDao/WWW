@@ -1,0 +1,62 @@
+@import "vars.scss";
+@import "compass";
+@import "compass/reset";
+@import "compass/css3";
+@import "blueprint";
+@import "compass/utilities/general/hacks";
+
+$blueprint_grid_columns: 20;
+$blueprint_grid_width: 45px;
+$blueprint-container-size: 990px;
+
+@import "mixins/retina";
+
+@import "basic";
+@import "header";
+@import "footer";
+
+@import "featbanner";
+
+
+#aboutimg {
+    background: #f2f2f2 generated-image-url('www/us.jpg') no-repeat;
+    height: 453px;
+    margin-top: 102px;
+    width: 600px;
+}
+
+#about {
+    border-bottom: none;
+    
+    .featdesc {
+        padding-right: 20px;
+        width: 320px;
+    }
+
+    #contact-info {
+        padding: 20px 0 10px;
+    }
+
+    h2 {
+        padding: 0 0 0 0px;
+        margin-top: 30px;
+    }
+
+
+    p {
+        padding: 20px 0px 0px 0px;
+    }
+
+    blockquote {
+        color: #666;
+    }
+
+    .about-txt p {
+        font-size: 12px;
+        padding-top: 5px;
+
+        a {
+            color: #38d;
+        }
+    }
+}
