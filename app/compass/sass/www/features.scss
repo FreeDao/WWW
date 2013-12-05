@@ -1,0 +1,86 @@
+@import "vars.scss";
+// @import "compass";
+@import "compass/reset";
+@import "compass/css3";
+// @import "blueprint";
+// @import "compass/utilities/general/hacks";
+
+// @include all-icons-sprites;
+
+// $blueprint_grid_columns: 20;
+// $blueprint_grid_width: 45px;
+// $blueprint-container-size: 990px;
+
+// $sprite-default-size: 16px;
+
+@import "mixins/retina";
+
+@import "basic";
+// @import "suggestion";
+// @import "button";
+@import "header";
+// @import "device";
+@import "footer";
+
+
+.features {
+    font-size: 13px;
+    line-height: 18px;
+
+    h1,
+    h3 {
+        font-weight: normal;
+    }
+
+    h1 {
+        line-height: 24px;
+        margin: 30px 0 10px 150px;
+        width: 600px;
+        _margin-left: 180px;
+    }
+
+    h2 {
+        font-size: 20px;
+        line-height: 50px;
+    }
+
+    ol li {
+        list-style: circle;
+
+        h3 {
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        p {
+            margin: 10px 0 20px;
+        }
+    }
+
+    .features-icon {
+        background: generated-image-url('www/feature_sprite.png') no-repeat top left;
+        clear: both;
+        float: left;
+        height: 90px;
+        margin: 10px 30px ;
+        width: 90px;
+    }
+
+    .contents {
+        float: left;
+        overflow: hidden;
+        width: 600px;
+    }
+
+    .manage-icon {
+        background-position: -404px -6px;
+    }
+
+    .free-icon {
+        background-position: -505px -6px;
+    }
+
+    .support-icon {
+        background-position: -205px -6px;
+    }
+}
