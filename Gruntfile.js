@@ -1,10 +1,12 @@
 'use strict';
 
 var lrSnippet = require('connect-livereload')();
+var rewriteRulesSnippet = require('grunt-connect-rewrite/lib/utils').rewriteRequest;
 
 var mountFolder = function (connect, dir) {
     return connect.static(require('path').resolve(dir));
 };
+
 
 module.exports = function (grunt) {
     // load all grunt tasks
@@ -41,9 +43,9 @@ module.exports = function (grunt) {
             },
             livereload: {
                 files: [
-                    '<%= paths.app %>/*.html',
                     '<%= paths.app %>/javascripts/**/*.js',
                     '<%= paths.app %>/images/**/*.*',
+                    '<%= paths.tmp %>/**/*.html',
                     '<%= paths.tmp %>/stylesheets/**/*.css',
                     '<%= paths.tmp %>/images/**/*.*'
                 ],
@@ -58,11 +60,22 @@ module.exports = function (grunt) {
                 port : 9999,
                 hostname : '0.0.0.0'
             },
+            rules : [{
+                from : '^/android',
+                to : '/android.html'
+            }, {
+                from : '^/terms',
+                to : '/terms.html'
+            }, {
+                from : '^/privacy',
+                to : '/privacy.html'
+            }],
             server : {
                 options : {
                     middleware : function (connect) {
                         return [
                             lrSnippet,
+                            rewriteRulesSnippet,
                             mountFolder(connect, '.tmp'),
                             mountFolder(connect, pathConfig.app)
                         ];
@@ -224,13 +237,16 @@ module.exports = function (grunt) {
         },
         stencil : {
             options : {
-                env : {
-                  title : '豌豆荚'
-                },
                 partials : '<%= paths.app %>/partials',
                 templates : '<%= paths.app %>/templates'
             },
             server : {
+                options : {
+                    env : {
+                        title : '豌豆荚',
+                        prefix : ''
+                    }
+                },
                 files : [{
                     expand : true,
                     cwd : '<%= paths.app %>/pages/',
@@ -241,6 +257,12 @@ module.exports = function (grunt) {
                 }]
             },
             dist : {
+                options : {
+                    env : {
+                      title : '豌豆荚',
+                      prefix : 'http://www.wandoujia.com'
+                    }
+                },
                 files : [{
                     expand : true,
                     cwd : '<%= paths.app %>/pages/',
@@ -256,6 +278,7 @@ module.exports = function (grunt) {
     grunt.registerTask('server', [
         'clean:server',
         'compass:server',
+        'configureRewriteRules',
         'connect:server',
         'karma:server',
         'stencil:server',

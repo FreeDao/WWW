@@ -1,0 +1,60 @@
+#tos {
+    margin: 0 auto;
+    overflow: hidden;
+
+    .content {
+        display: block;
+        float: none;
+        left: 0;
+        margin: 0 auto 0;
+        overflow: hidden;
+        padding-bottom: 50px;
+        width: 100%;
+
+        width: 960px\9;
+
+        h2 {
+            margin-top: 10px;
+        }
+
+        h3,
+        h3 a {
+            color:#333;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 1.6;
+            padding: 10px 0 6px;
+            text-decoration: none;
+        }
+
+        p {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            padding: 0 40px;
+            padding-right: 360px;
+        }
+
+        & > ul > li {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.6;
+            list-style: disc;
+            margin-left: 60px;
+            margin-top: 10px;
+            padding: 0;
+            padding-right: 360px;
+            position: relative;
+
+            & > ul li {
+                list-style: circle;
+                margin-left: 40px;
+
+                & > ul li {
+                    list-style: square;
+                }
+            }
+        }
+    }
+}

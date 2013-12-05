@@ -4,20 +4,20 @@
             <dt>我们的产品</dt>
             <dd>
                 <ul>
-                    <li><a rel="nofollow" href="http://www.wandoujia.com/android">豌豆荚手机客户端</a></li>
-                    <li><a rel="nofollow" href="http://www.wandoujia.com/cloud">云备份</a></li>
-                    <li><a rel="nofollow" href="http://www.wandoujia.com/ios">云相册</a></li>
+                    <li><a rel="nofollow" href="{{= it.prefix }}/android">豌豆荚手机客户端</a></li>
+                    <li><a rel="nofollow" href="{{= it.prefix }}/cloud">云备份</a></li>
+                    <li><a rel="nofollow" href="{{= it.prefix }}/ios">云相册</a></li>
                     <li><a rel="nofollow" href="http://dl.wandoujia.com/files/mac/AppInstaller_v1.0.7.dmg">应用安装器 Mac 版</a></li>
                     <li><a rel="nofollow" href="http://www.snappea.com">SnapPea</a></li>
                     <li><a rel="nofollow" href="http://appindex.wandoujia.com">China App Index</a></li>
-                    <li><a rel="nofollow" href="http://www.wandoujia.com/alfred ">Workflow for Alfred 2</a></li>
+                    <li><a rel="nofollow" href="{{= it.prefix }}/alfred ">Workflow for Alfred 2</a></li>
                 </ul>
             </dd>
             <dt>豌豆实验室</dt>
             <dd>
                 <ul>
-                    <li><a rel="nofollow" href="http://www.wandoujia.com/about">关于我们</a></li>
-                    <li><a rel="nofollow" href="http://www.wandoujia.com/join" target="_blank">加入我们</a></li>
+                    <li><a rel="nofollow" href="{{= it.prefix }}/about">关于我们</a></li>
+                    <li><a rel="nofollow" href="{{= it.prefix }}/join" target="_blank">加入我们</a></li>
                     <li><a rel="nofollow" href="http://developer.wandoujia.com/">开发者中心</a></li>
                     <li><a rel="nofollow" href="https://devrel.zendesk.com/anonymous_requests/new">联系商务合作</a></li>
                 </ul>
@@ -27,9 +27,9 @@
                 <ul>
                     <li><a rel="nofollow" href="http://www.wandoujia.com/help">用户帮助中心</a></li>
                     <li><a href="http://www.wandoujia.com/blog/category/changelog" target="_blank">更新日志</a></li>
-                    <li><a rel="nofollow" href="http://www.wandoujia.com/terms">使用条款</a></li>
-                    <li><a rel="nofollow" href="http://www.wandoujia.com/privacy">用户隐私</a></li>
-                    <li><a rel="nofollow" href="http://www.wandoujia.com/intellectual_property">知识产权保护声明</a></li>
+                    <li><a rel="nofollow" href="{{= it.prefix }}/terms">使用条款</a></li>
+                    <li><a rel="nofollow" href="{{= it.prefix }}/privacy">用户隐私</a></li>
+                    <li><a rel="nofollow" href="{{= it.prefix }}/intellectual_property">知识产权保护声明</a></li>
                 </ul>
             </dd>
         </dl>
@@ -46,7 +46,7 @@
             <p class="copyright">&copy; 2010 - 2013 豌豆实验室  北京卓易讯畅科技有限公司  | <a class="more" rel="nofollow" href="http://www.wandoujia.com/go.php?mobile=1&amp;ref=http%3A%2F%2Fwww.wandoujia.com">手机版</a>
             </p>
             <p class="intellectual">除非特别注明，应用程序由第三方市场提供，豌豆荚仅根据您的指令提供搜索结果链接，与出处无关，详情请参阅
-                <a target="_blank" href="http://www.wandoujia.com/intellectual_property" rel="nofollow">知识产权保护声明</a>
+                <a target="_blank" href="{{= it.prefix }}/intellectual_property" rel="nofollow">知识产权保护声明</a>
             </p>
             <p class="useless">
                 <a target="_blank" rel="nofollow"  href="http://www.miitbeian.gov.cn" class="meta">京ICP备11035207号-2</a>
@@ -79,16 +79,13 @@
 
         </script>
 
-        {include file="baidu.tpl"}
-        {include file="partials/download_url.tpl"}
+        {{= it.include('baidu') }}
 
         <!--[if IE 6]>
         <script type="text/javascript" src="http://s.wdjimg.com/style/b/js/run/mini/mini-png-hack.js?v=201302051430"></script>
         <![endif]-->
 
-        <script type="text/javascript"></script>
-
-        <script src="{$smarty.const.WDJ_STYLE_URL}style/min/?g=jquery|web/pack|snshare|{math equation=rand(1,1000000)}.js&debug=1"></script>
-        <script src="{$smarty.const.WDJ_STYLE_URL}style/min/?g=web/home|{math equation=rand(1,1000000)}.js&debug=1"></script>
+        <!--<script src="{$smarty.const.WDJ_STYLE_URL}style/min/?g=jquery|web/pack|snshare|{math equation=rand(1,1000000)}.js&debug=1"></script>
+        <script src="{$smarty.const.WDJ_STYLE_URL}style/min/?g=web/home|{math equation=rand(1,1000000)}.js&debug=1"></script>-->
     </div>
 </footer>

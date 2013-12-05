@@ -1,0 +1,65 @@
+@import "vars.scss";
+@import "compass";
+@import "compass/reset";
+@import "compass/css3";
+@import "blueprint";
+@import "compass/utilities/general/hacks";
+
+$blueprint_grid_columns: 20;
+$blueprint_grid_width: 45px;
+$blueprint-container-size: 990px;
+
+@import "mixins/retina";
+
+@import "basic";
+@import "header";
+@import "footer";
+
+@import "featbanner";
+@import "tos";
+
+#tos {
+    .content > ul > li:hover .explanation {
+        border-left-color: #ddd;
+        color: #777;
+
+        &::before,
+        &::after {
+            border-top-color: #ddd;
+        }
+    }
+}
+
+.explanation {
+    border-left: 8px solid #f6f6f6;
+    color: #aaa;
+    font-size: 16px;
+    font-weight: normal;
+    height: 90%;
+    left: 556px;
+    padding: 10px 0 0 20px;
+    position: absolute;
+    top: 32px;
+    vertical-align: middle;
+    _display: none;
+
+    &::before {
+        border-top: 8px solid #f6f6f6;
+        content: '';
+        height: 0;
+        left: -24px;
+        position: absolute;
+        top: 0;
+        width: 24px;
+    }
+
+    &::after {
+        border-top: 8px solid #f6f6f6;
+        bottom: 0;
+        content: '';
+        height: 0;
+        left: -24px;
+        position: absolute;
+        width: 24px;
+    }
+}
