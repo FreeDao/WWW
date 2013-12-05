@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>追追看 - 豌豆荚</title>
+    <meta name="keywords" content="豌豆荚,安卓游戏,安卓软件下载,安卓游戏下载,安卓手机助手">
+    <meta name="description" content="豌豆荚让您的安卓手机简单好用，轻松管理手机，免费下载应用、视频和音乐，管理通讯录，快速备份手机。">
+    <link rel="stylesheet" href="http://s.wdjimg.com/style/css/biz/www/index.css?v=112902">
+    <link rel="stylesheet" type="text/css" href="http://img.wdjimg.com/image/www/zhuizhuikan/7d9bc13a.main.css">
+<body>
+    {{= it.include('header') }}
+    <div class="w-container">
+        <div class="w-highlight">
+            <div class="w-highlight-video">
+                <a class="w-btn-video" href="http://v.qq.com/boke/page/j/6/c/j0122rmp56c.html" title="追我，点这里有惊喜">追我，点这里有惊喜</a>
+                <iframe height="320" width="484" src="" frameborder="0" allowfullscreen></iframe>
+                <a class="w-btn-share" href="http://service.weibo.com/share/share.php?appkey=1483181040&amp;relateUid=1727978503&amp;url=http://www.wandoujia.com/zhuizhuikan?utm_source=weibo&amp;title=%E4%B8%87%E4%B8%87%E6%B2%A1%E6%83%B3%E5%88%B0%EF%BC%8C%E5%8F%AA%E6%98%AF%E5%9B%A0%E4%B8%BA%E5%9C%A8%E4%BA%BA%E7%BE%A4%E4%B8%AD%E6%89%8B%E8%B4%B1%E7%82%B9%E4%BA%86%E4%B8%80%E4%B8%8B%EF%BC%8C%E7%99%BD%E5%AE%A2%E7%AB%9F%E4%BB%8E%E5%89%A7%E4%B8%AD%E7%A9%BF%E8%B6%8A%E8%80%8C%E5%87%BA%EF%BC%8C%E6%88%90%E5%B0%B1%E4%B8%80%E6%AE%B5%E6%97%B7%E4%B8%96%E6%83%85%E7%BC%98%20http%3A%2F%2Fv.qq.com%2Fboke%2Fpage%2Fj%2F6%2Fc%2Fj0122rmp56c.html%20%E3%80%82%20%40%E8%B1%8C%E8%B1%86%E8%8D%9A%20%E3%80%8C%E8%BF%BD%E8%BF%BD%E7%9C%8B%E3%80%8D%EF%BC%8C%E8%AE%A9%E4%BD%A0%E7%9A%84%E8%BF%BD%E5%89%A7%E7%94%9F%E6%B4%BB%E4%BB%8E%E6%AD%A4%E5%A4%A9%E7%BF%BB%E5%9C%B0%E8%A6%86%E2%86%92" title="分享给好友" target="_blank">分享给好友</a>
+            </div>
+            <div class="w-highlight-text">
+                <a class="w-btn-download" href="http://dn.dl.wandoujia.com/files/phoenix/3.45.1.4687/wandoujia-mkt_subscribe_3.45.1.4687.apk" title="下载豌豆荚">下载豌豆荚</a>
+                <img class="w-highlight-qr" src="http://img.wdjimg.com/image/www/zhuizhuikan/8c7b8cce.qr.png" alt="扫一扫">
+            </div>
+        </div>
+        <div class="w-banner w-banner-onekey"><img src="http://img.wdjimg.com/image/www/zhuizhuikan/9866ddf0.onekey.png" alt="一键追"></div>
+        <div class="w-banner w-banner-resource"><img src="http://img.wdjimg.com/image/www/zhuizhuikan/ee63dcc1.resource.png" alt="资源全"></div>
+        <div class="w-banner w-banner-traffic"><img src="http://img.wdjimg.com/image/www/zhuizhuikan/e349e744.traffic.png" alt="零流量"></div>
+        <div class="w-banner-download">
+            <a class="w-btn-download" href="http://dn.dl.wandoujia.com/files/phoenix/3.45.1.4687/wandoujia-mkt_subscribe_3.45.1.4687.apk" title="下载豌豆荚">下载豌豆荚</a>
+        </div>
+    </div>
+
+    {{= it.include('footer') }}
+
+    <script>
+        $('.w-btn-video').on('click', function (e) {
+            e.preventDefault();
+            $('.w-highlight-video iframe').attr('src', 'http://v.qq.com/iframe/player.html?vid=j0122rmp56c&amp;tiny=0');
+            $('.w-highlight-video').addClass('w-show-video');
+            return false;
+        });
+    </script>
+</body>
+</html>
