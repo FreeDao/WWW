@@ -1,0 +1,2193 @@
+
+[[{
+   "type": "text",
+   "cat": "cat", 
+   "content": ["生活必备"]
+},
+{
+    "type": "app",
+    "badge": "1",
+    "name": "墨迹天气",
+    "pn": "com.moji.mjweather",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "不干正事的天气应用"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/MoJiTianQi-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/MoJiTianQi-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/MoJiTianQi-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/MoJiTianQi-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/MoJiTianQi-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/MoJiTianQi-LianWo-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/MoJiTianQi-LianWo-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/lifestyle/MoJiTianQi-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/lifestyle/MoJiTianQi-Banner-L.png"  
+    ],
+    "intro": "墨迹天气，一款免费天气信息查询软件，是中国支持城市最多的手机天气预报软件。",
+    "comments": [
+        {
+            "name": "Magnus",
+            "content": "太喜欢了!UI 很棒,带的桌面时钟很棒,软件的背景图也很漂亮,自动分享功能也很好用,真心支持你们!"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "不干正事的天气应用"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+},
+{
+    "type": "app",
+    "badge": "2",
+    "name": "淘宝",
+    "pn": "com.taobao.taobao",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "不错，嗯！"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/TaoBao-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/TaoBao-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/TaoBao-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/TaoBao-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/TaoBao-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/TaoBao-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/TaoBao-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/lifestyle/TaoBao-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/lifestyle/TaoBao-Banner-L.png"  
+    ],
+    "intro": "淘宝安卓客户端是依托淘宝网，整合淘宝、聚划算团购、天猫等市场，帮助用户实现随时随地快捷购物的应用。",
+    "comments": [
+        {
+            "name": "feitiany0ng",
+            "content": "用潮流画报购物也不错,速度快,页面精美,购物很方便。"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "不错，嗯！"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "choice",
+    "name": "灵犀 - 语音助手",
+    "pn": "com.iflytek.cmcc",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "这么好的名字给了中国移动不是白瞎了么？"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/LingXi-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/LingXi-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/LingXi-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/LingXi-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/LingXi-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/LingXi-YuYinZhuShou-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/LingXi-YuYinZhuShou-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_L/list/lifestyle/ShengHuoBiBeiTuiJian-LingXi-YuYinZhuShou-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/lifestyle/ShengHuoBiBeiTuiJian-LingXi-YuYinZhuShou-Banner-L.png"
+    ],
+    "intro": "灵犀是由中国移动和科大讯飞联合打造的智能语音助手软件。听话的语音小秘书。我的灵犀，我说了算！",
+    "comments": [
+        {
+            "name": "槑槑丶槑槑",
+            "content": "挺好玩的,我的 9300 一边拨打电话一边还能用呢。挺实用的,识别语音还挺敏锐的。挺好玩。"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "这么好的名字给了中国移动不是白瞎了么？"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "3",
+    "name": "百度地图",
+    "pn": "com.baidu.BaiduMap",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "产品还不错，icon 很像被 GFW 墙了的大谷歌。"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/BaiDuDiTu-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/BaiDuDiTu-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/BaiDuDiTu-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/BaiDuDiTu-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/BaiDuDiTu-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/BaiDuDiTu-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/BaiDuDiTu-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/lifestyle/BaiDuDiTu-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/lifestyle/BaiDuDiTu-Banner-L.png"  
+    ],
+    "intro": "国内最好用的安卓智能手机地图软件，覆盖国内近 400 个城市、数千个区县。语音导航和离线地图，让你出行无忧。",
+    "comments": [
+        {
+            "name": "zerop",
+            "content": "支持国产,很不错的东西,运行很完美,定位差很小。最主要是能离线地图,省钱省力省时间。"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "产品还不错，icon 很像被 GFW 墙了的大谷歌。"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "4",
+    "name": "随手记（理财记账）",
+    "pn": "com.mymoney",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "人家能拍发票呢！拍发票有啥用？"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/SuiShouJi-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/SuiShouJi-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/SuiShouJi-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/SuiShouJi-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/SuiShouJi-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/SuiShouJi-LiCaiJiZhang-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/SuiShouJi-LiCaiJiZhang-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/lifestyle/SuiShouJi-LiCaiJiZhang-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/lifestyle/SuiShouJi-LiCaiJiZhang-Banner-L.png"  
+    ],
+    "intro": "随手记是金蝶理财网面向个人和家庭推出的一款理财产品,精美实用！是国内个人记账理财应用先行者。",
+    "comments": [
+        {
+            "name": "辉煌庆典",
+            "content": "「随手记」是非常好用的一款软件，其实就和管家婆一样的，太棒了，还可以自动的计算账目。"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "人家能拍发票呢！拍发票有啥用？"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "5",
+    "name": "大众点评",
+    "pn": "com.dianping.v1",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "总需要给朋友手机里装一个备用的应用"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/DaZhongDianPing-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/DaZhongDianPing-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/DaZhongDianPing-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/DaZhongDianPing-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/DaZhongDianPing-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/DaZhongDianPing-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/DaZhongDianPing-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/lifestyle/DaZhongDianPing-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/lifestyle/DaZhongDianPing-Banner-L.png"  
+    ],
+    "intro": "大众点评是中国领先的本地生活消费平台，也是全球最早建立的独立第三方消费点评网站专属应用。",
+    "comments": [
+        {
+            "name": "半盏折子戏",
+            "content": "还不错啊,挺好用的,没事儿看看周围的美食,心里有个底吃饭也方便啊～"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "总需要给朋友手机里装一个备用的应用"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}],
+
+[{
+   "type": "text",
+   "cat": "cat", 
+   "content": ["摄影摄像"]
+},
+ 
+{
+    "type": "app",
+    "badge": "1",
+    "name": "Camera360",
+    "pn": "vStudio.Android.Camera360",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "camera360，为属马 camera 和 360 中间没有空格呀！处女座是不是想给掰开？"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/Camera360-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Camera360-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Camera360-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Camera360-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Camera360-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/Camera360-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/Camera360-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/carema/Camera360-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/carema/Camera360-Banner-L.png"  
+    ],
+    "intro": "Camera360 是一款风靡全球的手机拍照应用，2011 年 PCWorld 全球科技百强产品。",
+    "comments": [
+        {
+            "name": "风",
+            "content": "很好用！提供的效果很多而且都很漂亮很实用，我经常拿来跟朋友玩特效，很开心啊！"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "camera360，为属马 camera 和 360 中间没有空格呀！处女座是不是想给掰开？"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+},
+{
+    "type": "app",
+    "badge": "2",
+    "name": "美图秀秀",
+    "pn": "com.mt.mtxx.mtxx",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "剪刀手+猪嘴+锥子脸，咩~~"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/MeiTuXiuXiu-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/MeiTuXiuXiu-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/MeiTuXiuXiu-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/MeiTuXiuXiu-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/MeiTuXiuXiu-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/MeiTuXiuXiu-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/MeiTuXiuXiu-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/carema/MeiTuXiuXiu-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/carema/MeiTuXiuXiu-Banner-L.png"  
+    ],
+    "intro": "美图秀秀是一款很好用的免费图片处理软件，不用学习就会用，小白用户的专业修图工具。",
+    "comments": [
+        {
+            "name": "九尾˜•刺猬",
+            "content": "还蛮好玩蛮好用的 很喜欢 不过觉得功能就只有那么多 希望程序能更好更全面。"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "剪刀手+猪嘴+锥子脸，咩~~"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "choice",
+    "name": "Snapseed",
+    "pn": "com.niksoftware.snapseed",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "一拍，易修，亦分享"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/Snapseed-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Snapseed-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Snapseed-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Snapseed-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Snapseed-Screen-5.jpg"
+    ],
+"screenshot_type": "h",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/Snapseed-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/Snapseed-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/carema/SheYingSheXiang-Snapseed-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/carema/SheYingSheXiang-Snapseed-Banner-L.png"  
+    ],
+    "intro": "Snapseed 提供了众多不可思议的功能，让任何人都可以轻松增强、改变和分享相片，是唯一想每天使用的相片处理应用。",
+    "comments": [
+        {
+            "name": "霍之昂",
+            "content": "挺不错的,效果千变万化,随心所欲,喜欢。"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "一拍，易修，亦分享"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "3",
+    "name": "POCO 相机",
+    "pn": "my.PCamera",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "让美图秀秀把脸往哪儿放？"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/POCOXiangJi-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/POCOXiangJi-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/POCOXiangJi-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/POCOXiangJi-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/POCOXiangJi-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/POCO-XiangJi-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/POCO-XiangJi-Icon-LFuBen.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/carema/POCO-XiangJi-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/carema/POCO-XiangJi-Banner-L.png"  
+    ],
+    "intro": "由中国最大的原创图片社区 POCO.CN 推出的，一款针对旅游、风光、生活、小品、美食及创意的发烧级手机拍照软件。",
+    "comments": [
+        {
+            "name": "printf2007",
+            "content": "照片清晰,特效很多,分享也很方便,很强大啊。"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "让美图秀秀把脸往哪儿放？"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "4",
+    "name": "3D 全景相机",
+    "pn": "obg1.PhotafPro",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "你能活下来全是因为 Android 不争气"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/3DQuanJingXiangJi-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/3DQuanJingXiangJi-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/3DQuanJingXiangJi-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/3DQuanJingXiangJi-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/3DQuanJingXiangJi-Screen-5.jpg"
+    ],
+"screenshot_type": "h",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/3D-QuanJingXiangJi-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/3D-QuanJingXiangJi-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/carema/3D-QuanJingXiangJi-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/carema/3D-QuanJingXiangJi-Banner-L.png"  
+    ],
+    "intro": "3D 全景照相机能够利用安卓手机的重力感应器，获取照片的成像角度，然后，将各个方向的照片合成 3D 全景照。",
+    "comments": [
+        {
+            "name": "sanjis",
+            "content": "这个软件很好用啊 拍起来也很简单啊。很不错的啊。"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "你能活下来全是因为 Android 不争气"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "5",
+    "name": "GIF 快手",
+    "pn": "com.smile.gifmaker",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "自从我把微博删了之后，就再也没用过 GIF 快手了"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/GIFKuaiShou-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/GIFKuaiShou-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/GIFKuaiShou-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/GIFKuaiShou-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/GIFKuaiShou-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/GIF-KuaiShou-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/GIF-KuaiShou-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/carema/GIF-KuaiShou-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/carema/GIF-KuaiShou-Banner-L.png"  
+    ],
+    "intro": "GIF 快手是一款简单好用的 GIF 动态图片制作工具，用户可以很方便将视频短片转为 GIF 动画。",
+    "comments": [
+        {
+            "name": "爱写错别字",
+            "content": "很好的一款软件,方便使用!谢谢。"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "自从我把微博删了之后，就再也没用过 GIF 快手了"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}], 
+
+[{
+   "type": "text",
+   "cat": "cat",
+   "content": ["社交通讯"]
+},
+ 
+{
+    "type": "app",
+    "badge": "1",
+    "name": "微信",
+    "pn": "com.tencent.mm",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "白天被现实击垮，晚上就靠它摇一摇了。"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/WeiXin-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/WeiXin-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/WeiXin-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/WeiXin-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/WeiXin-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/WeiXin-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/WeiXin-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/social/WeiXin-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/social/WeiXin-Banner-L.png"  
+    ],
+    "intro": "微信是一款手机通信软件，通过朋友圈分享自己的生活，带给朋友们全新的移动沟通体验。",
+    "comments": [
+        {
+            "name": "Phoneix",
+            "content": "微信这款软件的开发，带来了很多方便性交流！很不错，这是科技带来的幸福生活!"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "白天被现实击垮，晚上就靠它摇一摇了。"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+},
+{
+    "type": "app",
+    "badge": "2",
+    "name": "手机 QQ 2012",
+    "pn": "com.tencent.mobileqq",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "本是同根生，相煎何太急！听起来耳熟呀~"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/ShouJiqq2012-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/ShouJiqq2012-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/ShouJiqq2012-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/ShouJiqq2012-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/ShouJiqq2012-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/ShouJi-QQ-2012-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/ShouJi-QQ-2012-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/social/WeiXin-QQ-2012-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/social/WeiXin-QQ-2012-Banner-L.png"  
+    ],
+    "intro": "手机 QQ 2012 (Android)是腾讯公司基于 Android 系统特性推出的全新架构的手机 QQ 软件。",
+    "comments": [
+        {
+            "name": "★大震/怪叔",
+            "content": "不管是好是坏，总之俺是离不开它了。"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "本是同根生，相煎何太急！听起来耳熟呀~"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "choice",
+    "name": "Path",
+    "pn": "com.path",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "只有不做 Facebook，才能打败 Facebook。"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/Path-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Path-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Path-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Path-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Path-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/Path-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/Path-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/social/SheJiaoTongXun-Path-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/social/SheJiaoTongXun-Path-Banner-L.png"  
+    ],
+    "intro": "Path 是个人社交网路，您可以在这里分享照片、和朋友在不同地点打卡、交流想法、与关心的人互动生活的点滴。",
+    "comments": [
+        {
+            "name": "maomao",
+            "content": "我觉得很好。很干净。功能也不错。如果有朋友圈子,应该让大家都来使用。这个东西很纯粹。"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "只有不做 Facebook，才能打败 Facebook。"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "3",
+    "name": "微博",
+    "pn": "com.sina.weibo",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "可以帮你升级应用的社交应用"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/WeiBo-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/WeiBo-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/WeiBo-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/WeiBo-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/WeiBo-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/WeiBo-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/WeiBo-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/social/weibo-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/social/weibo-Banner-L.png"  
+    ],
+    "intro": "微博，是一个基于用户关系的信息分享、传播以及获取平台，以 140 字左右的文字更新信息，并实现即时分享。",
+    "comments": [
+        {
+            "name": "Nicky_zyn",
+            "content": "我觉得新版本挺好的吖，快了好多"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "可以帮你升级应用的社交应用"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "4",
+    "name": "QQ 空间",
+    "pn": "com.qzone",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "男默女泪蛋疼文"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/QQKongJian-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/QQKongJian-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/QQKongJian-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/QQKongJian-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/QQKongJian-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/QQ-KongJian-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/QQ-KongJian-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/social/QQ-KongJian-Banner-L-N.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/social/QQ-KongJian-Banner-L-N.png"  
+    ],
+    "intro": "国内最大的社交网络，是 QQ 用户的移动家园。您可以用手机与好友互动、上传照片、写日志、玩游戏。",
+    "comments": [
+        {
+            "name": "矛盾",
+            "content": "还不错啊，我觉得挺好的，白色也蛮好看的啊。"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "男默女泪蛋疼文"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "5",
+    "name": "陌陌",
+    "pn": "com.immomo.momo",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "为什么要从良！！！"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/MoMo-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/MoMo-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/MoMo-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/MoMo-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/MoMo-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/MoMo-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/MoMo-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/social/MoMo-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/social/MoMo-Banner-L.png"  
+    ],
+    "intro": "陌陌是一款基于地理位置的出色移动社交应用,在上面可以发现身边的陌生人或者朋友。",
+    "comments": [
+        {
+            "name": "lidm88",
+            "content": "虽然里面什么人都有，但是还是非常不错的创意，软件做的也很简洁漂亮，比其他类似的软件体验更好。"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "为什么要从良！！！"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}],
+
+[
+{
+   "type": "text",
+   "cat": "cat",
+   "content": ["基础工具"]
+},
+ 
+{
+    "type": "app",
+    "badge": "1",
+    "name": "360 手机卫士",
+    "pn": "com.qihoo360.mobilesafe",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "友商，我可没屏蔽你喔！"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/360-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/360-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/360-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/360-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/360-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/360-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/360-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/tool/360-Banner-L.jpg", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/tool/360-Banner-L.jpg"  
+    ],
+    "intro": "免费的手机安全软件，防骚扰电话、垃圾短信、系统一键清理、手机一键提速等功能全面。",
+    "comments": [
+        {
+            "name": "85102414",
+            "content": "整体来说，功能不错。"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "友商，我可没屏蔽你喔！"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "2",
+    "name": "小米桌面",
+    "pn": "com.miui.mihome2",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "做 Android 你是有多不甘心啊！"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/XiaoMiZhuoMian-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/XiaoMiZhuoMian-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/XiaoMiZhuoMian-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/XiaoMiZhuoMian-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/XiaoMiZhuoMian-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/XiaoMiZhuoMian-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/XiaoMiZhuoMian-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/tool/xiaomizhuomian-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/tool/xiaomizhuomian-Banner-L.png"  
+    ],
+    "intro": "小米桌面完美传承了 MIUI 操作系统优秀的桌面体验！可以让每一台 Android 安卓手机都变得和小米手机一样简单好用！",
+    "comments": [
+        {
+            "name": "lan11081",
+            "content": "很不错，我喜欢。酷派 8022 表示用了非常好。"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "做 Android 你是有多不甘心啊！"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+},
+
+ 
+{
+    "type": "app",
+    "badge": "choice",
+    "name": "Chrome 浏览器",
+    "pn": "com.android.chrome",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "感觉从北京到了新西兰"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/ChromeLiuLanQi-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/ChromeLiuLanQi-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/ChromeLiuLanQi-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/ChromeLiuLanQi-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/ChromeLiuLanQi-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/Chrome-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/Chrome-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/tool/XiTongAnQuanTuiJian-Chrome-LiuLanQi-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/tool/XiTongAnQuanTuiJian-Chrome-LiuLanQi-Banner-L.png"  
+    ],
+    "intro": "在您的 Android 手机和平板电脑上使用 Chrome 浏览器快速搜索和浏览，并可在登录后同步您计算机上的 Chrome 浏览器个性化设置。",
+    "comments": [
+        {
+            "name": "小夕通讯",
+            "content": "速度超级流畅!很棒,体验很奇特!就是小屏幕的机子不太适用!"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "感觉从北京到了新西兰"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}, 
+
+
+{
+    "type": "app",
+    "badge": "3",
+    "name": "GO 桌面",
+    "pn": "com.gau.go.launcherex",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "据说被数字公司整空了，还能有如此 NB 的「遗产」。"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/GOZhuoMian-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/GOZhuoMian-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/GOZhuoMian-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/GOZhuoMian-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/GOZhuoMian-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/GO-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/GO-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/tool/Go-ZhuoMian-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/tool/Go-ZhuoMian-Banner-L.png"  
+    ],
+    "intro": "GO 桌面安全版是全球首创结合安全扫描与桌面美化一体的实用手机应用。",
+    "comments": [
+        {
+            "name": "小紫",
+            "content": "很不错的软件，本人比较喜欢把不常用的软件隐藏起来这个功能，简洁了桌面，用起来很舒服。"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "据说被数字公司整空了，还能有如此 NB 的「遗产」。"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}, 
+
+
+ 
+{
+    "type": "app",
+    "badge": "4",
+    "name": "UC 浏览器",
+    "pn": "com.UCMobile",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "看看你右边的右边"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/UCLiuLanQi-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/UCLiuLanQi-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/UCLiuLanQi-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/UCLiuLanQi-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/UCLiuLanQi-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/UC-LiuLanQi-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/UC-LiuLanQi-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/tool/UC-LiuLanQi-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/tool/UC-LiuLanQi-Banner-L.png"  
+    ],
+    "intro": "UC 浏览器是一款全球领先的智能手机浏览器，拥有独创的 U3 内核和云端技术，带用户畅享移动互联新体验。",
+    "comments": [
+        {
+            "name": "aajina",
+            "content": "看到效果图感觉很不错啊！感觉微博在上面使用很方便。实在是太棒了。希望下一个版本能够有更多的功能啊"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "看看你右边的右边"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}, 
+
+
+ 
+{
+    "type": "app",
+    "badge": "5",
+    "name": "金山电池医生",
+    "pn": "com.ijinshan.kbatterydoctor",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "这种瞎话你也信？"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/JinShanDianChiYiSheng-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/JinShanDianChiYiSheng-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/JinShanDianChiYiSheng-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/JinShanDianChiYiSheng-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/JinShanDianChiYiSheng-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/JinShanDianChiYiSheng-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/JinShanDianChiYiSheng-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/tool/JinShanDianChiYiSheng-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/tool/JinShanDianChiYiSheng-Banner-L.png"  
+    ],
+    "intro": "一款手机必备电池维护软件，整合所有必要电池功能，提供全功能电池健康充电，省电模式，以及耗电应用排行。",
+    "comments": [
+        {
+            "name": "The khoi",
+            "content": "完全适用于我的手机，而且运行很流畅。"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "这种瞎话你也信？"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}], 
+
+
+[
+{
+   "type": "text",
+   "cat": "cat", 
+   "content": ["资讯阅读"]
+},
+{
+    "type": "app",
+    "badge": "1",
+    "name": "iReader 读书",
+    "pn": "com.chaozh.iReaderFree",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "我没有看 txt 电子书的需求"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/iReader-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/iReader-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/iReader-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/iReader-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/iReader-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/iReader-DuShu-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/iReader-DuShu-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/read/ireader-DuShu-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/read/ireader-DuShu-Banner-L.png"  
+    ],
+    "intro": "iReader 是掌阅科技研发团队从 2009 年开发的一款针对 Android 手机用户的阅读软件。",
+    "comments": [
+        {
+            "name": "ㄨ尛鰁↙",
+            "content": "很喜欢的一款读书软件，华丽流畅简约，书城很方便但是很不完善，希望做的更加完美！"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "我没有看 txt 电子书的需求"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+},
+{
+    "type": "app",
+    "badge": "2",
+    "name": "QQ 阅读",
+    "pn": "com.qq.reader",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "听说那里面有个灯绳"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/QQYueDu-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/QQYueDu-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/QQYueDu-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/QQYueDu-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/QQYueDu-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/QQ-YueDu-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/QQ-YueDu-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/read/QQ-YueDu-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/read/QQ-YueDu-Banner-L.png"  
+    ],
+    "intro": "QQ 阅读 Android 版是腾讯公司推出的一款 Android 平台的看书软件，提供了轻松舒适的图书阅读体验，舒适读书，方便找书。",
+    "comments": [
+        {
+            "name": "meachenss",
+            "content": "查分类的小说很方便，全部免费的，看起来翻页什么的也很舒服。总体不错。"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "听说那里面有个灯绳"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "choice",
+    "name": "Pocket",
+    "pn": "com.ideashower.readitlater.pro",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "虽然很容易变成 read it never，不过这才是随手记。"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/Pocket-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Pocket-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Pocket-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Pocket-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Pocket-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/Pocket-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/Pocket-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/read/ZiXunYueDuTuiJian-Pocket-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/read/ZiXunYueDuTuiJian-Pocket-Banner-L.png"  
+    ],
+    "intro": "Pocket 是一个离线阅读服务软件，它将要阅读或者没有读完的网页标记，同步到服务器端，然后在不同的设备上阅读。",
+    "comments": [
+        {
+            "name": "hidecloud",
+            "content": "真心方便，浏览器及 reader 装了 Pocket 插件后，大多数文章上班没时间读，都可以转移到出租和地铁上进行阅读。"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "虽然很容易变成 read it never，不过这才是随手记。"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "3",
+    "name": "一个",
+    "pn": "one.hh.oneclient",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "求感谢~"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/YiGe-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/YiGe-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/YiGe-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/YiGe-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/YiGe-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/YiGe-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/YiGe-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/read/YiGe-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/read/YiGe-Banner-L.png"  
+    ],
+    "intro": "「一个」，每天只为你准备一张图画，一篇文字和一个问答。 复杂的世界，一个就够了。",
+    "comments": [
+        {
+            "name": "reba",
+            "content": "很不错，喜欢那个每天一句话，很简洁但是很有哲理。适合这个越来越浮躁的社会。"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "求感谢~"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "4",
+    "name": "搜狐新闻",
+    "pn": "com.sohu.newsclient",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "麻烦进去看一下第一张截图"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/SouHuXinWen-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/SouHuXinWen-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/SouHuXinWen-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/SouHuXinWen-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/SouHuXinWen-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/SouHuXinWen-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/SouHuXinWen-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/read/SouHuXinWen-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/read/SouHuXinWen-Banner-L.png"  
+    ],
+    "intro": "搜狐新闻提供丰富的订阅、直播内容，为广大 Android 用户提供及时全面的最新资讯报道！ 「上搜狐, 知天下」。",
+    "comments": [
+        {
+            "name": "W君love_actually",
+            "content": "喜欢看新闻，觉得挺不错。不过不喜欢看新闻的可能会觉得天天提醒挺烦，很喜欢很喜欢!"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "麻烦进去看一下第一张截图"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "5",
+    "name": "网易新闻",
+    "pn": "com.netease.newsreader.activity",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "把态度纹得全身都是。"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/WangYiXinWen-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/WangYiXinWen-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/WangYiXinWen-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/WangYiXinWen-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/WangYiXinWen-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/WangYiXinWen-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/WangYiXinWen-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/read/WangYiXinWen-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/read/WangYiXinWen-Banner-L.png"  
+    ],
+    "intro": "网易倾全力打造的精品应用，号称国内第一的新闻客户端，因体验最流畅、新闻最快速、评论最犀利而备受推崇。",
+    "comments": [
+        {
+            "name": "阿拉丁",
+            "content": "这软件很不错，网易的新闻评论很经典，值得一看。"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "把态度纹得全身都是。"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}], 
+
+[
+{
+   "type": "text",
+   "cat": "cat", 
+   "content": ["参考效率"]
+},
+{
+    "type": "app",
+    "badge": "1",
+    "name": "搜狗手机输入法",
+    "pn": "com.sohu.inputmethod.sogou",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "九宫格输入法，够了"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/SouGouShuRuFa-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/SouGouShuRuFa-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/SouGouShuRuFa-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/SouGouShuRuFa-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/SouGouShuRuFa-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/SouGouShouJiShuRuFa-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/SouGouShouJiShuRuFa-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/efficient/SouGouShouJiShuRuFa-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/efficient/SouGouShouJiShuRuFa-Banner-L.png"  
+    ],
+    "intro": "以用户体验为指导，致力于为亿万手机用户提供手机端最智能、最易用的输入法产品。享受输入，依然搜狗！",
+    "comments": [
+        {
+            "name": "小虾米",
+            "content": "搜狗和百度这两个我都用过，都觉得很不错。喜欢好看皮肤，搜狗做的很漂亮，我两个都很喜欢呢!"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "九宫格输入法，够了"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+},
+{
+    "type": "app",
+    "badge": "2",
+    "name": "百度手机输入法",
+    "pn": "com.baidu.input",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "同左"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/BaiDuShuRuFa-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/BaiDuShuRuFa-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/BaiDuShuRuFa-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/BaiDuShuRuFa-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/BaiDuShuRuFa-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/BaiDuShouJiShuRuFa-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/BaiDuShouJiShuRuFa-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/efficient/BaiDuShouJiShuRuFa-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/efficient/BaiDuShouJiShuRuFa-Banner-L.png"  
+    ],
+    "intro": "百度手机输入法以输入速度快、占用内存小、词库最大且精准被亿万智能手机用户誉为手机上最好用的输入法。",
+    "comments": [
+        {
+            "name": "auser",
+            "content": "就为了这个输入法特意注册了帐号，配上百度输入法的那个「wp+evolution+2」皮肤，真的很棒！纯属个人浅见，不喜勿喷。"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "同左"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "choice",
+    "name": "Dropbox",
+    "pn": "com.dropbox.android",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "问候方校长"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/Dropbox-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Dropbox-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Dropbox-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Dropbox-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Dropbox-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/Dropbox-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/Dropbox-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/efficient/CanKaoXiaoLvTuiJian-Dropbox-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/efficient/CanKaoXiaoLvTuiJian-Dropbox-Banner-L.png"  
+    ],
+    "intro": "Dropbox 是一个提供同步本地文件的网络存储在线应用。可以让你把你所有的照片、文档、视频同步到任何地方。",
+    "comments": [
+        {
+            "name": "云中雪",
+            "content": "非常方便，不论是安卓、iPad 还是电脑，多平台通用啊。"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "问候方校长"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "3",
+    "name": "Dropbox",
+    "pn": "com.dropbox.android",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "问候方校长"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/Dropbox-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Dropbox-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Dropbox-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Dropbox-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Dropbox-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/Dropbox-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/Dropbox-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/efficient/Dropbox-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/efficient/Dropbox-Banner-L.png"  
+    ],
+    "intro": "Dropbox 是一个提供同步本地文件的网络存储在线应用。可以让你把你所有的照片、文档、视频同步到任何地方。",
+    "comments": [
+        {
+            "name": "云中雪",
+            "content": "非常方便，不论是安卓、iPad 还是电脑，多平台通用啊。"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "问候方校长"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "4",
+    "name": "金山快盘",
+    "pn": "cn.wps.livespace",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "谢谢方校长"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/JinShanKuaiPan-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/JinShanKuaiPan-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/JinShanKuaiPan-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/JinShanKuaiPan-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/JinShanKuaiPan-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/JinShanKuaiPan-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/JinShanKuaiPan-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/efficient/JinShanKuaiPan-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/efficient/JinShanKuaiPan-Banner-L.png"  
+    ],
+    "intro": "国产最强手机网盘，金山软件品质出品，超过 3500 万用户的选择，只为让用户用的更爽更流畅！",
+    "comments": [
+        {
+            "name": "baili",
+            "content": "用拍照功能，有点耗流量，不过办公用很方便！很好，希望继续完善细节！"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "谢谢方校长"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "5",
+    "name": "有道词典",
+    "pn": "com.youdao.dict",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "经植物公司鉴定，有道词典团队非！常！靠！谱！（他们的人都在我们手里"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/YouDaoCiDian-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/YouDaoCiDian-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/YouDaoCiDian-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/YouDaoCiDian-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/YouDaoCiDian-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/YouDaoCiDian-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/YouDaoCiDian-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/efficient/YouDaoCiDian-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/efficient/YouDaoCiDian-Banner-L.png"  
+    ],
+    "intro": "网易公司针对 Android 手机用户推出的多语种互译词典。其精简的中英本地词库让您随时随地享受本地查词的快捷。",
+    "comments": [
+        {
+            "name": "Baby_S貓咪愛文藝",
+            "content": "很不错！把词典下下来，平时用很方便。很强大的照相查词功能，超级喜欢！"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "经植物公司鉴定，有道词典团队非！常！靠！谱！（他们的人都在我们手里"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}], 
+
+[
+{
+   "type": "text",
+   "cat": "cat", 
+   "content": ["影音播放"]
+},
+ 
+{
+    "type": "app",
+    "badge": "1",
+    "name": "天天动听音乐播放器",
+    "pn": "com.sds.android.ttpod",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "农村重金属范儿"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/TianTianDongTingYinLeBoFangQi-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/TianTianDongTingYinLeBoFangQi-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/TianTianDongTingYinLeBoFangQi-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/TianTianDongTingYinLeBoFangQi-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/TianTianDongTingYinLeBoFangQi-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/TianTianDongTingYinLeBoFangQi-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/TianTianDongTingYinLeBoFangQi-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/video/TianTianDongTingYinLeBoFangQi-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/video/TianTianDongTingYinLeBoFangQi-Banner-L.png"  
+    ],
+    "intro": "一款功能强大、完全免费的手机音乐播放软件，给追求音乐品质的呢带来了手机听歌的全新体验。",
+    "comments": [
+        {
+            "name": "Mr.FUNG",
+            "content": "偶然用回天天动听,真令我眼前一亮，难得的是拥有这么多功能，运行也毫不吃力。要是 a+ 满分，就给个 a 吧!"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "农业重金属范儿"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+},
+{
+    "type": "app",
+    "badge": "2",
+    "name": "快播",
+    "pn": "com.qvod.player",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "Oh~yes~"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/KuaiBo-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/KuaiBo-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/KuaiBo-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/KuaiBo-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/KuaiBo-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/KuaiBo-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/KuaiBo-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/video/KuaiBo-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/video/KuaiBo-Banner-L.png"  
+    ],
+    "intro": "国内最受欢迎的全能播放器，率先实现高清视频在互联网络的流畅播放，具有资源占用低、运行效率高等特点，",
+    "comments": [
+        {
+            "name": "徐志",
+            "content": "这软件很方便。很清晰,不错,男孩男人可能比较喜欢。"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "Oh~yes~"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "choice",
+    "name": "从缺",
+    "pn": "",
+    "tip": {
+        "name": "",
+        "content": ""
+    },
+    "screenshots": [
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+"screenshot_type": "",
+"icons": [
+        "", 
+        ""  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/video/congque-Banner-L-N.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/video/congque-Banner-L-N.png"  
+    ],
+    "intro": "",
+    "comments": [
+        {
+            "name": "",
+            "content": ""
+        },
+        {
+            "name": "",
+            "content": ""
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "3",
+    "name": "酷狗音乐播放器",
+    "pn": "com.kugou.android",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "万年老二"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/KuGouYinLeBoFangQi-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/KuGouYinLeBoFangQi-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/KuGouYinLeBoFangQi-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/KuGouYinLeBoFangQi-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/KuGouYinLeBoFangQi-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/KuGouYinLeBoFangQi-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/KuGouYinLeBoFangQi-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/video/KuGouYinLeBoFangQi-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/video/KuGouYinLeBoFangQi-Banner-L.png"  
+    ],
+    "intro": "一款出色音乐播放软件！有强大的音乐搜索，高速下载，海量曲库，专业的解码技术，随时享受完美的音乐体验。",
+    "comments": [
+        {
+            "name": "中国陆军总司令",
+            "content": "本世纪用过最好的音乐播放器，资源多，而且好用，相比同类播放器已经很完美了。"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "万年老二"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "4",
+    "name": "猎曲奇兵 SoundHound",
+    "pn": "com.melodis.midomiMusicIdentifier.freemium",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "嗯..."
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/LieQuQiBingSoundHound-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/LieQuQiBingSoundHound-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/LieQuQiBingSoundHound-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/LieQuQiBingSoundHound-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/LieQuQiBingSoundHound-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/LieQuQiBing-SoundHound-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/LieQuQiBing-SoundHound-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/video/LieQuQiBing-SoundHound-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/video/LieQuQiBing-SoundHound-Banner-L.png"  
+    ],
+    "intro": "一款功能强大的音乐识别软件。帮你听几秒钟便能识别歌名，而且还能实现歌曲同步播放，非常方便。",
+    "comments": [
+        {
+            "name": "文艺盖世兔",
+            "content": "超好用！我在很嘈杂的地方，他都能准确的找到。很强大。"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "嗯..."
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "5",
+    "name": "优酷",
+    "pn": "com.youku.phone",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "呃..."
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/YouKu-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/YouKu-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/YouKu-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/YouKu-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/YouKu-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/YouKu-DianYingDianShiJuDongManYinLeXinWenYuLeShiPin-Icon-s.png", 
+        "http://img.wdjimg.com/pic/icon_90/YouKu-DianYingDianShiJuDongManYinLeXinWenYuLeShiPin-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/video/YouKu-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/video/YouKu-Banner-L.png"  
+    ],
+    "intro": "专为 Android 手机订制的视频娱乐客户端产品，为用户提供能了流畅便捷的客户端视频播放体验。",
+    "comments": [
+        {
+            "name": "491237996",
+            "content": "很不错的，我用的联想 a60，能下载下来看也能在线看，非常非常喜欢。"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "呃..."
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}], 
+
+[
+{
+   "type": "text",
+   "cat": "cat", 
+   "content": ["休闲益智"]
+},
+{
+    "type": "app",
+    "badge": "1",
+    "name": "捕鱼达人",
+    "pn": "org.cocos2dx.FishGame",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "都出 2 了，为什么 1 还在榜上？"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/BuYuDaRen-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/BuYuDaRen-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/BuYuDaRen-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/BuYuDaRen-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/BuYuDaRen-Screen-5.jpg"
+    ],
+"screenshot_type": "h",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/BuYuDaRen-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/BuYuDaRen-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/gameleisure/BuYuDaRen-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/gameleisure/BuYuDaRen-Banner-L.png"  
+    ],
+    "intro": "由著名团队 PunchBox 出品的《捕鱼达人》！从此安卓玩家也可以把捕鱼游戏装进口袋，随时随地享受捕鱼达人的乐趣！",
+    "comments": [
+        {
+            "name": "遗失的光明",
+            "content": "怎么一到 20000 分鱼就都像加了状态似的,怎么打也不下来,不过游戏还行,打发时间不错。"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "都出 2 了，为什么 1 还在榜上？"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+},
+{
+    "type": "app",
+    "badge": "2",
+    "name": "愤怒的小鸟",
+    "pn": "com.rovio.angrybirds",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "这是一家靠周边挣钱的公司"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/FenNuDeXiaoNiao-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/FenNuDeXiaoNiao-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/FenNuDeXiaoNiao-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/FenNuDeXiaoNiao-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/FenNuDeXiaoNiao-Screen-5.jpg"
+    ],
+"screenshot_type": "h",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/FenNuDeXiaoNiao-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/FenNuDeXiaoNiao-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/gameleisure/FenNuDeXiaoNiao-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/gameleisure/FenNuDeXiaoNiao-Banner-L.png"  
+    ],
+    "intro": "愤怒的小鸟，风靡全球的一款物理益智游戏！游戏有一定的技巧，合理利用力学原理，打开肥猪的堡垒！",
+    "comments": [
+        {
+            "name": "工藤新一",
+            "content": "不错不错,还是经典的最好玩!"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "这是一家靠周边挣钱的公司"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "choice",
+    "name": "喷气背包大冒险 Jetpack Joyride",
+    "pn": "com.halfbrick.jetpackjoyride",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "英雄总被导弹追着虐"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/FengKuangPenQiJi-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/FengKuangPenQiJi-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/FengKuangPenQiJi-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/FengKuangPenQiJi-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/FengKuangPenQiJi-Screen-5.jpg"
+    ],
+"screenshot_type": "h",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/FengKuangPenQiJi-Jetpack-Joyride-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/FengKuangPenQiJi-Jetpack-Joyride-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/gameleisure/XiuXianYiZhiTuiJian-FengKuangPenQiJi-Jetpack-Joyride-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/gameleisure/XiuXianYiZhiTuiJian-FengKuangPenQiJi-Jetpack-Joyride-Banner-L.png"  
+    ],
+    "intro": "一款横版酷跑游戏，主角潜入工厂抢夺个人火箭飞行器，上下飞行避开障碍物收集金币，挑战反应速度和决断力。",
+    "comments": [
+        {
+            "name": "勇气可乐开",
+            "content": "打发碎片时间的好东西！操作简单，画面精致，而且很耐玩！"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "英雄总被导弹追着虐"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "3",
+    "name": "QQ 游戏",
+    "pn": "com.tencent.qqgame",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "这个人很懒，什么都没有说。"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/QQYouXi-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/QQYouXi-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/QQYouXi-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/QQYouXi-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/QQYouXi-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/QQ-YouXi-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/QQ-YouXi-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/gameleisure/QQYouXi-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/gameleisure/QQYouXi-Banner-L.png"  
+    ],
+    "intro": "手机 QQ 游戏大厅 Android 客户端全面升级为 QQ 游戏无线平台，强大的游戏接入能力，百款精品游戏，国人必备。",
+    "comments": [
+        {
+            "name": "黄鹏",
+            "content": "很好!可以使用 QQ 游戏玩斗地主。很好用!喜欢!"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "这个人很懒，什么都没有说。"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "4",
+    "name": "会说话的汤姆猫 2 免费",
+    "pn": "com.outfit7.talkingtom2free",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "它怎么还在榜上啊，你们就养了一只猫嘛！"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/HuiShuoHuaDeTangMuMao-2-MianFei-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/HuiShuoHuaDeTangMuMao-2-MianFei-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/HuiShuoHuaDeTangMuMao-2-MianFei-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/HuiShuoHuaDeTangMuMao-2-MianFei-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/HuiShuoHuaDeTangMuMao-2-MianFei-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/HuiShuoHuaDeTangMuMao2-MianFei-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/HuiShuoHuaDeTangMuMao2-MianFei-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/gameleisure/HuiShuoHuaDeTangMuMao2MianFei-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/gameleisure/HuiShuoHuaDeTangMuMao2MianFei-Banner-L.png"  
+    ],
+    "intro": "一款手机宠物类应用游戏，它可在触摸时作出反应，并用滑稽的声音完整地复述说的话。",
+    "comments": [
+        {
+            "name": "叶凡",
+            "content": "希望以后把猫换成一个可爱的说话好听的美女就好了，无聊时候说说话还是不错的。"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "它怎么还在榜上啊，你们就养了一只猫嘛！"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "5",
+    "name": "三维重力迷宫",
+    "pn": "com.fridgecat.android.atilt",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "无力吐槽"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/SanWeiZhongLiMiGong-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/SanWeiZhongLiMiGong-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/SanWeiZhongLiMiGong-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/SanWeiZhongLiMiGong-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/SanWeiZhongLiMiGong-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/SanWeiZhongLiMiGong-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/SanWeiZhongLiMiGong-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/gameleisure/SanWeiZhongLiMiGong-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/gameleisure/SanWeiZhongLiMiGong-Banner-L.png"  
+    ],
+    "intro": "三维重力迷宫 （a Tilt 3D Labyrinth）是大家很熟悉的重力钢球游戏，分为三个级别，每个级别有数十个关卡，耐玩度极高。",
+    "comments": [
+        {
+            "name": "鱼等通行",
+            "content": "以个人角度而言 市场里真正耐玩而不厌倦的不多的小游戏之一"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "无力吐槽"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}], 
+
+[
+{
+   "type": "text",
+   "cat": "cat", 
+   "content": ["动作竞技"]
+},
+{
+    "type": "app",
+    "badge": "1",
+    "name": "神庙逃亡",
+    "pn": "com.imangi.templerun",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "那个传说被猩猩追着乱跑的游戏"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/ShenMiaoTaoWang-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/ShenMiaoTaoWang-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/ShenMiaoTaoWang-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/ShenMiaoTaoWang-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/ShenMiaoTaoWang-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/ShenMiaoTaoWang-(Temple-Run)-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/ShenMiaoTaoWang-(Temple-Run)-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/gameaction/ShenMiaoTaoWang-Temple Run-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/gameaction/ShenMiaoTaoWang-Temple Run-Banner-L.png"  
+    ],
+    "intro": "目前最火的跑酷游戏，相信你不会错过！每部探险片的结尾总有这样一幕：英雄最终获得宝藏，不得不在迷宫中逐命狂奔。",
+    "comments": [
+        {
+            "name": "莫斯科大神",
+            "content": "呵呵,很好玩的一款游戏。很经典,练反应速度最合适了。"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "那个传说被猩猩追着乱跑的游戏"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+},
+{
+    "type": "app",
+    "badge": "2",
+    "name": "跳跃忍者",
+    "pn": "com.bfs.ninjump",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "鸟人对战章鱼烧"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/TiaoYueRenZhe-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/TiaoYueRenZhe-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/TiaoYueRenZhe-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/TiaoYueRenZhe-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/TiaoYueRenZhe-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/TiaoYueRenZhe-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/TiaoYueRenZhe-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/gameaction/TiaoYueRenZhe-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/gameaction/TiaoYueRenZhe-Banner-L.png"  
+    ],
+    "intro": "iOS 经典之作《跳跃忍者》的安卓版，对所有跑酷爱好者来说，这绝对是必玩之作。",
+    "comments": [
+        {
+            "name": "godprofile",
+            "content": "非常喜欢！很适合坐地铁或者公交车时候玩。和当年任天堂一款马里奥小游戏有异曲同工之妙!推荐！"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "鸟人对战章鱼烧"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "choice",
+    "name": "跳跃忍者",
+    "pn": "com.bfs.ninjump",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "鸟人对战章鱼烧"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/TiaoYueRenZhe-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/TiaoYueRenZhe-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/TiaoYueRenZhe-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/TiaoYueRenZhe-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/TiaoYueRenZhe-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/TiaoYueRenZhe-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/TiaoYueRenZhe-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/gameaction/DongZuoJingJiTuiJian-TiaoYueRenZhe-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/gameaction/DongZuoJingJiTuiJian-TiaoYueRenZhe-Banner-L.png"  
+    ],
+    "intro": "对所有跑酷爱好者来说，这绝对是必玩之作。除了不断的跳跃穿梭在大楼之间，还要吃道具和攻击敌人。",
+    "comments": [
+        {
+            "name": "godprofile",
+            "content": "非常喜欢!很适合坐地铁或者公交车时候玩。和当年任天堂一款马里奥小游戏有异曲同工之妙!推荐!"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "鸟人对战章鱼烧"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "3",
+    "name": "三剑舞 (Third Blade)",
+    "pn": "com.com2us.thirdblade.normal.freefull.google.global.android.common",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "切怪"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/SanJianWu-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/SanJianWu-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/SanJianWu-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/SanJianWu-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/SanJianWu-Screen-5.jpg"
+    ],
+"screenshot_type": "h",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/SanJianWu-(Third-Blade)-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/SanJianWu-(Third-Blade)-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/gameaction/SanJianWu-Third-Blade-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/gameaction/SanJianWu-Third-Blade-Banner-L.png"  
+    ],
+    "intro": "Com2uS 的一款动作游戏，让人窒息的超频刷怪率，不同的武器，不同的技能，连击数累计系统，享受无限激情！",
+    "comments": [
+        {
+            "name": "游戏控",
+            "content": "挺不错的游戏，开始不感兴趣后来试玩了一下，发现挺好，然后就用八门神器做了一点点手脚，挺这款游戏。"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "切怪"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "4",
+    "name": "艾诺迪亚 3",
+    "pn": "com.com2us.inotia3.normal.freefull.google.global.android.common",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "最近刚出了 5"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/AiNuoDiYa3-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/AiNuoDiYa3-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/AiNuoDiYa3-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/AiNuoDiYa3-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/AiNuoDiYa3-Screen-5.jpg"
+    ],
+"screenshot_type": "h",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/AiNuoDiYa3-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/AiNuoDiYa3-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/gameaction/AiNuoDiYa3-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/gameaction/AiNuoDiYa3-Banner-L.png"  
+    ],
+    "intro": "艾诺迪亚系列的第 3 部作品！ 自由的组队系统，丰富的剧情，特殊的隧道系统！绝对 Com2uS 力推 ARPG 大作！",
+    "comments": [
+        {
+            "name": "jalory",
+            "content": "还不错,完了好多天了,都玩不完,而且有点难度的,有点挑战性,角色操作起来很方便,剧情也还不错噢…"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "最近刚出了 5"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "5",
+    "name": "地铁跑酷 Subway Surfers",
+    "pn": "com.kiloo.subwaysurf",
+    "tip": {
+        "name": "大兵「吐槽」",
+        "content": "这比猩猩好玩儿多了"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/DiTiePaoKu-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/DiTiePaoKu-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/DiTiePaoKu-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/DiTiePaoKu-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/DiTiePaoKu-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/DiTiePaoKu-Subway-Surfers-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/DiTiePaoKu-Subway-Surfers-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/list/gameaction/DiTiePaoKu-Subway-Surfers-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/list/gameaction/DiTiePaoKu-Subway-Surfers-Banner-L.png"  
+    ],
+    "intro": "一款带有美式街头风格的跑酷游戏，游戏采用 3D 立体视角，在充满动感和色彩艳丽的画面中奔跑、跳跃、翻滚。",
+    "comments": [
+        {
+            "name": "帕奇",
+            "content": "挺好的游戏,个人认为是跑酷游戏里最好玩,画面最细腻的游戏了。"
+        },
+        {
+            "name": "大兵「吐槽」",
+            "content": "这比猩猩好玩儿多了"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-cat.jpg"
+}]]

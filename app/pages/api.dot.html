@@ -1,0 +1,112 @@
+{
+  "template" : "main",
+  "title" : "豌豆荚·Android手机助手·安卓软件下载·影音下载·安全备份·通讯录管理·短信群发",
+  "stylesheet" : "api"
+}
+
+
+<div class="api">
+    <div id="api" class="grid-24 content">
+        <div class="grid-16 pull-8">
+            <h3>什么是豌豆荚一键安装？</h3>
+            <p>作为 Android 应用开发者，您是否经常遇到用户通过电脑下载了 APK 文件，但不知道如何安装到手机的问题？豌豆荚为开发者提供的「一键安装」按钮，只需要用户一次点击即可完成下载、传输、安装到手机等复杂操作，大大提升用户体验！</p>
+
+            <h3>豌豆荚一键安装给您带来的价值</h3>
+            <ol>
+                <li>豌豆荚在 Android 手机用户中覆盖率市场领先，对已安装豌豆荚的 8000 万用户，一键安装可直接启动豌豆荚将应用装进手机，简化用户操作，提升用户体验；</li>
+                <li>一键安装帮助用户自行完成下载、传输、安装的复杂过程，能大大提升应用从点击到安装激活的转化率；</li>
+                <li>通过豌豆荚进行一键安装，我们会为您记录下载数据，此数据将帮助您的应用在豌豆荚首页各项排行榜和推荐位有较好的体现；</li>
+                <li>豌豆荚将优先在推广位中推荐有一键安装的合作伙伴。</li>
+            </ol>
+        </div>
+        <h3 style="clear: both;">合作案例展示</h3>
+        <ul>
+            <li>
+                <div>百度听</div>
+                <div class="gallery-baidu"></div>
+            </li>
+            <li>
+                <div>应用汇</div>
+                <div class="gallery-appchina"></div>
+            </li>
+        </ul>
+
+        <h3>如何添加一键安装？</h3>
+        <ol class="guide">
+            <li>
+                <div>请先在使用本按钮的页面 &lt;head&gt; 中添加以下代码</div>
+                <div class="well">
+                    <pre>&lt;script src="http://wandoujia.com/api/wdapi.js" type="text/javascript"&gt;&lt;/script&gt;</pre>
+                </div>
+            </li>
+            <li>
+                <div>挑选合适的一键安装按钮图片</div>
+                <form id="code_form">
+                <table id="image_picker">
+                    <tr>
+                        <td>
+                            <input type="radio" id="bi_oneclick-2" name="button-image" value="http://img.wdjimg.com/logo/oneclick-2.png">
+                            <label for="bi_oneclick-2">
+                                <img src="http://img.wdjimg.com/logo/oneclick-2.png" alt="http://img.wdjimg.com/logo/oneclick-2.png">
+                            </label></td>
+                        <td>
+                            <input type="radio" id="bi_oneclick-3" name="button-image" value="http://img.wdjimg.com/logo/oneclick-3.png">
+                            <label for="bi_oneclick-3">
+                                <img src="http://img.wdjimg.com/logo/oneclick-3.png" alt="http://img.wdjimg.com/logo/oneclick-3.png">
+                            </label></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" id="bi_oneclick-4" name="button-image" value="http://img.wdjimg.com/logo/oneclick-4.png">
+                            <label for="bi_oneclick-4">
+                                <img src="http://img.wdjimg.com/logo/oneclick-4.png" alt="http://img.wdjimg.com/logo/oneclick-4.png">
+                            </label></td>
+                        <td>
+                            <input type="radio" id="bi_oneclick-5" name="button-image" value="http://img.wdjimg.com/logo/oneclick-5.png" checked>
+                            <label for="bi_oneclick-5">
+                                <img src="http://img.wdjimg.com/logo/oneclick-5.png" alt="http://img.wdjimg.com/logo/oneclick-5.png">
+                            </label></td>
+                    </tr>
+                </table>
+                </form>
+            </li>
+            <li>
+                <div>生成代码</div>
+                <table class="well">
+                    <tr>
+                        <td>您的应用名字：</td>
+                        <td><input name="appname" type="text"/></td>
+                    </tr>
+                    <tr>
+                        <td>您的应用下载地址：</td>
+                        <td><input name="appurl" type="text"/> </td>
+                        <td> &nbsp;注：应用下载地址为点击直接下载您应用的链接，并非是豌豆荚上的详情页 &nbsp;</td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2"><button id="btn_generate_code" type="button">生成代码</button></td>
+                    </tr>
+                </table>
+            </li>
+            <li>
+                <div>将生成的代码加到应用下载页面, 完成一键安装</div>
+                <div class="well"><pre id="code_panel"></pre></div>
+            </li>
+        </ol>
+        <h3>联系我们</h3>
+        <ul>
+            <li>商务合作： <a href="http://help.wandoujia.com/requests/new?source=dev">http://help.wandoujia.com/requests/new?source=dev</a></li>
+            <li>软件应用一键安装合作：宁先生  QQ: 1079243748</li>
+            <li>安卓市场/论坛一键安装合作：丛先生  QQ: 1470364999</li>
+        </ul>
+
+            </div>
+            <div class="clear"></div>
+        </div>
+
+
+        {if !empty($smarty.get.debug)}
+        <script src="{$smarty.const.WDJ_STYLE_URL}style/min/?g=jquery|web/pack|web/static|{math equation=rand(1,1000000)}.js&debug=1"></script>
+        {else}
+        <script src="{$smarty.const.WDJ_STYLE_URL}style/min/g=jquery|web/pack|web/static|{$smarty.const.WDJ_VERSION}.js"></script>
+        {/if}

@@ -1,0 +1,179 @@
+@import "vars.scss";
+@import "compass";
+@import "compass/reset";
+@import "compass/css3";
+@import "blueprint";
+@import "compass/utilities/general/hacks";
+
+$blueprint_grid_columns: 20;
+$blueprint_grid_width: 45px;
+$blueprint-container-size: 990px;
+
+@import "mixins/retina";
+
+@import "basic";
+@import "button";
+@import "header";
+@import "footer";
+
+// @import "featbanner";
+// @import "tos";
+
+@font-face {
+    font-family: 'DINProRegular';
+    src: url('http://img.wdjimg.com/branding/dinpro-regular.eot');
+    src: url('http://img.wdjimg.com/branding/dinpro-regular.eot') format('embedded-opentype'),
+         url('http://img.wdjimg.com/branding/dinpro-regular.woff') format('woff'),
+         url('http://img.wdjimg.com/branding/dinpro-regular.ttf') format('truetype'),
+         url('http://img.wdjimg.com/branding/dinpro-regular.svg#DINProRegular') format('svg');
+}
+
+h1,h2,h3,p,li{
+  font-family: "DINProRegular","Helvetica Neue","Arial","Microsoft Yahei","Lantinghei SC";
+}
+
+
+.top{
+    height: 400px;
+    padding-top: 50px;
+    margin-left: -110px
+}
+.top h1{
+    font-size: 1px;
+    color:#fff;
+}
+
+section{
+    padding-left: 140px;
+    padding-right: 0px;
+    position: relative;
+    margin-bottom: 30px;
+    clear:both;
+    color: #999;
+}
+section h2{
+    border-bottom: 1px solid #b9b9b9;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    width: 790px;
+}
+section hr{
+    display: block;
+    background: #3BAA24;
+    border:none;
+    height: 5px;
+    width: 100px;
+    position: absolute;
+    top: 24px;
+    left: 30px;
+}
+
+.logos li, .icons li{
+    display: block;
+    float: left;
+    border: 1px solid #d1d1d1;
+    margin: 0 10px 10px 0;
+    text-align: center
+}
+.logos li{
+    width: 145px;
+}
+.logos p, .icons p{
+    border-top: 1px solid #d1d1d1;
+    line-height: 36px;
+    font-size: 14px;
+}
+.logos img{
+    width: 80px;
+    margin: 25px 0;
+}
+.h-logos img{
+    width: 115px;
+    margin: 50px 0;
+}
+
+.secondary-palettes li{
+    display: block;
+    float:left;
+    width: 130px;
+    text-align: center;
+}
+
+.secondary-palettes .palette{
+    width:96px;
+    height:96px;
+    margin: 0 0 15px 17px;
+}
+
+.secondary-palettes img{
+    width: 96px;
+}
+
+.secondary-palettes p{
+    margin-top:15px;
+    font-size: 14px;
+}
+.secondary-palettes span{
+    font-size: 12px;
+    visibility: hidden;
+}
+.secondary-palettes li:hover span{
+    visibility: visible;
+}
+
+
+.standard-palettes{
+    height: 280px;
+}
+.standard-palettes li{
+    width: 380px;
+    float:left;
+    border: 1px solid #d1d1d1;
+    margin-right: 10px
+}
+.standard-palettes .palette{
+    color: #fff;
+    margin: 2px;
+    padding: 180px 10px 10px;
+    font-size: 16px;
+}
+.standard-palettes .palette span{
+    font-size: 12px;
+    visibility: hidden;
+}
+.standard-palettes li:hover .palette span{
+    visibility: visible;
+}
+
+.standard-palettes li p{
+    border-top: 1px solid #d1d1d1;
+    line-height: 30px;
+    padding-left: 12px;
+}
+.palette-download{
+    padding: 30px 0 0 20px;
+}
+
+.top{
+    position: relative;
+    height: 150px
+}
+.top a.button-green{
+    position: absolute;
+    right:30px;
+    bottom: 10px
+}
+
+a:hover li{
+    border-color: #999;
+    background: #f0f0f0;
+}
+
+li{
+    position: relative;
+}
+
+a{
+    color: #999;
+}
