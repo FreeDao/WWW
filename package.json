@@ -41,7 +41,8 @@
         "karma-requirejs" : "~0.1.0",
         "connect-livereload" : "~0.2.0",
         "grunt-conventional-changelog" : "~1.0.0",
-        "grunt-stencil" : "1.0.1"
+        "grunt-stencil" : "1.0.1",
+        "grunt-connect-rewrite" : "0.2.0"
     },
     "engines" : {
         "node" : ">=0.8.0"
