@@ -91,6 +91,9 @@ module.exports = function (grunt) {
             }, {
                 from : '^/zhuizhuikan',
                 to : '/zhuizhuikan.html'
+            }, {
+                from : '^/intellectual_property',
+                to : '/intellectual_property.html'
             }],
             server : {
                 options : {
@@ -316,7 +319,7 @@ module.exports = function (grunt) {
 
     grunt.registerTask('server', [
         'clean:server',
-        // 'concurrent:server',
+        'concurrent:server',
         'configureRewriteRules',
         'connect:server',
         // 'karma:server',
