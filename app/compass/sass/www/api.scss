@@ -1,0 +1,90 @@
+@import "vars.scss";
+@import "compass";
+@import "compass/reset";
+@import "compass/css3";
+@import "blueprint";
+@import "compass/utilities/general/hacks";
+
+$blueprint_grid_columns: 20;
+$blueprint_grid_width: 45px;
+$blueprint-container-size: 990px;
+
+@import "mixins/retina";
+
+@import "basic";
+@import "header";
+@import "footer";
+
+a {
+    color:#38d;
+}
+
+#api {
+    .well {
+        background: #eee;
+        padding: 0.5em;
+    }
+
+    pre {
+        font-size: 12px;
+    }
+
+    ol.guide li {
+        list-style: decimal;
+    }
+
+    #image_picker {
+        border-spacing: 10px;
+
+        td {
+            vertical-align: middle;
+        }
+
+        td label {
+            cursor: pointer;
+        }
+
+        td label img {
+            vertical-align: middle;
+        }
+    }
+
+    .gallery-baidu {
+        background: generated-image-url('www/partner1.png');
+        height: 374px;
+        margin-bottom: 20px;
+        width: 520px;
+    }
+
+    .gallery-appchina {
+        background: generated-image-url('www/partner2.png');
+        height: 173px;
+        width: 703px;
+    }
+}
+
+.api {
+    color: #666;
+    font-size: 13px;
+    line-height: 20px;
+
+    h3 {
+        color: #666;
+        font-size: 18px;
+        margin: 16px 0 12px;
+    }
+
+    .guide {
+        margin: 0 0 0 20px;
+    }
+
+    ol li {
+        margin: 10px 0;
+    }
+
+    .grid-24 .pull-8 {
+        float: left;
+        left: 0;
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,1224 @@
+[[
+{
+   "type": "text",
+   "cat": "best", 
+   "content": ["年度最佳", ""],
+   "invisible": true
+},
+{
+    "type": "app",
+    "badge": "best-app",
+    "name": "Pocket",
+    "pn": "com.ideashower.readitlater.pro",
+    "tip": {
+        "name": "",
+        "content": "在复杂的网络世界中静心阅读"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/Pocket-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Pocket-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Pocket-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Pocket-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Pocket-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/Pocket-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/Pocket-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/appofyear/NianDuZuiJiaYingYong-pocket-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/appofyear/NianDuZuiJiaYingYong-pocket-Banner-L.png"  
+    ],
+    "intro": "<p>还记得九十年代末，我用那台奔腾电脑接上电话线拨号上网。中文信息少的可怜，要找到它们不是用搜索引擎，而是去门户网站的网页目录。可即便是那个时代，有一个功能也存在了：浏览器的收藏夹。<em>你总会有经常访问的网址，总会有一些现在来不及看的东西，想存下以后再看。十几年过，说不清这两个需求催生多少产品。Pocket 就是这条长长的队伍中一位成功者。</em></p><p>Pocket 原名 Read it Later，以后再看。如名字所示，它解决的就是存下来以后看这件事。某类产品延续了十年，环境已经大变化。当年的浏览器收藏夹变成了社会化书签，变成了设备间同步服务，还要为手机、平板等小屏幕优化。这种需求的变化，让很多应用淹没在历史的尘埃之中。Pocket 的前身从 2007 年上线，也走过了多年的探索之路。</p><p>Read it Later 诞生时，智能手机还没有普及。这款应用解决的问题还是「稍后再读」的文章列表，能在不同浏览器之间同步（例如解决办公室和家中两台电脑的问题）。随着 iPhone 的推出，它又能解决手机书签的同步。即便在当时，它的创意也不新奇。身边不仅有很多书签同步工具，还有已经热了几年的社会化书签。而且，这种很多人都有需求，但又不是强需求的产品，经常会陷入不温不火的状态不能自拔。</p><p>智能手机的普及是一大变局。过去只有不多的人有同步的需求，如今成了人人都需要的功能。而不同屏幕、不同浏览器之间的同步，超越了同步网址列表的功能，甚至引发了出版、媒体领域的讨论。过去的网页中大量的广告，不利于阅读的排版或字体，在小屏幕上显得尤为难忍。Instapaper、Readability 等应用纷纷出现。有的出品收费应用，有的干脆出售付费服务。它们不仅能同步阅读列表，而且可以去处网页上多余的广告，给内容更好的排版，而且还能与其他各种应用、服务结合。Pocket 也加入了这些功能，在这样的应用混战中一点点取得自己的立足之地。</p><p>一款不温不火的应用存在三四年，在互联网领域已经显得有点「老」。而 Pocket 却没有显出疲态。<em>去年，他们从 Read it Later 这个直白的名字改名为 Pocket，推出了从桌面到 iOS、Android 等不同的版本，不仅能够存下文章，还能够收藏视频、图片等。当竞争对手 Readability 不得不放弃收费服务转为免费时，Pocket 凭借一直免费的策略和上乘的应用质量，已经成为了本领域最好的应用之一。</em></p><p>2012 年底 Pocket 公布了全年收藏排行，视频冠军是《江南 Style》，而文章则是《名利场》杂志的《奥巴马之路》。存储文章的前十名分别来自《纽约时报》、《连线》、《大西洋月刊》等著名期刊，以及 The Verge、Gizmodo、Lifehacker 等著名网络媒体。<em>Pocket 也适时推出了媒体合作，和多家付费媒体达成订阅协议。它已经不是一个同步书签的小服务，正在尝试以特别的切入点，进入媒体领域。</em></p><p><em>Pocket 算是一家慢公司。</em>从 2007 年到 2012 年，互联网经历了巨大的变化。而 Pocket 长期的坚持和迅速的转型，让它在竞争丰富的环境中，总能让人眼前一亮。</p>",
+    "title":"Pocket 探索「稍后再读」",
+    "comments": [
+        {
+            "name": "",
+            "content": ""
+        },
+        {
+            "name": "",
+            "content": ""
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-best.jpg"
+}, 
+ 
+{
+    "type": "app",
+    "badge": "best-game",
+    "name": "死亡扳机",
+    "pn": "com.madfingergames.deadtrigger",
+    "tip": {
+        "name": "",
+        "content": "免费游戏里的高品质视觉大作"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/SiWangBanJi-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/SiWangBanJi-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/SiWangBanJi-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/SiWangBanJi-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/SiWangBanJi-Screen-5.jpg"
+    ],
+"screenshot_type": "h",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/SiWangBanJi-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/SiWangBanJi-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/appofyear/NianDuZuiJiaYouXi-SiWangBanJi-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/appofyear/NianDuZuiJiaYouXi-SiWangBanJi-Banner-L.png"  
+    ],
+    "intro": "<p>死亡扳机 DEAD TRIGGER 是由去年很火爆游戏暗影之枪 Shadowgun 的开发商 Madfinger Games 的一款 FPS 力作，它继承了暗影之枪高品质的游戏画面，使用 Unity 引擎打造，玩家需要在游戏中使用各种武器来击退不断来袭的僵尸怪物。</p><p>虽说是僵尸类型的游戏，但和以往的那些地图大、陷阱多、易迷路的恐吓型僵尸游戏不同，死亡扳机遵循的原则是你既可以在几分钟之内完成一局，游戏世界也有丰富的元素供你探索。也就是说你既可以追随游戏的故事剧情和主角一起面对浩劫，也可以抽出个空闲时间进去杀个痛快。</p><p>另外游戏中还搭载了一个复杂的「肢解系统」，这个系统增强了武器在射杀僵尸时的真实效果，比如被爆掉的脑袋和鲜血如注的连贯效果。虽然这样会显得比较血腥，但开发商还是鼓励玩家发挥创造力的去杀死僵尸，例如用激光枪爆头、用斧头断手等。当然这一切都没有过分的夸张而只是激发玩家对僵尸游戏的热情。</p></p>也许正是因为「肢解系统」的缘故，我们可以发现 Unity 引擎原来也可以让智能手机发挥出如此极致的性能。从色调艳丽的游戏画面，到室内室外场景的别致渲染，光影和细节表现的都非常到位，原来手机游戏也可以有如此强的代入感和次世代的游戏体验。</p><p>最近的 CES 电子大会中，Madfinger Games 还展示了死亡扳机的续作，并会在今年上市。是时候再拿起你的机枪或者光剑，尽情的屠戮了。</p>（该游戏需要下载数据包方可运行。在电脑上的豌豆荚搜索”死亡扳机”并安装，即可自动提示下载数据包。）",
+    "title":"死亡扳机 - 爆头还是虐杀",
+    "comments": [
+        {
+            "name": "",
+            "content": ""
+        },
+        {
+            "name": "",
+            "content": ""
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-best.jpg"
+}, 
+
+
+{
+   "type": "text",
+   "cat": "best", 
+   "content": ["年度优秀", ""]
+},
+{
+    "type": "app",
+    "badge": "",
+    "name": "Path",
+    "pn": "com.path",
+    "tip": {
+        "name": "",
+        "content": "只属于你和好朋友的私密圈子"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/Path-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Path-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Path-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Path-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Path-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/Path-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/Path-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/appofyear/Path-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/appofyear/Path-Banner-L.png"  
+    ],
+    "intro": "<p>Path 从诞生之初就不走寻常路。2010年11月，应用刚刚推出，就靠着简捷明快的界面吸引了很多人的眼球。试用后大家发现，这款 iPhone 上的社交应用可以分享状态和照片，这些和 Instagram，或者一个简化的 Facebook 没有太多差异。但是在 Path 上，你最多只能加上 50 个好友，所有信息对好友之外的人不可见。<em>这个功能暗示，你真的需要在加好友前想一想，他算不算你的密友圈子。</em></p><p>按照 Path 自己的说法，这个设置不是随性而为，而是有着「科学基础」。牛津大学演化人类学教授罗宾·邓巴（Robin Dunbar）研究了猕猴的社会关系，发现他们只能维持一个很小的「猴友圈」。邓巴认为，这种限制来自于猴子大脑能力的极限。而他就此推算了猴子大脑皮层与人类的比例，提出了一个「邓巴数」。<em>这个数字指出一个人最多只能维持 50 个朋友和 150 个熟人。Path 真的把类似的理念设计到了产品上。</em></p><p>诞生之初，Path 周围就是 Facebook 、Linkedin 这样的社交网络巨头，和 Instagram 这样功能近似的成功产品，压力自然不小。最初的一年，Path 之路不温不火。很多人体验了新鲜感后，不一定有足够的精力维持那么多社交网络的更新。<em>直到 2011 年 11 月，近乎沉寂的 Path 突然推出了它的 2.0 版本，掀起了设计界的一次风潮。</em></p><p>新版的 Path 放弃了之前过于极端的产品概念，好友人数增加到了 150 人。设计也全面改版，以布纹笔记本材质做成封面，个人页面是变成了时间线模式。而左下角工具条点击弹开的动画更是被许多应用模仿，成了著名的设计模式。新版很快不再局限于 iPhone，推出了 Android 版本，并准备扩展到其他平台。</p><p><em>Path 的产品概念变成了智能日志（Smart Journal）</em>——你的状态、地理位置、照片等，都是值得记入日志的信息。而在移动互联网时代，这种日志最好的记录工具就是你的手机。而日志这种比较私密的信息，最适合与最亲近的人分享。小一号的朋友圈子，让用户在加好友时不得不想一想对方是否是自己的真实朋友。而因为圈子里都是真实朋友，用户也就不怕分享一些私密信息了。</p><p>有了这样的产品理念，加入新的信息分享也就顺理成章。<em>除了文字状态和照片，Path 还支持分享地理位置，书籍、音乐和电影，甚至分享 Nike+ 的锻炼状态和每天睡觉和起床的时间。</em>较之其他社交产品，Path 不仅有更精美的 UI，也有完全不同的玩法和朋友圈的定义。这让这款以设计见长的社交应用脱颖而出。</p><p>Path 没有走社交应用的寻常路，不管是在产品设计上还是在运营商都称得上独辟蹊径。尽管它是否能像 Instagram 那样成功还为未可知，但是这款应用凭借出众的品质，已经在最优秀应用的榜单中占据一席之地。</p>",
+    "title":"从「反社交」社交应用到智能日志——Path 的另类应用路径",
+    "comments": [
+        {
+            "name": "",
+            "content": ""
+        },
+        {
+            "name": "",
+            "content": ""
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-best.jpg"
+}, 
+
+
+{
+    "type": "app",
+    "badge": "",
+    "name": "Instagram",
+    "pn": "com.instagram.android",
+    "tip": {
+        "name": "",
+        "content": "透过镜头，以最简单的方式分享世界"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/Instagram-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Instagram-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Instagram-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Instagram-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/Instagram-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/Instagram-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/appofyear/Instagram-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/appofyear/Instagram-Banner-L.png"  
+    ],
+    "intro": "<p>2010 年 10 月，Instagram 上线第一天获得 2.5 万名下载用户</p><p>2011 年 2 月，用户增长至 200 万，只提供 iOS 版本</p><p>2012 年 4 月，Android 版本上线，Instagram 总用户量超过 3000 万，并以 10 亿美金的价格被 Facebook 收购</p><p><strong><em>小团队，价值超过10亿美金的应用</em></strong></p><p>你肯定不是在它被 Facebook 收购之后才听说这款拍照分享应用的，也未必就因为 10 亿美元的收购价格而震惊。在我们谁都不知道它会被巨头 Facebook 纳入麾下的时候，它只是一个拍照工具，用户增长惊人，并且，把你的生活变得美好了。</p><p><strong><em>最早，它只是个拍照工具吗？</em></strong></p><p>iPhone 不缺拍照工具，在 Instagram 以前也不是没有拍照应用。 Instagram 吸引用户的根本原因无非是抓住了一个拍照应用最根本的功能——它的滤镜能够帮你实现更好的拍照效果，此外，它的吸引力还体现在相信技术、提倡分享和坚持简单。</p><p>2010 年底，刚刚发布两个月的 Instagram 获得由科技博客 TechCrunch 评选的 Crunchies Awards「Best Mobile App（最佳移动应用）」第二名。（第一名是谷歌 Android 版地图）</p><p><strong><em>美学+技术</em></strong></p><p>人们都想把照片拍的更好看一点，宝利来相机就透露着这样的情节。 Instagram 的创始人自己就是摄影爱好者，对美学的把握可能是个很难说清楚的事情，Instagram 每个滤镜背后的代码很好的证明了这一点。此外，Instagram 用技术解决了上传图片的速度问题（比过去快 200 倍）。</p><p><strong><em>照片比文字更直接</em></strong></p><p>Instagram 形成了自己的社交图谱，同时彻底开放。照片可以成为沟通的工具，也成为发现有趣的人的介质。这种不定向的交流和 Facebook 很不一样，你愿意在 Facebook 上看朋友养的宠物和在 Instagram 上欣赏别人的照片是两回事。</p><p><strong><em>简单，最难也最重要</em></strong></p><p>不做什么往往比做什么更重要。除了自身团队的精简（直到卖给 Facebook 时也只有 13 个人），Instagram 在丰富服务的同时也在删减不必要的功能，甚至包括最早花大力气实现的滤镜。最直接的表现还包括，很长一段时间它们都没有为了用户量的增长去做 Android 版本的开发，而是集中精力做好 iOS 的用户体验。</p><p><strong><em>你得承认，它让你更开心了</em></strong></p><p>你会在 Instagram 上欣赏陌生人的照片，也可以用看艺术品的眼光看品牌广告。最重要的是，每一个用户可以用拍下自己的「作品」，用最快的速度上传、分享给朋友，不管你的朋友是否熟悉，有人点了 Like，你都会很开心。</p><p>2011 年，Instagram 被苹果评为年度最佳应用。</p><p>In its annual iTunes store retrospective, Apple named ubiquitous photo app Instagram as its 「definitive」 app of the year, saying that the photography filter program makes it 「near-impossible to take a bad shot.」——《The Washington Post》</p>",
+    "title":"Instagram - 每个人都是摄影师",
+    "comments": [
+        {
+            "name": "",
+            "content": ""
+        },
+        {
+            "name": "",
+            "content": ""
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-best.jpg"
+}, 
+
+
+{
+    "type": "app",
+    "badge": "",
+    "name": "愤怒的小鸟太空版",
+    "pn": "com.rovio.angrybirdsspace.premium",
+    "tip": {
+        "name": "",
+        "content": "老牌游戏新花样，让小鸟与猪在太空翱翔"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/FenNuDeXiaoNiaoTaiKongBan-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/FenNuDeXiaoNiaoTaiKongBan-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/FenNuDeXiaoNiaoTaiKongBan-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/FenNuDeXiaoNiaoTaiKongBan-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/FenNuDeXiaoNiaoTaiKongBan-Screen-5.jpg"
+    ],
+"screenshot_type": "h",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/FenNuDeXiaoNiaoTaiKongBan-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/FenNuDeXiaoNiaoTaiKongBan-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/appofyear/FenNuDeXiaoNiaoTaiKongBan-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/appofyear/FenNuDeXiaoNiaoTaiKongBan-Banner-L.png"  
+    ],
+    "intro": "<p>2009 年 12 月首先发布于 iOS 平台，自那时起，已经有超过 1200 万人在 App Store 付费下载，不久后在 Android 发布。包括目前所有平台的所有版本，愤怒的小鸟的总下载量超过 3 亿，被誉为「目前最主流的游戏之一」、「迄今移动产品应用中最大的成功」。——摘自维基百科</p><p>话说长江后浪推前浪，愤怒的小鸟虽然借助新智能手机的平台开创了一个时代，不过随着挑战者们的日益崛起，即使后续接连推出过季节版和里约大冒险版，但还是止不住颓势，眼瞅就要跌出公众视线。</p><p><strong><em>We’re back！—— Rovio 在推出「太空版」时的宣传语</em></strong></p><p>起初对太空版的预期不过是像里约版那样的小修小补的增量包，顺便套上不同场景的外壳而已。<em>但其全新的太空背景，失重及引力的物理效果，华丽的连爆，更多超能力新鸟的加入又让这一切变得是那么的不一样。</em></p><p>有时你会需要绕着星球飞那么一圈才能击中绿猪，有时你又需要巧妙的利用好星球之间的引力关系来达到三星过关的目标，甚至有些关卡中绿猪操纵起了机器人，你需要把小行星推过去来消灭它们。<em>这一切看起来那么的超出想像，却又坚持的怒鸟一贯符合物理法则的特点。</em>而在最近更新中又引入星球表面的海洋的概念，引力圈和海洋圈的交融让这代怒鸟的耐玩性提升了不少。</p><p>即使是之后 Rivio 公司推出了星战版怒鸟，也不过是很好的嵌套了星战的世界设定，完美的把星战搬入了愤怒的小鸟之中。它优于普通版、季节版和里约版，但从游戏性的创新和想象力看，依然很难与太空版媲美。</p><p>Rivio 把这款游戏做的既新鲜又刺激，它不失一个休闲小游戏的便捷性，又给了喜欢挑战的玩家更多可以探索的空间。你可以在这款游戏中享受到快速过关的快感，也能找到完成极限挑战的乐趣。</p>",
+    "title":"We’re back！",
+    "comments": [
+        {
+            "name": "",
+            "content": ""
+        },
+        {
+            "name": "",
+            "content": ""
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-best.jpg"
+}, 
+ 
+{
+    "type": "app",
+    "badge": "",
+    "name": "Flipboard 中国版",
+    "pn": "flipboard.cn",
+    "tip": {
+        "name": "",
+        "content": "革命性的杂志式阅读体验"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/Flipboard-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Flipboard-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Flipboard-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Flipboard-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Flipboard-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/Flipboard-ZhongGuoBan-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/Flipboard-ZhongGuoBan-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/appofyear/Flipboard-ZhongGuoBan-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/appofyear/Flipboard-ZhongGuoBan-Banner-L.png"  
+    ],
+    "intro": "<p>2010 年 10 月，Flipboard iOS 版本上线。</p><p>2012 年 5 月，Flipboard Android 版本先在三星 Galaxy S3 手机上线。</p><p>2012 年 5 月底，Flipboard Android 版本正式上线。</p><p>2012 年 8 月，科技博客 TechCrunch 报道 Flipboard 应用用户量 2000 万，用户每月翻页次数 30 亿次。</p><p><strong><em>互联网内容可以有更好的呈现方式</em></strong></p><p>每个人都在看电子书，但是它可以更好。Flipboard 告诉你，就算你对着一个冷冰冰的屏幕，「Flip（翻动）」、 选择自己喜欢的内容、 和朋友分享……最初阅读的习惯，可以在移动设备上得到更美的延伸。</p><p><strong><em>Flip</em></strong></p><p>点击链接已经让用户感到疲倦了。这是传统门户网站和Google带来的信息获取方式。Flipboard颠覆了这个思路，它借鉴了传统杂志和出版物塑造的人类最古老、最经典的阅读习惯——注重排版、只要你会翻页，你就会使用 Flipboard。</p><p>「我非常喜欢每个故事之间的流动，在浏览每个页面的时候，你的目光在标题、图片、引用和文章之间不断转移。在杂志的世界里，每个页面都是大图景的一个小部分，每个元素都试图吸引你去阅读其中的故事。你可以很轻松的浏览杂志，当发现有趣的东西时，沉浸于其中。我非常喜欢那种感觉。我觉得那是我们在网络上已经失落的东西」——Marcos Weskamp，Clipboard 首席设计师</p><p><strong><em>200 多次改版和无数次设计图重构</em></strong></p><p>「好」的魅力，在于让用户在使用时感觉不到技术和设计的存在。你肯定也想象不到一个 Flipboard 的按钮是被设计师推翻-重来-推翻-重来无数次的结果。这种经典的杂志呈现方式不仅让是用设计的手法将传统的阅读习惯与移动设备结合，最重要的是，用户感觉不到背后的复杂程序。</p><p>2010 年，Flipboard 被苹果评为 2010 年最佳 iPad 应用。</p><p><strong><em>重构社会化阅读</em></strong></p><p>Flipboard 抓住了社交网络的机会的方式与众不同。它不是用传统的RSS聚合方式来抓取或分享内容。而是直接从 Facebook、Twitter 种子抓取 URL。社交网站的内容也可以被 Flipboard 「设计」，成为阅读内容。</p><p><strong><em>新内容聚合平台</em></strong></p><p>对媒体来说，究竟给 Flipboard 提供标题还是一个摘要，抑或是完整内容？《连线》和《纽约客》因为恐惧 Flipboard 带来的冲击已经取消了全文提供，不过《纽约时报》还是愿意与 Flipboard 深入合作，虽然 Flipboard 因为设计需要的时间较长导致与内容提供商合作的进程非常缓慢，但你会看到，这是大势所趋，未来会有个巨大的长尾效应。</p><p>「与 Flipboard 的合作对于纽约时报来说意义重大，因为公司目前正在推广数字订阅，而且据一份读者分析报告指出，目前有 20% 的报纸订阅用户通过诸如 Flipboard 等第三方应用来阅读内容，所以我们开始意识到有必要为我们的订阅用户提供这样的便利，我觉得机会摆在我们面前，就应该去尝试一下，并看看读者的反响如何。」——Denise Warren，《纽约时报》首席广告官</p>",
+    "title":"Flipboard 社会化杂志",
+    "comments": [
+        {
+            "name": "",
+            "content": ""
+        },
+        {
+            "name": "",
+            "content": ""
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-best.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "",
+    "name": "三重镇",
+    "pn": "com.spryfox.tripletown",
+    "tip": {
+        "name": "",
+        "content": "融合了策略的消除游戏，可爱得让人沉迷"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/SanZhongZhen-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/SanZhongZhen-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/SanZhongZhen-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/SanZhongZhen-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/SanZhongZhen-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/SanZhongZhen-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/SanZhongZhen-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/appofyear/SanZhongZhen-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/appofyear/SanZhongZhen-Banner-L.png"  
+    ],
+    "intro": "<p>Facebook 2011 年度游戏——Gamezebo</p><p>2011 独立游戏亚军——EdgeMagazine</p><p>2011 社交游戏亚军——Gamezebo</p><p>过往的一票三消（三个或者三个以上一样的元素可以消除）游戏中，开发商使用的都是一个套路，最多换换画面风格或者增加个角色扮演的情节，而玩家们大多比拼的不过是眼力和反应速度，<em>从没有一款三消的游戏能像三重镇这样既颠覆了三消的规则还融入了模拟经营的元素。</em></p><p>游戏伊始，你要面对的是一个破败的庄园，而这也是你大战拳脚的空间，想要打造一个属于你自己的高级小镇，你要去清理杂草，为居民打造房子，还要提防长相无害却是捣乱元素的萌熊对你的骚扰，这一切却又是以三消为基础的。</p><p>这款游戏最大的乐趣又在于它的随机性，有时候一片草丛和两棵树甚至是跟两个房子一起都能组合出不同的元素，配合间歇走动的迷你村民和缩小版的小镇全景，让游戏风格变得相当可爱。但它的难度也是显而易见的，你的小镇总共只有 6X6 大小，而你放置最后一个物品的地方将会是高级物品出现的地方，这就需要你在放置各个物品之前需要仔细的推敲，以便你的小镇可以得到健康的发展。需要注意的是每一个物品的建造是有次数限制的，当次数用完的时候必须等待冷却来恢复。也可以利用在建筑城镇过程之中获得的金币，来购买额外的次数。</p><p>虽然游戏在配乐方面没有怎么下功夫，游戏时只有环境的一些音效而已，不过它那卡通的画风和时而呆萌时而咆哮的捣蛋熊，已经使得大多数玩家可以愉快的接受它了。</p><p>打破以往三消风格的完全创新，需要你严谨思考合理规划才能得到高分的游戏性。这是一款上手容易精通难的休闲游戏，也是为那些对传统三消换汤不换药的本质已经厌恶之人准备的一抹阳光。</p>",
+    "title":"三重镇 - 不只是消除",
+    "comments": [
+        {
+            "name": "",
+            "content": ""
+        },
+        {
+            "name": "",
+            "content": ""
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-best.jpg"
+}, 
+ 
+
+{
+    "type": "app",
+    "badge": "",
+    "name": "Chrome 浏览器",
+    "pn": "com.android.chrome",
+    "tip": {
+        "name": "",
+        "content": "流畅易用，四个字足以概括的手机浏览器"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/ChromeLiuLanQi-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/ChromeLiuLanQi-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/ChromeLiuLanQi-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/ChromeLiuLanQi-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/ChromeLiuLanQi-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/Chrome-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/Chrome-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/appofyear/Chrome-LiuLanQi-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/appofyear/Chrome-LiuLanQi-Banner-L.png"  
+    ],
+    "intro": "<p>应用带给用户的第一感觉千差万别。有些让人眼前一亮，有些让人兴奋不已，但大多数都平淡无奇。<em>Chrome 出现在 Android 平台上时，用户的感觉是奇怪的。既有「终于等到这一天」的兴奋，又觉得平淡，因为这是一款浏览器该有的样子。</em></p><p>2008 年，Google 发布了自己开发的浏览器 Chrome。当时，老牌浏览器 IE 的还是第 6 版和第 7 版占据市场，而 Firefox 则是另一支力量。Chrome 出现时，既没有 IE 稳固的市场地位，又没有 Firefox 的丰富插件。<em>诞生之初，它有的只是一个极简主义的界面，和一件法宝——「快」。</em>和 Firefox 一样，Chrome 也强调支持互联网的标准化。但是，随着它在桌面上四年间推出了二十余个个大版本，我们看到的是它作为互联网基础设施的力量。它不仅率先支持 HTML 5 、CSS 3 等新技术和新标准，而且不断提升自己的速度。<em>快一点和慢一点是两回事，这一点上，Chrome 在提升了我们的上网体验的同时，也让开发开发复杂的网络应用成为可能。</em></p><p>2012 年， Chrome 在桌面上早已经不是浏览器市场的后来者，而成为了很多人的常驻软件。如果过去「上网」意味着点击那个蓝色的大写字母 E，那么现在大家已经熟悉这个彩色转轮图标了。也是在 2012 年，这款浏览器终于登陆移动平台。<em>1 月在 iOS 上的发布，让很多人放弃了原生的 Safari 浏览器。而 2 月，随着 Android 4.0 系统的发布，Chrome 开始在出现在 Android 平台，让用户一片欢呼。</em></p><p>手机浏览器相对于桌面版，除了同样作为互联网的入口，还担负另一个重任——很多没有应用的网络服务，需要在浏览器中使用。<em>一款快速、标准的浏览器将是很多网站的「应用」。Chrome 就成了 Android 平台上这个重要的工具。</em>而标准化的界面，方便的手势操作，和同步书签与标签页的功能，让这款浏览器轻捷、易用。</p><p>作为互联网的入口，浏览器对于一家厂商的战略意义自不待言。而 Chrome 的技术优势，在 Android 平台，很可能再一次成为提升体验的基础设施。<em>也许我们忘记它的特性对于它意味着更大的成功：那个彩色图标将意味着手机上网这件事本身。</em></p>",
+    "title":"Chrome 一款浏览器该有的样子",
+    "comments": [
+        {
+            "name": "",
+            "content": ""
+        },
+        {
+            "name": "",
+            "content": ""
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-best.jpg"
+},
+
+
+{
+   "type": "text",
+   "cat": "best", 
+   "content": ["年度提名", ""]
+},
+
+{
+    "type": "app",
+    "badge": "",
+    "name": "天气之眼",
+    "pn": "com.citc.weather",
+    "tip": {
+        "name": "",
+        "content": "优雅的天气应用，让桌面带来好心情"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/TianQiZhiYan-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/TianQiZhiYan-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/TianQiZhiYan-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/TianQiZhiYan-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/TianQiZhiYan-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/TianQiZhiYan-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/TianQiZhiYan-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/appofyear/TianQiZhiYan-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/appofyear/TianQiZhiYan-Banner-L.png"  
+    ],
+    "intro": "天气之眼是一款 Android 平台桌面天气插件，支持 4 种不同类型的部件，同时对于部件的风格可以进行定制。",
+    "comments": [
+        {
+            "name": "",
+            "content": "优雅的天气应用，晴雨表也能带给你手机好心情。"
+        },
+        {
+            "name": "兔诗基",
+            "content": "界面十分好看，预报准确，期待更好。"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-best.jpg"
+}, 
+
+
+{
+    "type": "app",
+    "badge": "",
+    "name": "果库",
+    "pn": "com.guoku",
+    "tip": {
+        "name": "",
+        "content": "彻底勾引你的消费欲望，发现美好生活"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/GuoKu-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/GuoKu-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/GuoKu-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/GuoKu-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/GuoKu-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/GuoKu-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/GuoKu-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/appofyear/GuoKu-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/appofyear/GuoKu-Banner-L.png"  
+    ],
+    "intro": "果库是你贴身的网购消费指南，实际地节省你的时间、金钱，优化你的选择，也优化你的生活。",
+    "comments": [
+        {
+            "name": "",
+            "content": "把淘宝导购做成了精品杂志，贴心的购物指南，帮你每天都发现最美好的产品，最舒适的体验。"
+        },
+        {
+            "name": "box296",
+            "content": "简单,好用,针对性强,几乎每天都看,非常好的 app"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-best.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "",
+    "name": "我画你猜",
+    "pn": "com.omgpop.dstpaid",
+    "tip": {
+        "name": "",
+        "content": "一夜风靡的社交游戏，找到懂你的朋友"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/WoHuaNiCai-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/WoHuaNiCai-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/WoHuaNiCai-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/WoHuaNiCai-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/WoHuaNiCai-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/WoHuaNiCai-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/WoHuaNiCai-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/appofyear/WoHuaNiCai-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/appofyear/WoHuaNiCai-Banner-L.png"  
+    ],
+    "intro": "最流行的社交图纸和 Android 上的猜谜游戏！玩画的东西~",
+    "comments": [
+        {
+            "name": "",
+            "content": "老模式的新玩法，社交游戏的成功之作，让你和不能面对面的人来一次特别交流。"
+        },
+        {
+            "name": "阿包子",
+            "content": "好玩得不行啊!超级好玩,上瘾中。学英语的一定要玩玩。"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-best.jpg"
+}, 
+
+
+{
+    "type": "app",
+    "badge": "",
+    "name": "Snapseed",
+    "pn": "com.niksoftware.snapseed",
+    "tip": {
+        "name": "",
+        "content": "惊艳而又华丽地帮助照片变身"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/Snapseed-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Snapseed-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Snapseed-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Snapseed-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Snapseed-Screen-5.jpg"
+    ],
+"screenshot_type": "h",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/Snapseed-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/Snapseed-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/appofyear/Snapseed-Banner-L.jpg", 
+        "http://img.wdjimg.com/pic/app_banner_L/appofyear/Snapseed-Banner-L.jpg"  
+    ],
+    "intro": "Snapseed 提供了众多不可思议的功能，让任何人都可以轻松增强、改变和分享相片，是唯一想每天使用的相片处理应用。",
+    "comments": [
+        {
+            "name": "",
+            "content": "惊艳的照片修改应用，手指轻轻滑动，照片亮丽变身。分享照片前，手指画一画。"
+        },
+        {
+            "name": "霍之昂",
+            "content": "挺不错的,效果千变万化,随心所欲,喜欢。"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-best.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "",
+    "name": "喷气背包大冒险 Jetpack Joyride",
+    "pn": "com.halfbrick.jetpackjoyride",
+    "tip": {
+        "name": "",
+        "content": "复古风格的跑酷游戏，丰富的游戏体验"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/FengKuangPenQiJi-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/FengKuangPenQiJi-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/FengKuangPenQiJi-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/FengKuangPenQiJi-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/FengKuangPenQiJi-Screen-5.jpg"
+    ],
+"screenshot_type": "h",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/FengKuangPenQiJi-Jetpack-Joyride-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/FengKuangPenQiJi-Jetpack-Joyride-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/appofyear/FengKuangPenQiJi-Jetpack-Joyride-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/appofyear/FengKuangPenQiJi-Jetpack-Joyride-Banner-L.png"  
+    ],
+    "intro": "一款横版酷跑游戏，主角潜入工厂抢夺个人火箭飞行器，上下飞行避开障碍物收集金币，挑战反应速度和决断力。",
+    "comments": [
+        {
+            "name": "",
+            "content": "复古风格横版动作，让你的英雄背上喷气背包，丰富的游戏体验，让你飞入各种关卡。"
+        },
+        {
+            "name": "勇气可乐开",
+            "content": "打发碎片时间的好东西！操作简单，画面精致，而且很耐玩！"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-best.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "",
+    "name": "字节社",
+    "pn": "tc.tangcha.book",
+    "tip": {
+        "name": "",
+        "content": "用心备至的字体和排版，让阅读舒服起来"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/ZiJieShe-Sceen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/ZiJieShe-Sceen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/ZiJieShe-Sceen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/ZiJieShe-Sceen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/ZiJieShe-Sceen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons":[ 
+        "http://img.wdjimg.com/pic/icon_30/ZiJieShe-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/ZiJieShe-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/appofyear/ZiJieShe-Banner-L.jpg", 
+        "http://img.wdjimg.com/pic/app_banner_L/appofyear/ZiJieShe-Banner-L.jpg"  
+    ],
+    "intro": "字节社拥有独特的字体、精美的排版、更方便的阅读模式，是中文世界最好的电子书城。",
+    "comments": [
+        {
+            "name": "",
+            "content": "字体与排版都用心备至。让好书真正能在手机上阅读。"
+        },
+        {
+            "name": "大牛i9200",
+            "content": "喜欢这种风格,阅读内容丰富。适合读书人的休闲小憩之地。"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-best.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "",
+    "name": "谷歌搜索",
+    "pn": "com.google.android.googlequicksearchbox",
+    "tip": {
+        "name": "",
+        "content": "Android，从搜索开始"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/GuGeSouSuo-Screnn-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/GuGeSouSuo-Screnn-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/GuGeSouSuo-Screnn-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/GuGeSouSuo-Screnn-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/GuGeSouSuo-Screnn-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/GuGeSouSuo-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/GuGeSouSuo-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/appofyear/GuGeSouSuo-Banner-L.jpg", 
+        "http://img.wdjimg.com/pic/app_banner_L/appofyear/GuGeSouSuo-Banner-L.jpg"  
+    ],
+    "intro": "为 Android 手机提供极速海量的搜索服务，使用户随时获取想要的结果。",
+    "comments": [
+        {
+            "name": "",
+            "content": "Google Search 把搜索手机中的内容和搜索互联网结合起来，加上精确的语音搜索功能，是你手机资源的管理利器。"
+        },
+        {
+            "name": "guanj",
+            "content": "软件很强大，也很迅速，十分有谷歌的科技范儿。"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-best.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "",
+    "name": "Line POP 消除",
+    "pn": "jp.naver.SJLINEPANG",
+    "tip": {
+        "name": "",
+        "content": "可爱的消除游戏，强迫症患者必备"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/Line-POP-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Line-POP-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Line-POP-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Line-POP-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Line-POP-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/LINE-POP-XiaoChu-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/LINE-POP-XiaoChu-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/appofyear/Line-POP-XiaoChu-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/appofyear/Line-POP-XiaoChu-Banner-L.png"  
+    ],
+    "intro": "NAVER 为 line 用户打造的一款社交消除游戏,同样颜色的球达到 3 颗以上时就可以消除,消除的越多分数越高。",
+    "comments": [
+        {
+            "name": "",
+            "content": "消除游戏，超萌超可爱的画风，让糖果屋大战在你的手机上发动。"
+        },
+        {
+            "name": "Seven-芒果",
+            "content": "好萌好可爱,要是不限定玩的次数就完美了"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-best.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "",
+    "name": "LINE 工具箱",
+    "pn": "jp.naver.linetools",
+    "tip": {
+        "name": "",
+        "content": "指南针、手电筒、计时器，手机百宝箱"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/LineGongJuDai-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/LineGongJuDai-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/LineGongJuDai-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/LineGongJuDai-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/LineGongJuDai-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/LINE-GongJuXiang-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/LINE-GongJuXiang-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/appofyear/LINE-GongJuXiang-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/appofyear/LINE-GongJuXiang-Banner-L.png"  
+    ],
+    "intro": "LINE 工具箱是将多种便捷有用的小工具合而为一的免费应用，轻松为您解决日常琐事。",
+    "comments": [
+        {
+            "name": "",
+            "content": "精美的百宝袋，一个应用把指南针、手电筒、尺子、计时器等一次包揽，让你的手机成为变形金刚。"
+        },
+        {
+            "name": "小旦花",
+            "content": "感觉好贴心，好多方便又可爱的小工具。"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-best.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "",
+    "name": "tawkon 手机辐射监测器",
+    "pn": "com.tawkon",
+    "tip": {
+        "name": "",
+        "content": "设计精美的手机辐射测量计"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/tawkon-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/tawkon-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/tawkon-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/tawkon-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/tawkon-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/tawkon-ShouJiFuSheJianCeQi-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/tawkon-ShouJiFuSheJianCeQi-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/appofyear/tawkon-ShouJiFuSheJianCeQi-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/appofyear/tawkon-ShouJiFuSheJianCeQi-Banner-L.png"  
+    ],
+    "intro": "tawkon 是一款监测手机辐射的应用，根据手机辐射的强度大小和手机使用习惯，适时提出警告，减少手机辐射的危害。",
+    "comments": [
+        {
+            "name": "",
+            "content": "手机辐射测量计，一分钟变身科学仪器，让你随时检测身边的辐射，远离健康风险。"
+        },
+        {
+            "name": "杜恩",
+            "content": "很不错的应用。特别喜欢,界面很小清新。功能简单易用。"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-best.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "",
+    "name": "地铁跑酷 Subway Surfers",
+    "pn": "com.kiloo.subwaysurf",
+    "tip": {
+        "name": "",
+        "content": "色彩明丽、充满动感的跑酷游戏"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/DiTiePaoKu-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/DiTiePaoKu-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/DiTiePaoKu-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/DiTiePaoKu-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/DiTiePaoKu-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/DiTiePaoKu-Subway-Surfers-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/DiTiePaoKu-Subway-Surfers-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/appofyear/DiTiePaoKu-Subway-Surfers-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/appofyear/DiTiePaoKu-Subway-Surfers-Banner-L.png"  
+    ],
+    "intro": "一款带有美式街头风格的跑酷游戏，游戏采用 3D 立体视角，在充满动感和色彩艳丽的画面中奔跑、跳跃、翻滚。",
+    "comments": [
+        {
+            "name": "",
+            "content": "精美的跑酷游戏，明丽的画面中和闯关任务，即便玩很久也不觉得单调。"
+        },
+        {
+            "name": "帕奇",
+            "content": "挺好的游戏,个人认为是跑酷游戏里最好玩,画面最细腻的游戏了。"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-best.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "",
+    "name": "看球啦",
+    "pn": "com.chlova.kanqiula",
+    "tip": {
+        "name": "",
+        "content": "第一手的足球信息和资料，球迷掌中宝"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/KanQiuLa-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/KanQiuLa-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/KanQiuLa-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/KanQiuLa-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/KanQiuLa-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/KanQiuLa-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/KanQiuLa-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/appofyear/KanQiuLa-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/appofyear/KanQiuLa-Banner-L.png"  
+    ],
+    "intro": "看球啦收集从欧洲五大联赛、世界杯到中超等赛事的信息，是铁杆球迷的最给力的足球秘书。",
+    "comments": [
+        {
+            "name": "",
+            "content": "球迷掌中宝，随时查看赛事信息，把第一手足球资料送到你的手心。再不会错过任何精彩。"
+        },
+        {
+            "name": "valdatino",
+            "content": "界面简洁，是看球刷比分必备利器。"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-best.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "",
+    "name": "面包旅行",
+    "pn": "com.breadtrip",
+    "tip": {
+        "name": "",
+        "content": "记录你探索的足迹，旅行的意义在于回忆"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/MianBaoLvHang-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/MianBaoLvHang-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/MianBaoLvHang-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/MianBaoLvHang-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/MianBaoLvHang-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/MianBaoLvHang-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/MianBaoLvHang-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/appofyear/MianBaoLvHang-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/appofyear/MianBaoLvHang-Banner-L.png"  
+    ],
+    "intro": "面包旅行向用户提供拍照留言和轨迹追踪等多种方式，记录和分享旅行足迹和体验。",
+    "comments": [
+        {
+            "name": "",
+            "content": "清新旅行必需品，把旅行日记变为艺术品，一款优雅的旅游应用，让你记录探索世界的轨迹。"
+        },
+        {
+            "name": "暗夜流星下的小二狼",
+            "content": "这是一个好应用,界面很清新,设计得太人性化了旅行必备赞一个。"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-best.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "",
+    "name": "神庙逃亡",
+    "pn": "com.imangi.templerun",
+    "tip": {
+        "name": "",
+        "content": "最流行的跑酷，简单而又流畅地奔跑吧！"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/ShenMiaoTaoWang-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/ShenMiaoTaoWang-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/ShenMiaoTaoWang-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/ShenMiaoTaoWang-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/ShenMiaoTaoWang-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/ShenMiaoTaoWang-(Temple-Run)-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/ShenMiaoTaoWang-(Temple-Run)-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/appofyear/ShenMiaoTaoWang-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/appofyear/ShenMiaoTaoWang-Banner-L.png"  
+    ],
+    "intro": "目前最火的跑酷游戏，相信你不会错过！每部探险片的结尾总有这样一幕：英雄最终获得宝藏，不得不在迷宫中逐命狂奔。",
+    "comments": [
+        {
+            "name": "",
+            "content": "最流行的跑酷游戏，简单流畅的奔跑，帮你度过地铁上的无聊时光。"
+        },
+        {
+            "name": "莫斯科大神",
+            "content": "呵呵,很好玩的一款游戏。很经典,练反应速度最合适了。"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-best.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "",
+    "name": "Catch Notes",
+    "pn": "com.threebanana.notes",
+    "tip": {
+        "name": "",
+        "content": "随时记录笔记，抓住点滴思绪"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/Catch-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Catch-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Catch-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Catch-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Catch-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/Catch-Notes-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/Catch-Notes-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/appofyear/Catch-Nnotes-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/appofyear/Catch-Nnotes-Banner-L.png"  
+    ],
+    "intro": "一款免费的笔记应用程序，确保您不会错过任何一个想法。它可以让你捕捉跨所有设备的想法和发现，使用简单。",
+    "comments": [
+        {
+            "name": "",
+            "content": "轻便的笔记本，随时记录文字、照片和声音，从笔记到待办事项，Catch 帮你抓住点滴思绪。"
+        },
+        {
+            "name": "Коля",
+            "content": "非常好用,可以把自己的所思所想,所见所得随手纪录,同步非常方便。简单,专注。强烈推荐。"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-best.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "",
+    "name": "Facebook",
+    "pn": "com.facebook.katana",
+    "tip": {
+        "name": "",
+        "content": "在这里，交全世界的朋友"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/Facebook-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Facebook-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Facebook-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Facebook-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Facebook-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/Facebook-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/Facebook-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/appofyear/facebook-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/appofyear/facebook-Banner-L.png"  
+    ],
+    "intro": "全球最大的 SNS 社交平台应用，与朋友保持联系再快速不过了。",
+    "comments": [
+        {
+            "name": "",
+            "content": "Facebook 的官方客户端，把世界上最大的社交网络搬到手机上，交朋友，也要移动起来。"
+        },
+        {
+            "name": "大鑫鑫",
+            "content": "一直在跟国外的童鞋联系,很棒!"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-best.jpg"
+}, 
+
+
+{
+    "type": "app",
+    "badge": "",
+    "name": "飞常准",
+    "pn": "vz.com",
+    "tip": {
+        "name": "",
+        "content": "空中飞人必备，航班管理真的非常准"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/FeiChangZhun-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/FeiChangZhun-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/FeiChangZhun-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/FeiChangZhun-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/FeiChangZhun-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/FeiChangZhun-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/FeiChangZhun-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/appofyear/FeiChangZhun-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/appofyear/FeiChangZhun-Banner-L.png"  
+    ],
+    "intro": "飞常准它能帮助飞行旅客跟踪航班，提供延误智能预报，是商务旅行的好帮手。",
+    "comments": [
+        {
+            "name": "",
+            "content": "空中飞人必备，商务人士助手，航班管理非常准，让你的飞机旅行生活不再困扰。"
+        },
+        {
+            "name": "v立耳朵",
+            "content": "实时掌握机场航班情况,和了解当地实时天气。同时还能记录你的行程里程备忘。挺好的。"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-best.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "",
+    "name": "Pix 照片特效叠加",
+    "pn": "air.net.daum.pix",
+    "tip": {
+        "name": "",
+        "content": "滤镜与胶片的叠加，让照片散发独特味道"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/Pix-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Pix-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Pix-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Pix-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Pix-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/Pix-ZhaoPianTeXiaoDieJia-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/Pix-ZhaoPianTeXiaoDieJia-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/appofyear/Pix-ZhaoPianTeXiaoDieJia-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/appofyear/Pix-ZhaoPianTeXiaoDieJia-Banner-L.png"  
+    ],
+    "intro": "拥有强大的照片特效处理和分享功能，简单快捷的 UI 设计使人爱不释手。",
+    "comments": [
+        {
+            "name": "",
+            "content": "滤镜和胶片图层的混合叠加，让照片获得你完全自主的效果。"
+        },
+        {
+            "name": "Zu迪",
+            "content": "很不错的一款修图软件, 干净简洁, 支持同时叠加最多 3 个滤镜"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-best.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "",
+    "name": "瘟疫公司 (Plague Inc.)",
+    "pn": "com.miniclip.plagueinc",
+    "tip": {
+        "name": "",
+        "content": "传染病题材的策略游戏，毁灭世界的快感"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/WenYiGongSi-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/WenYiGongSi-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/WenYiGongSi-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/WenYiGongSi-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/WenYiGongSi-Screen-5.jpg"
+    ],
+"screenshot_type": "h",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/WenYiGongSi-(Plague-Inc.)-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/WenYiGongSi-(Plague-Inc.)-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/appofyear/WenYiGongSi-(Plague-Inc.)-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/appofyear/WenYiGongSi-(Plague-Inc.)-Banner-L.png"  
+    ],
+    "intro": "一款以传染病为题材的策略型游戏，玩家需要不断增强其传染性和抵抗力，同时还需要应对全球科学家的对策。",
+    "comments": [
+        {
+            "name": "",
+            "content": "大传染策略游戏，最险恶的疾病迫在眉睫。不过这一次，你将扮演病毒。"
+        },
+        {
+            "name": "Nz",
+            "content": "可玩度高、适合成人、策略游戏的又一大进步！"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-best.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "",
+    "name": "豆瓣阅读",
+    "pn": "com.douban.book.reader",
+    "tip": {
+        "name": "",
+        "content": "专注于阅读的高质量电子书点"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/DouBanYueDu-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/DouBanYueDu-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/DouBanYueDu-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/DouBanYueDu-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/DouBanYueDu-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/DouBanYueDu-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/DouBanYueDu-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/appofyear/DouBanYueDu-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/appofyear/DouBanYueDu-Banner-L.png"  
+    ],
+    "intro": "豆瓣阅读专注于高质量的数字内容，提供小说、美食、旅行、科幻等不同类型的超过一千种图书与作品。",
+    "comments": [
+        {
+            "name": "",
+            "content": "供应上千种作品和图书的书店，优雅的阅读体验，仿佛一家温馨的独立小书店，吸引每一位爱书人。"
+        },
+        {
+            "name": "chri5-00",
+            "content": "阅读体验真的是没得说,太赞了。书的数量和种类在不断增多,希望能成为中国第一阅读服务商。"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-best.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "",
+    "name": "四方 Foursquare",
+    "pn": "com.joelapenna.foursquared",
+    "tip": {
+        "name": "",
+        "content": "用签到表达你的存在感，用徽章填充生活"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/Foursquare-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Foursquare-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Foursquare-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Foursquare-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/Foursquare-Screen-5.jpg"
+    ],
+"screenshot_type": "v",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/SiFang-Foursquare-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/SiFang-Foursquare-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/appofyear/SiFang-Foursquare-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/appofyear/SiFang-Foursquare-Banner-L.png"  
+    ],
+    "intro": "基于地理位置、对用户进行定位，是一个融合了 Twitter、LBS、趣味性和商家点评等概念的新型移动 SNS 服务社区。",
+    "comments": [
+        {
+            "name": "",
+            "content": "精致的签到应用，让地理位置信息为你带来方便。签到徽章，你得了几个？"
+        },
+        {
+            "name": "dongdong嘣",
+            "content": "其实是一款挺好用的软件，也不用翻墙。"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-best.jpg"
+}, 
+
+ 
+{
+    "type": "app",
+    "badge": "",
+    "name": "神奇的阿力",
+    "pn": "com.rovio.amazingalex.free",
+    "tip": {
+        "name": "",
+        "content": "有着仿真物理系统的精彩解谜游戏"
+    },
+    "screenshots": [
+        "http://img.wdjimg.com/pic/screenshot/ShenQiDeALi-Screen-1.jpg",
+        "http://img.wdjimg.com/pic/screenshot/ShenQiDeALi-Screen-2.jpg",
+        "http://img.wdjimg.com/pic/screenshot/ShenQiDeALi-Screen-3.jpg",
+        "http://img.wdjimg.com/pic/screenshot/ShenQiDeALi-Screen-4.jpg",
+        "http://img.wdjimg.com/pic/screenshot/ShenQiDeALi-Screen-5.jpg"
+    ],
+"screenshot_type": "h",
+"icons": [
+        "http://img.wdjimg.com/pic/icon_30/ShenQiDeALi-Icon-S.png", 
+        "http://img.wdjimg.com/pic/icon_90/ShenQiDeALi-Icon-L.png"  
+    ],
+    "background": [
+        "http://img.wdjimg.com/pic/app_banner_S/appofyear/ShenQiDeALi-Banner-L.png", 
+        "http://img.wdjimg.com/pic/app_banner_L/appofyear/ShenQiDeALi-Banner-L.png"  
+    ],
+    "intro": "《愤怒的小鸟》团队又一力作，是一款全新神奇物理原理解迷游戏，有趣易操作。",
+    "comments": [
+        {
+            "name": "",
+            "content": "可爱的物理游戏，精心设计的解谜关卡，让你度过轻松愉快的游戏时光。"
+        },
+        {
+            "name": "鳄鱼是绿的",
+            "content": "非常考智商啊！真心碉堡了！"
+        }
+    ],
+    "share_pic": "http://img.wdjimg.com/pic/share/share-best.jpg"
+}]] 
+
+ 
+

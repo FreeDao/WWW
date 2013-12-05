@@ -41,6 +41,13 @@ module.exports = function (grunt) {
                     spawn : false
                 }
             },
+            statics : {
+                files : ['<%= paths.app %>/statics/**/*.*'],
+                tasks : ['copy:server'],
+                options : {
+                    spawn : false
+                }
+            },
             livereload: {
                 files: [
                     '<%= paths.app %>/javascripts/**/*.js',
@@ -69,6 +76,12 @@ module.exports = function (grunt) {
             }, {
                 from : '^/privacy',
                 to : '/privacy.html'
+            }, {
+                from : '^/api',
+                to : '/api.html'
+            }, {
+                from : '^/branding',
+                to : '/branding.html'
             }],
             server : {
                 options : {
@@ -116,6 +129,17 @@ module.exports = function (grunt) {
             }
         },
         copy : {
+            server : {
+                files : [{
+                    expand : true,
+                    dot : true,
+                    cwd : '<%= paths.app %>/statics/',
+                    dest : '<%= paths.tmp %>',
+                    src : [
+                        '**/*.*'
+                    ]
+                }]
+            },
             dist : {
                 files : [{
                     expand : true,
@@ -188,6 +212,7 @@ module.exports = function (grunt) {
             }
         },
         concurrent: {
+            server : ['copy:server', 'compass:server'],
             dist : ['copy:dist', 'compass:dist']
         },
         jshint : {
@@ -277,7 +302,7 @@ module.exports = function (grunt) {
 
     grunt.registerTask('server', [
         'clean:server',
-        'compass:server',
+        'concurrent:server',
         'configureRewriteRules',
         'connect:server',
         'karma:server',

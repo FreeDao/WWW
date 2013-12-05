@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>豌豆荚 2012 Android 年度应用 - 年度应用</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="http://s.wdjimg.com/style/css/biz/activity/2012rewind.css?v=011616">
+        <style type="text/css">
+        .block-1-2 .stamp-game{width: 131px;height: 132px;bottom: auto;top: 0;background-image: url(http://img.wdjimg.com/image/rewind/stamp2.png?20120117);}
+        .block-1-2 .stamp-app{bottom:auto;top:0;}
+        </style>
+        <script src="http://wandoujia.com/api/wdapi.js"></script>
+        <script>
+            var _gaq=[['_setAccount','UA-15790641-1'],['_trackPageview']];
+            // GA
+            function ga(content) {
+                _gaq.push(['_trackEvent', 'Rewind-2012'].concat(content.split(':')));
+            }
+            function isWdj() {
+                return window.OneRingRequest !== undefined && window.OneRingStreaming !== undefined;
+            }
+            var meta = {
+                data: 'api/best.json'
+            };
+        </script>
+    </head>
+    <body>
+        <a href="http://www.wandoujia.com" class="logo"></a>
+        <div class="nav">
+
+            <a href="./" class="best best-active"><i></i><span>年度应用</span></a>
+            <a href="./cat.html" class="cat" onclick="ga('b2c')"><i></i><span>分类最佳</span></a>
+            <a href="./judge.html" class="pingwei" onclick="ga('b2p')"><i></i><span>评选介绍</span></a>
+        </div>
+        <div class="container" data-template-container style="margin-top: 20px;"></div>
+
+        <div class="modal" style="display:none;" data-widget-modal>
+            <div class="panel" data-widget-panel>
+                <div class="hd">应用详情</div>
+                <div class="bd"></div>
+                <span class="close"></span>
+            </div>
+        </div>
+
+<script type="text/template" id="tpl-group">
+
+<% _.each(groups, function(group, i){ %>
+<div id="group-<%= i %>" class="row">
+    <% _.each(group, function(block){ %>
+        <% if (block.type === 'app') { %>
+    <div class="block block-<%= block.badge === 'choice' ? '2-5' : /^best/.test(block.badge) ? '1-2' : '1-5' %>" style="background-image:url('<%= isWdj() ? block.background[0] : block.background[1] %>')">
+        <span class="panel">
+            <span class="icon" style="background-image:url('<%= block.icons[0] %>')"></span>
+            <span class="name"><%= block.name %></span>
+        </span>
+        <% if (block.badge === 'choice') { %>
+            <span class="badge choice">特别推荐</span>
+        <% } else if (block.badge === 'best-app') { %>
+        <span class="stamp-app"></span>
+        <% } else if (block.badge === 'best-game') { %>
+        <span class="stamp-game"></span>
+        <% } else if (block.badge) { %>
+        <span class="badge"><%= block.badge %></span>
+        <% } %>
+        <span class="preview">
+            <span class="name"><span class="icon" style="background-image:url('<%= block.icons[0] %>')"></span><%= block.name %></span>
+            <span class="info" title="<%= block.tip.content %>"><%= block.tip.content.length > 20 ? block.tip.content.slice(0, 18) + '...' : block.tip.content %></span>
+            <% if (block.badge === 'best-game') { %>
+            <a class="btn-install" href="<%= isWdj() ? 'http://apkdata.wandoujia.com/201301/com.madfingergames.deadtrigger-10002170--1.zip?pf5=7b9d1688e81a9622a9fbb79205bc1f25#name=%E6%AD%BB%E4%BA%A1%E6%89%B3%E6%9C%BA+%E6%95%B0%E6%8D%AE%E5%8C%85&icon=http://img.wdjimg.com/mms/icon/v1/9/3c/958345609624ff1caee56ce5dd5093c9_68_68.png&content-type=application/zip&filepath=/mnt/sdcard/Android/obb&action=install' : 'http://apps.wandoujia.com/apps/' + block.pn + '/download' %>" name="<%= block.name %>" onclick="ga('download:<%= block.pn %>'); if (!isWdj()) return wdapi_apkdl_m(this, 'source');" title="通过豌豆荚下载">安装</a>
+            <% } else { %>
+            <a class="btn-install" href="http://apps.wandoujia.com/apps/<%= block.pn %>/download<%= isWdj() ? '#content-type=application&name='+block.name+'&icon='+block.icons[1] : '' %>" name="<%= block.name %>" onclick="ga('download:<%= block.pn %>'); if (!isWdj()) return wdapi_apkdl_m(this, 'source');" title="通过豌豆荚下载">安装</a>
+
+            <% } %>
+            <a href="###" class="btn-detail" data-modal="<%= block.pn %>" data-cat="<%= catType %>">详情</a>
+        </span>
+    </div>
+        <% } else if (block.type === 'text' && block.cat === 'cat') { %>
+    <div class="block-text-1" data-cat="<%= block.content[0] %>">
+        <% catType = block.content[0] %>
+        <strong><%= block.content[0] %></strong>
+        <span>下载量 Top 5 <br>豌豆荚特别推荐</span>
+    </div>
+        <% } else { %>
+        <% catType = block.content[0] %>
+    <div class="block-text-2" <%= block.invisible ? 'style="display:none;"' : '' %>>
+        <strong class="top"><%= block.content[0] %></strong>
+        <span>应用及游戏</span>
+        <i class="date"><%= block.content[1] %></i>
+    </div>
+        <% } %>
+    <% }); %>
+</div>
+<% }); %>
+
+</script>
+<script type="text/template" id="tpl-modal">
+
+<div class="content <%= data.screenshot_type === 'v' ? '' : 'horizontal' %>">
+    <div class="slides">
+        <% _.each(data.screenshots, function(shot, i) { %>
+        <img data-index="<%= i %>" src="<%= shot %>" <%= i > 0 ? 'style="display:none;"' : '' %> <%= data.screenshot_type === 'v' ? 'width="270"' : 'height="270"' %>>
+        <% }); %>
+        <span class="prev"></span>
+        <span class="next"></span>
+    </div>
+    <div class="detail">
+        <div class="app">
+            <div class="icon" style="background-image:url('<%= data.icons[1] %>')"></div>
+            <div class="name"><%= data.name %></div>
+            <div class="size">
+                <% if (data.badge === 'best-game') { %>
+                <a class="btn-install" href="<%= isWdj() ? 'http://apkdata.wandoujia.com/201301/com.madfingergames.deadtrigger-10002170--1.zip?pf5=7b9d1688e81a9622a9fbb79205bc1f25#name=%E6%AD%BB%E4%BA%A1%E6%89%B3%E6%9C%BA+%E6%95%B0%E6%8D%AE%E5%8C%85&icon=http://img.wdjimg.com/mms/icon/v1/9/3c/958345609624ff1caee56ce5dd5093c9_68_68.png&content-type=application/zip&filepath=/mnt/sdcard/Android/obb&action=install' : 'http://apps.wandoujia.com/apps/' + data.pn + '/download' %>" name="<%= data.name %>" onclick="ga('download:<%= data.pn %>'); if (!isWdj()) return wdapi_apkdl_m(this, 'source');" title="通过豌豆荚下载">安装</a>
+                <% } else { %>
+                <a class="btn-install" href="http://apps.wandoujia.com/apps/<%= data.pn %>/download<%= isWdj() ? '#content-type=application&name='+data.name+'&icon='+data.icons[1] : '' %>" name="<%= data.name %>" onclick="ga('download:<%= data.pn %>'); if (!isWdj()) return wdapi_apkdl_m(this, 'source');" title="通过豌豆荚下载">安装</a>
+                <% } %>
+            </div>
+        </div>
+        <div class="verdict">
+
+            <% if (data.title) { %>
+            <h4><%= data.title %></h4>
+            <% } %>
+
+            <% if (data.intro) { %>
+            <div class="intro"><%= data.intro %></div>
+            <% } %>
+            <% if (!data.title) { %>
+            <div class="title">评委评语</div>
+            <% } %>
+            <div class="speech">
+                <% if (data.comments[0].name) { %>
+                <strong><%= data.comments[0].name %>：</strong><br>
+                <% } %>
+                <%= data.comments[0].content %>
+            </div>
+            <% if (!data.intro && data.comments[1]) { %>
+            <div class="speech">
+                <% if (data.comments[1].name) { %>
+                <strong><%= data.comments[1].name %>：</strong><br>
+                <% } %>
+                <%= data.comments[1].content %>
+            </div>
+            <% } %>
+            <% if (isWdj()) { %>
+
+            <a href="##" data-title="<%= data.name %>" data-page="best" data-intro="<%= data.tip.content %>" data-content="<%= data.tip.content %>——「<%= data.name %> 」入选 #2012豌豆荚Android年度应用# 「<%= catType %>」。来看看这些体验绝佳的年度应用中，有没有你错过的吧！" data-pic="<%= data.share_pic %>" class="btn-share">分享</a>
+            <% } else { %>
+            <div class="share-bar" data-page="best" data-cat="<%= data.type %>"  data-name="<%= data.name %>" data-intro="<%= data.tip.content %>">
+                <div class="icons">
+                    分享到：
+                    <a href="<%= Share.url %>" data-pic="<%= data.share_pic %>" data-plat="weibo" class="share share-to-weibo" onclick="ga('share:<%= data.pn %>');"></a>
+                    <a href="<%= Share.url %>" data-pic="<%= data.share_pic %>" data-plat="qq" class="share share-to-qzone" onclick="ga('share:<%= data.pn %>');"></a>
+                    <a href="<%= Share.url %>" data-pic="<%= data.share_pic %>" data-plat="renren" class="share share-to-renren" onclick="ga('share:<%= data.pn %>');"></a>
+                    <a href="<%= Share.url %>" data-pic="<%= data.share_pic %>" data-plat="google" class="share share-to-google" onclick="ga('share:<%= data.pn %>');"></a>
+                    <a href="<%= Share.url %>" data-pic="<%= data.share_pic %>" data-plat="facebook" class="share share-to-facebook" onclick="ga('share:<%= data.pn %>');"></a>
+                </div>
+            </div>
+            <% } %>
+        </div>
+    </div>
+</div>
+
+</script>
+
+        <script type="text/javascript" src="http://s.wdjimg.com/style/min/g=require|jquery|underscore|011616.js"></script>
+        <script type="text/javascript" src="http://s.wdjimg.com/style/js/lib/Narya.js"></script>
+        <script src="http://s.wdjimg.com/style/js/run/web/2012rewind.js?v=011616"></script>
+
+        <script>
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
+</html>
