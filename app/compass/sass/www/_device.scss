@@ -1,0 +1,115 @@
+
+/* device infos */
+#device-info {
+    float: right;
+    margin: 26px 0 0;
+    height: 26px;
+    _width: 120px;
+    border: 1px solid #CBCBCB;
+    background: #EFEFEF;
+    overflow: hidden;
+    @include background(linear-gradient(#f2f2f2, #e7e7e7));
+    border-radius: 2px;
+    
+    .devicecenter .actions{
+        padding: 1px 0;
+        width: auto;
+        text-align: center;
+        .login-button {
+            padding: 0 10px;
+        }
+    }
+    .device-states{
+        @include use-sprite('offline_dot');
+        display: inline-block;
+        vertical-align: middle;
+        width: 9px;
+        height: 9px;
+        margin-right: -3px;
+    }
+    .device-online{
+        @include use-sprite('online_dot');
+        overflow: hidden;
+    }
+    .account-info{
+        height: 20px;
+        line-height: 20px;
+        padding: 2px 0 1px 10px;
+        position:relative;
+        _width: 122px;
+    }
+    .username{
+        display: inline-block;
+        max-width: 100px;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        vertical-align: middle;
+        *vertical-align: top;
+        *text-overflow:ellipsis;
+        *float: left;
+        _width: 50px;
+        *min-width: 50px;
+        *margin-top: 5px;
+        *margin-right: 15px;
+    }
+    .device-info{
+        *position: absolute;
+        *right: 0;
+        *width: 26px;
+        *float: right;
+        *margin-top: 3px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 5px;
+    }
+    .syncing-tip,.register-tip{
+        display: inline-block;
+        *float: left;
+    }
+    .login-button{
+        background: none;
+        border:none;
+        padding: 0 0 10px 20px;
+        filter:none;
+        *margin-right: 38px;
+    }
+}
+
+
+.dcw-widget-container .dcw-device-thumb {
+    display: none;
+}
+.dcw-menu{
+   white-space:nowrap;
+}
+.dcw-comp{
+    div {
+        padding-right: 0；
+    }
+    .menu-photos,.menu-profiles{
+        a{
+            color:#333;
+            &:hover{
+                text-decoration:none;
+                color: #38d;
+            }
+        }
+    }
+}
+.devicecenter.devicecenter-signin .device-menu .icon{
+    display: none;
+}
+#device-info .devicecenter .actions, #device-info .devicecenter a{
+    color: $minor-color;
+    &:hover{
+        color: $minor-color;
+        text-decoration: none;
+    }
+}
+
+/* ie6 下 push 用的手机列表会被其他元素遮挡 */
+header {
+    z-index: 99;
+    position: relative;
+}

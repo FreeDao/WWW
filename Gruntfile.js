@@ -86,9 +86,6 @@ module.exports = function (grunt) {
                 from : '^/xibaibai',
                 to : '/xibaibai/index.html'
             }, {
-                from : '^/xibaibai/air',
-                to : '/xibaibai/air/index.html'
-            }, {
                 from : '^/zhuizhuikan',
                 to : '/zhuizhuikan.html'
             }, {
