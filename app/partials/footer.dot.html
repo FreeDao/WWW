@@ -69,16 +69,16 @@
             ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
           })();
-        </script> 
+        </script>
 
-        {{= it.include("baidu") }}
+        {{= it.include('baidu') }}
+
 
         <!--[if IE 6]>
         <script type="text/javascript" src="javascripts/png-hack.js?v=201302051430"></script>
         <![endif]-->
 
         <script src="javascripts/lib/jquery-1.7.1.js"></script>
-
         <script src="javascripts/util/jquery.color.js"></script>
         <script src="javascripts/util/jquery.cookie.js"></script>
         <script src="javascripts/lib/underscore.js"></script>
@@ -93,13 +93,22 @@
         <script src="javascripts/util/snappea-account-sdk.js"></script>
         <script src="javascripts/pool/login.js"></script>
         <script src="javascripts/pool/app_install.js"></script>
-
         <script src="javascripts/pool/share.js"></script>
         <script src="javascripts/util/share.js"></script>
-
         <script src="javascripts/app/placeholder/placeholder.js"></script>
         <script src="javascripts/run/web/home.js"></script>
 
 
+        <!-- build:js javascripts/util/html5shiv.js -->
+        <!--[if lte IE 8]>
+        <script type="text/javascript" src="javascripts/util/html5shiv.js"></script>
+        <![endif]-->
+        <!-- endbuild -->
+
+        <!-- build:js javascripts/util/png-hack.js -->
+        <!--[if IE 6]>
+        <script type="text/javascript" src="javascripts/util/png-hack.js"></script>
+        <![endif]-->
+        <!-- endbuild -->
     </div>
 </footer>

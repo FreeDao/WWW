@@ -88,6 +88,9 @@ module.exports = function (grunt) {
             }, {
                 from : '^/zhuizhuikan',
                 to : '/zhuizhuikan.html'
+            }, {
+                from : '^/intellectual_property',
+                to : '/intellectual_property.html'
             }],
             server : {
                 options : {
@@ -153,6 +156,7 @@ module.exports = function (grunt) {
                     cwd : '<%= paths.app %>',
                     dest : '<%= paths.dist %>',
                     src : [
+                        'statics/**/*.{html,json}',
                         'images/**/*.{webp,gif,png,jpg,jpeg}'
                     ]
                 }]

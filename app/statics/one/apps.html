@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <title>豌豆荚独家发布韩寒「一个」Android 版</title>
+        <meta name="description" content="11 月 28 日上午 8:00，豌豆荚独家发布韩寒监制的阅读应用「一个」Android 版。">
+        <link rel="stylesheet" type="text/css" href="stylesheets/apps.css?v=112809" />
+    </head>
+    <body>
+        <div id="wrap">
+            <div id="center">
+                <div id="main">
+                    <div class="logo-ctn">
+                        <a href="http://apps.wandoujia.com/?homepage=1">进入应用搜索首页</a>
+
+                        <form class="search-box" action="http://apps.wandoujia.com/search">
+                            <div class="fluid-left-wp fixed-110 ipt-wp">
+                                <div class="left-wp">
+                                    <div class="left-inner search-ipt-wp">
+                                        <input required class="search-ipt" name="key" autocomplete="off" autofocus />        
+                                    </div>
+                                </div>
+                                <div class="right-fixed search-btn-wp">
+                                    <input type="submit" class="search-btn" value="搜索应用"/> <i class="icon"></i>
+                                </div>
+                            </div>
+                        </form>
+
+                        <div style="clear: both"></div>
+                    </div>
+                    <div>
+                        <div id="release"></div>
+                    </div>
+                    <div>
+                        <a href="http://apps.wandoujia.com/apps/one.hh.oneclient/download?pos=apps/landingpage#name=一个&amp;icon=http://img.wdjimg.com/award/upload/one/icon_121.png&amp;content-type=application" download="http://apps.wandoujia.com/apps/one.hh.oneclient/download?pos=index/homebanner" class="button-download" onclick="trackDownload()">
+                            <div class="icon"></div>
+                            下载一个
+                        </a>
+                    </div>
+                </div>
+                <ul id="share">
+                    <li id="weibo" onclick="share('weibo')">
+                        <div class="tip">
+                            分享到新浪微博
+                            <div class="arrow"></div>
+                        </div>
+                    </li>
+                    <li id="renren" onclick="share('renren')">
+                        <div class="tip">
+                            分享到人人网
+                            <div class="arrow"></div>
+                        </div>
+                    </li>
+                    <li id="qq" onclick="share('tqq')">
+                        <div class="tip">
+                            分享到腾讯微博
+                            <div class="arrow"></div>
+                        </div>
+                    </li>
+                    <li id="twitter" onclick="share('twitter')">
+                        <div class="tip">
+                            分享到 Twitter
+                            <div class="arrow"></div>
+                        </div>
+                    </li>
+                    <li id="facebook" onclick="share('facebook')">
+                        <div class="tip">
+                            分享到 Facebook
+                            <div class="arrow"></div>
+                        </div>
+                    </li>
+                    <li id="googleplus" onclick="share('google')">
+                        <div class="tip">
+                            分享到 Google+
+                            <div class="arrow"></div>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="clear: both"></div>
+        </div>
+
+        <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-15790641-1']);
+          _gaq.push(['_trackPageview']);
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+
+          function trackDownload() {
+            _gaq.push(['_trackEvent', 'Apps Landing Page', 'Download', 'hanhan-one']);
+          }
+
+          function share(plat) {
+            var title = '豌豆荚独家发布「一个」Android 版',
+                summary = '',
+                twitterSummary = '#28日上午8点一个登陆豌豆荚 每天只有一张照片，一篇文字，一个问题和他的答案，只因复杂世界里，「一个」就够了。11 月 28 日 上午 8:00，由 @韩寒 监制的「一个」Android 版已独家登陆 @豌豆荚 ，第一时间享受「一个」：',
+                summaryWeibo = '#28日上午8点「一个」登陆豌豆荚# 每天只有一张照片，一篇文字，一个问题和他的答案，只因复杂世界里，「一个」就够了。11 月 28 日 上午 8:00，由 @韩寒 监制的「一个」Android 版已独家登陆 @豌豆荚 ，第一时间享受「一个」： http%3A%2F%2Fone.wandoujia.com%2F%3Futm_source%3Dweibo%26utm_medium%3Dshare%26utm_campaign%3Dhanhan-one',
+                pic = 'http://img.wdjimg.com/award/upload/one/weibo-28.png',
+                url = '';
+
+            switch(plat) {
+                case 'weibo':
+                    url =  'http://service.weibo.com/share/share.php?appkey=1483181040&relateUid=1727978503&title=' + encodeURIComponent(summaryWeibo) + '&url=&pic=' + encodeURIComponent(pic);
+                    break
+                case 'renren':
+                    url = 'http://widget.renren.com/dialog/share?title=' + encodeURIComponent(title) + '&resourceUrl=http%3A%2F%2Fone.wandoujia.com%2F%3Futm_source%3Drenren%26utm_medium%3Dshare%26utm_campaign%3Done&pic=' + encodeURIComponent(pic);
+                    break
+                case 'tqq':
+                    url = 'http://share.v.t.qq.com/index.php?c=share&a=index&appkey=100273333&title=' + encodeURIComponent(title) + '&url=http%3A%2F%2Fone.wandoujia.com%2F%3Futm_source%3Drenren%26utm_medium%3Dshare%26utm_campaign%3Dhanhan-one&pic=' + encodeURIComponent(pic);
+                    break
+                case 'twitter':
+                    url = 'https://twitter.com/intent/tweet?related=wandoujia&text=' + encodeURIComponent(twitterSummary) + '&url=http%3A%2F%2Fone.wandoujia.com%2F%3Futm_source%3Dtwitter%26utm_medium%3Dshare%26utm_campaign%3Dhanhan-one';
+                    break
+                case 'facebook':
+                    url = 'https://www.facebook.com/dialog/feed?app_id=265004820250785&link=http%3A%2F%2Fone.wandoujia.com%2F%3Futm_source%3Dfacebook%26utm_medium%3Dshare%26utm_campaign%3Dhanhan-one&picture=' + encodeURIComponent(pic) + '&name=' + encodeURIComponent(title) + '&caption=&description=' + encodeURIComponent(summary) + '&redirect_uri=http%3A%2F%2Fsnappea.com';
+                    break
+                case 'google':
+                    url = 'https://plus.google.com/share?url=http%3A%2F%2Fone.wandoujia.com%2F%3Futm_source%3Dgoogle%252B%26utm_medium%3Dshare%26utm_campaign%3Dhanhan-one';
+                    break
+            }
+            if(window.OneRingRequest !== undefined && window.OneRingStreaming !== undefined) {
+                window.externalCall('common', '_open_internet_link_', url);
+            }
+            else {
+                window.open(url);
+            }
+
+          }
+
+
+        </script>
+    </body>
+</html>

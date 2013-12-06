@@ -17,6 +17,9 @@ $blueprint-container-size: 990px;
 
 @import "featbanner";
 
+body {
+    background-image: none;
+}
 
 a {
     color:#38d;
