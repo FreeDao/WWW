@@ -1,0 +1,92 @@
+<% var gamedata = '',gamecontent; 
+
+if(typeof app.extensionPacks != 'undefined' && app.extensionPacks.length>0){
+    _.each(app.extensionPacks,function(gc, index){
+        gamedata = gamedata + ' data-gtype' + index + '="' + gc['type'] + '" data-gurl' + index + '="' + gc['url'] + '" data-gsize' + index + '="' + gc['humansize'] + '"';
+    });
+    gamecontent = '1" ' + gamedata;
+}else{
+    gamecontent='0';
+};
+var apk = app.apks[0];
+var appUrl  = "http://www.wandoujia.com/apps/"+app.packageName+(app.detailParam?('?'+app.detailParam):'');
+var iconUrl = app.icons.px68;
+var dUrl = apk.downloadUrl.url + '#name=' + app.title + '&icon=' + iconUrl + '&content-type=application';
+
+var imprUrl = app.imprUrl;
+var editorComment = (typeof app.editorComment === 'undefined' ? '' : app.editorComment);
+if (typeof reason != 'undefined'){
+    var publishDate = (typeof reason.date === 'undefined' ? '' : reason.date);
+}
+%>
+<% if (typeof recReplace == 'undefined' || !recReplace) { %>
+<li class="app-item" <% if(typeof app.recReason != 'undefined'){ %> data-pn="<%=app.recReason.packageName%>" <% } %>>
+<% } %>
+    <%var badgeClass = function(){
+        var tags = app.tags,
+            len  = tags.length,
+            item;
+        if (app.ad===true) return "promoted";
+        for(;len;len--){
+            item = tags[len-1].tag;
+            if(item == "首发"){
+                return "newapp";
+            }
+            else if(item == "礼包"){
+                return "present";
+            }
+        }
+        if ((app.exclusiveBadge||0)==1) return "exclusive";
+        if ((app.award||{}).issue) return "award";
+    };
+    var badgeLink = function(){
+        if ((app.award||{}).issue) return "/award";
+        if ((app.exclusiveBadge||0)==1) return "/appstore";
+        if (app.ad===true) return "javascript:";
+    }
+    %>
+    <div class="card app full" data-pn="<%=app.packageName%>">
+        <a class="corner <%=badgeClass()%>" href="<%=badgeLink()%>"></a>
+        <div class="icon-wrap">
+            <a href="<%=appUrl%>">
+                <img src="<%=iconUrl%>" alt="<%=app.title%>" class="icon">
+                <% if(app.imprUrl){ %>
+                    <img src="<%=app.imprUrl%>" width="0" alt="" style="display:none" />
+                <% } %>
+            </a>
+        </div>
+        <div class="desc">
+            <a class="title name" href="<%=appUrl%>" title="<%=app.title%>">
+                <%=app.title%>
+                <% if(app.apks[0].superior == 1){ %>
+                    <a class="tag gooddev" href="http://developer.wandoujia.com" target="_default"></a>
+                <% } %>
+            </a>
+            <span class="meta"><%=app.likesCount%>人喜欢</span>
+            <span class="meta"><%=app.installedCountStr%>人安装</span>
+            <% var sec = app.apks[0].securityStatus, type = app.apks[0].adsType;%>
+        </div>
+    <% if(typeof app.recReason === 'undefined'){ %>
+        <div class="good-comment">
+            <span class="comment">
+                <%=editorComment%>
+            </span>
+            <span class="publish-date">
+                <%=publishDate%>
+            </span>
+        </div>
+    </div>
+    <% }else{ %>
+        <div class="wdcai-placeholder"></div>
+    </div>
+    <div class="wdcai-reason">
+        <a href="/apps/<%=app.recReason.packageName%>?$<%=app.recReason.detailParam%>" class="small-icon">
+            <img src="<%=app.recReason.icons.px48%>" alt="<%=app.recReason.reasonContent%>" />
+        </a>
+        根据 <a href="/apps/<%=app.recReason.packageName%>?$<%=app.recReason.detailParam%>" class="rname"><%=app.recReason.reasonContent%></a> 推荐
+    </div>
+    <% } %>
+
+<% if (typeof recReplace == 'undefined' || !recReplace) { %>
+</li>
+<% } %>

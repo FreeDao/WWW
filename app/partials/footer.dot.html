@@ -58,13 +58,6 @@
                 <a target="_blank" rel="nofollow"  href="javascript:;"  class="meta">京网文[2012]0895-295号</a>
             </p>
         </div>
-        <script>
-        var globeConfig = {
-            logined : '{if isset($logined)}{$logined}{/if}',
-            username : '{if isset($username)}{$username}{/if}',
-            email : '{if isset($email)}{$email}{/if}'
-        };
-        </script>
 
         <script type="text/javascript">
           var _gaq = _gaq || [];
@@ -81,10 +74,32 @@
         {{= it.include("baidu") }}
 
         <!--[if IE 6]>
-        <script type="text/javascript" src="http://s.wdjimg.com/style/b/js/run/mini/mini-png-hack.js?v=201302051430"></script>
+        <script type="text/javascript" src="javascripts/png-hack.js?v=201302051430"></script>
         <![endif]-->
 
-        <script src="thirdparty/style/min/g=jquery|web/pack|snshare|web/home|123456.js"></script>
+        <script src="javascripts/lib/jquery-1.7.1.js"></script>
+
+        <script src="javascripts/util/jquery.color.js"></script>
+        <script src="javascripts/util/jquery.cookie.js"></script>
+        <script src="javascripts/lib/underscore.js"></script>
+        <script src="javascripts/util/jquery.position.js"></script>
+        <script src="javascripts/app/suggestion/suggestion.js"></script>
+        <script src="javascripts/app/popup/popup.js"></script>
+        <script src="javascripts/app/bubble/bubble.v2.js"></script>
+        <script src="javascripts/util/device_tool.js"></script>
+        <script src="javascripts/app/MessengerJS/messenger.js"></script>
+        <script src="javascripts/util/snappea-account-hook.js"></script>
+        <script src="javascripts/lib/q.js"></script>
+        <script src="javascripts/util/snappea-account-sdk.js"></script>
+        <script src="javascripts/pool/login.js"></script>
+        <script src="javascripts/pool/app_install.js"></script>
+
+        <script src="javascripts/pool/share.js"></script>
+        <script src="javascripts/util/share.js"></script>
+
+        <script src="javascripts/app/placeholder/placeholder.js"></script>
+        <script src="javascripts/run/web/home.js"></script>
+
 
     </div>
 </footer>
