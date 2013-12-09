@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <title>视频追追看 - 豌豆荚</title>
+    <meta name="keywords" content="安卓软件,安卓视频,安卓游戏" >
+    <meta name="description" content="豌豆荚为您提供海量、安全的安卓应用下载，您可以在这里找到安卓软件、安卓游戏最权威的下载排行，把好玩的安卓软件和游戏免费下载到手机。" >
+    <link rel="stylesheet" type="text/css" href="stylesheets/www/static.css?v=101901">
+    <style rel="stylesheet" type="text/css">
+        body {
+            background: #fcfcfd;
+            font: 12px/1.5 Arial,sans-serif;
+            text-shadow: none;
+        }
+        .container {
+            width: 960px;
+            margin: 0 auto;
+            color: #9d9d9d;
+        }
+        .section1 {
+            width: 700px;
+            height: 440px;
+            margin: 0 auto;
+            font-size: 0;
+        }
+        .section1 .struts {
+            display: inline-block;
+            *display: inline;
+            *zoom: 1;
+            width: 0;
+            height: 100%;
+            vertical-align: middle;
+        }
+        .section1 img, .desc{
+            display: inline-block;
+            *display: inline;
+            *zoom: 1;
+            vertical-align: middle;
+            font-size: 24px;
+        }
+        .section1 .desc {
+            margin-left: 60px;
+        }
+        .section1 em {
+            font-style: normal;
+            background: #3baa24;
+            color: #fff;
+            padding: 5px 20px;
+        }
+        .section2 {
+            width: 857px;
+            height: 476px;
+            background: url(http://img.wdjimg.com/campaign/oscar/videoad/section2.png) left top no-repeat;
+            margin: 0 auto;
+        }
+        .section2 .desc {
+            margin: 70px 0 0 150px;
+        }
+        .section2 .download-area {
+            width: 370px;
+            margin: 200px auto 0 auto;
+        }
+        .section2 .download-area .button-green {
+            font-size: 18px;
+            vertical-align: top;
+        }
+        .section2 .download-area img {
+            display: inline-block;
+            width: 200px;
+        }
+        .sidebar {
+            width: 100%;
+            background: #f1f1f1;
+            padding: 25px 0;
+            box-shadow: 0 3px 3px #ccc inset;
+            overflow: hidden;
+        }
+        .sidebar-innner {
+            width: 960px;
+            margin: 0 auto;
+        }
+        .sidebar-title {
+            overflow: hidden;
+            line-height: 250%;
+            margin-bottom: 10px;
+        }
+        .sidebar-title h2{
+            color: #3baa24;
+            font-size: 18px;
+            float: left;
+        }
+        .sidebar-title .more {
+            float: right;
+            font-size: 14px;
+            color: #555;
+        }
+        .drama-list {
+            overflow: hidden;
+            margin-right: -12px;
+        }
+        .drama-list .drama {
+            float: left;
+            margin-right: 12px;
+            position: relative;
+        }
+        .drama .icon, .drama .icon img {
+            display: block;
+            width: 150px;
+            height: 205px;
+        }
+        .drama .drama-name {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 90%;
+            line-height: 30px;
+            padding: 0 5%;
+            font-size: 14px;
+            color: #fff;
+            background: rgba(0,0,0,0.6);
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+    </style>
+</head>
+<body>
+
+    {{= it.include('header') }}
+
+    <div class="container">
+        <div class="section1">
+            <span class="struts"></span>
+            <img src="http://img.wdjimg.com/campaign/oscar/videoad/section1.png" alt="豌豆荚视频搜索">
+            <div class="desc">
+                <p class="intro">进入安卓手机版豌豆荚「视频」</p>
+                <p class="intro">
+                    点击 <em>追我</em>
+                </p>
+                <p class="intro">手机在 Wi-Fi 或电脑连接环境下</p>
+                <p class="intro">一旦剧集更新</p>
+                <p class="intro">零流量自动下载</p>
+            </div>
+        </div>
+        <div class="section2">
+            <div class="desc">
+                <p class="intro">没有 Wi-Fi 的时候</p>
+                <p class="intro">打开豌豆荚</p>
+                <p class="intro">你想看的，都在那里...</p>
+            </div>
+            <div class="download-area">
+                <a rel="nofollow" href="{$durl}" data-track="download/client2/{$src}" id="downloadbutton" target="_blank" class="button-green button-medium" onclick="_gaq.push(['_trackEvent', 'campaign', 'zhuizhuikan-ad', 'download']);"> <i class="pngFix"></i>
+                    下载豌豆荚
+                </a>
+                <img src="http://img.wdjimg.com/campaign/oscar/videoad/checkmark.png" alt="结果大不同"></div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <div class="sidebar-innner">
+            <div class="sidebar-title">
+                <h2>热播影视剧</h2>
+                <a class="more" href="http://video.wandoujia.com">查看更多 &gt;</a>
+            </div>
+            <ul class="drama-list"></ul>
+        </div>
+    </div>
+
+    {{= it.include('footer') }}
+
+    <script>
+        function renderDramaList (json) {
+            var drama = null,
+                dramalist = json.videoList,
+                template = '',
+                fragment = '';
+
+            if (dramalist.length > 0) {
+                for (var i = 0, l = dramalist.length; i < l; i++) {
+                    drama = dramalist[i];
+                    template += '<li class="drama"><a href="http://video.wandoujia.com/videos/' + drama.id + '" class="icon"><img src="' + drama.cover.l + '" alt="' + drama.title + '"></a><a href="http://video.wandoujia.com/videos/' + drama.id + '" class="drama-name">' + drama.title + '</a></li>';
+                }
+                $('.drama-list').append(template);
+            }
+        }
+    </script>
+    <script src="http://video.wandoujia.com/api/v1/search/?max=6&start=0&opt_fields=id,title,cover.l&content_type=tv&callback=renderDramaList">
+    </script>
+</body>
+</html>
