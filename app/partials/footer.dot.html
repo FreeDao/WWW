@@ -1,5 +1,6 @@
-<footer>
+<footer class="w-footer">
     <div class="ft-inner">
+        {{? !it.noNav }}
         <dl class="clearfix">
             <dt>我们的产品</dt>
             <dd>
@@ -40,6 +41,8 @@
             <a href="http://www.wandoujia.com/blog/" title="豌豆荚 Blog" rel="nofollow" class="sc-icon blog-icon" target="_blank"></a>
         </div>
 
+        {{?}}
+
         <div class="split"></div>
 
         <div class="others">
@@ -58,53 +61,63 @@
                 <a target="_blank" rel="nofollow"  href="javascript:;"  class="meta">京网文[2012]0895-295号</a>
             </p>
         </div>
-
-        <script type="text/javascript">
-          var _gaq = _gaq || [];
-          _gaq.push(['_setAccount', 'UA-15790641-1']);
-          _gaq.push(['_trackPageview']);
-
-          (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-          })();
-        </script>
-
-        {{= it.include('baidu') }}
-
-        <!-- build:js javascripts/pack.js -->
-        <script src="javascripts/lib/jquery-1.7.1.js"></script>
-        <script src="javascripts/util/jquery.color.js"></script>
-        <script src="javascripts/util/jquery.cookie.js"></script>
-        <script src="javascripts/lib/underscore.js"></script>
-        <script src="javascripts/util/jquery.position.js"></script>
-        <script src="javascripts/app/suggestion/suggestion.js"></script>
-        <script src="javascripts/app/popup/popup.js"></script>
-        <script src="javascripts/app/bubble/bubble.v2.js"></script>
-        <script src="javascripts/util/device_tool.js"></script>
-        <script src="javascripts/app/MessengerJS/messenger.js"></script>
-        <script src="javascripts/util/snappea-account-hook.js"></script>
-        <script src="javascripts/lib/q.js"></script>
-        <script src="javascripts/util/snappea-account-sdk.js"></script>
-        <script src="javascripts/pool/login.js"></script>
-        <script src="javascripts/pool/app_install.js"></script>
-        <script src="javascripts/pool/share.js"></script>
-        <script src="javascripts/util/share.js"></script>
-        <script src="javascripts/app/placeholder/placeholder.js"></script>
-        <script src="javascripts/run/web/home.js"></script>
-        <!-- endbuild -->
-
-        <!-- build:js javascripts/util/html5shiv.js -->
-        <!--[if lte IE 8]>
-        <script type="text/javascript" src="javascripts/util/html5shiv.js"></script>
-        <![endif]-->
-        <!-- endbuild -->
-
-        <!-- build:js javascripts/util/png-hack.js -->
-        <!--[if IE 6]>
-        <script type="text/javascript" src="javascripts/util/png-hack.js"></script>
-        <![endif]-->
-        <!-- endbuild -->
     </div>
 </footer>
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-15790641-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+{{= it.include('baidu') }}
+
+
+<!--[if IE 6]>
+<script type="text/javascript" src="javascripts/png-hack.js?v=201302051430"></script>
+<![endif]-->
+
+
+{{? !it.noNav }}
+
+<script src="javascripts/lib/jquery-1.7.1.js"></script>
+<script src="javascripts/util/jquery.color.js"></script>
+<script src="javascripts/util/jquery.cookie.js"></script>
+<script src="javascripts/lib/underscore.js"></script>
+<script src="javascripts/util/jquery.position.js"></script>
+<script src="javascripts/app/suggestion/suggestion.js"></script>
+<script src="javascripts/app/popup/popup.js"></script>
+<script src="javascripts/app/bubble/bubble.v2.js"></script>
+<script src="javascripts/util/device_tool.js"></script>
+<script src="javascripts/app/MessengerJS/messenger.js"></script>
+<script src="javascripts/util/snappea-account-hook.js"></script>
+<script src="javascripts/lib/q.js"></script>
+<script src="javascripts/util/snappea-account-sdk.js"></script>
+<script src="javascripts/pool/login.js"></script>
+<script src="javascripts/pool/app_install.js"></script>
+<script src="javascripts/pool/share.js"></script>
+<script src="javascripts/util/share.js"></script>
+<script src="javascripts/app/placeholder/placeholder.js"></script>
+<script src="javascripts/run/web/home.js"></script>
+
+{{?}}
+
+
+<!-- build:js javascripts/util/html5shiv.js -->
+<!--[if lte IE 8]>
+<script type="text/javascript" src="javascripts/util/html5shiv.js"></script>
+<![endif]-->
+<!-- endbuild -->
+
+<!-- build:js javascripts/util/png-hack.js -->
+<!--[if IE 6]>
+<script type="text/javascript" src="javascripts/util/png-hack.js"></script>
+<![endif]-->
+<!-- endbuild -->

@@ -13,10 +13,12 @@ $blueprint-container-size: 990px;
 
 @import "basic";
 @import "header";
+@import "device";
 @import "footer";
 
 @import "featbanner";
 @import "tos";
+
 
 #tos {
     .content > ul > li:hover .explanation {
@@ -26,6 +28,13 @@ $blueprint-container-size: 990px;
         &::before,
         &::after {
             border-top-color: #ddd;
+        }
+    }
+    a {
+        color: #38d;
+
+        &:hover {
+            color: #2f7c2f;
         }
     }
 }
