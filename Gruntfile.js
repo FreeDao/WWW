@@ -311,6 +311,19 @@ module.exports = function (grunt) {
                     flatten : false
                 }]
             }
+        },
+        replace : {
+            cdn : {
+                src : ['<%= paths.dist %>/*.html'],
+                overwrite : true,
+                replacements : [{
+                    from: /<script(.+)src=['"]([^"']+)["']/gm,
+                    to: '<script$1src="http://s.wdjimg.com/www/$2"'
+                }, {
+                    from : /<link([^\>]+)href=['"]([^"']+)["']/gm,
+                    to: '<link$1href="http://s.wdjimg.com/www/$2"'
+                }]
+            }
         }
     });
 
@@ -345,6 +358,7 @@ module.exports = function (grunt) {
         'imagemin',
         'htmlmin',
         'rev',
-        'usemin'
+        'usemin',
+        'replace:cdn'
     ]);
 };
