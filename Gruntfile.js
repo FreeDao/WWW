@@ -181,8 +181,7 @@ module.exports = function (grunt) {
                 options : {
                     cssDir : '<%= paths.dist %>/stylesheets',
                     generatedImagesDir : '<%= paths.dist %>/images',
-                    outputStyle : 'compressed',
-                    relativeAssets : false
+                    relativeAssets : true
                 }
             },
             dist : {
