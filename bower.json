@@ -1,6 +1,14 @@
 {
     "name" : "package",
     "version" : "0.0.0",
-    "dependencies" : {}
+    "dependencies" : {
+        "jquery" : "~1.10.2",
+        "jquery-migrate" : "~1.2.1",
+        "jquery-color" : "~2.1.2",
+        "jquery-cookie" : "~1.4.0",
+        "underscore" : "~1.5.2",
+        "MessengerJS" : "biqing/MessengerJS#1.0",
+        "q" : "~0.9.7"
+    }
 }
 
