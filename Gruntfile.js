@@ -201,6 +201,7 @@ module.exports = function (grunt) {
             staging : {
                 options : {
                     generatedImagesDir : '<%= paths.dist %>/images',
+                    httpGeneratedImagesPath: '/images/',
                     relativeAssets : false
                 }
             },
