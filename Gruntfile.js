@@ -156,8 +156,29 @@ module.exports = function (grunt) {
                     cwd : '<%= paths.app %>',
                     dest : '<%= paths.dist %>',
                     src : [
-                        'statics/**/*.{html,json}',
                         'images/**/*.{webp,gif,png,jpg,jpeg}'
+                    ]
+                }]
+            },
+            js : {
+                files : [{
+                    expand : true,
+                    dot : true,
+                    cwd : '<%= paths.app %>',
+                    dest : '<%= paths.tmp %>',
+                    src : [
+                        '**/*.js'
+                    ]
+                }]
+            },
+            statics : {
+                files : [{
+                    expand : true,
+                    dot : true,
+                    cwd : '<%= paths.app %>/statics/',
+                    dest : '<%= paths.dist %>',
+                    src : [
+                        '**/*.{html,js,css,gif,png,jpg,jpeg,json}'
                     ]
                 }]
             }
@@ -165,6 +186,7 @@ module.exports = function (grunt) {
         compass : {
             options : {
                 sassDir : '<%= paths.app %>/compass/sass',
+                cssDir : '<%= paths.tmp %>/stylesheets',
                 imagesDir : '<%= paths.app %>/compass/images',
                 fontsDir : '<%= paths.app %>/compass/fonts',
                 relativeAssets : true,
@@ -172,21 +194,18 @@ module.exports = function (grunt) {
             },
             server : {
                 options : {
-                    cssDir : '<%= paths.tmp %>/stylesheets',
                     generatedImagesDir : '<%= paths.tmp %>/images',
                     debugInfo : true
                 }
             },
             staging : {
                 options : {
-                    cssDir : '<%= paths.dist %>/stylesheets',
                     generatedImagesDir : '<%= paths.dist %>/images',
                     relativeAssets : true
                 }
             },
             dist : {
                 options : {
-                    cssDir : '<%= paths.dist %>/stylesheets',
                     generatedImagesDir : '<%= paths.dist %>/images',
                     outputStyle : 'compressed',
                     httpGeneratedImagesPath: 'http://img.wdjimg.com/www/images/',
@@ -231,8 +250,8 @@ module.exports = function (grunt) {
         },
         concurrent: {
             server : ['copy:server', 'compass:server'],
-            staging : ['copy:dist', 'compass:staging'],
-            dist : ['copy:dist', 'compass:dist']
+            staging : ['copy:dist', 'compass:staging', 'copy:statics', 'copy:js'],
+            dist : ['copy:dist', 'compass:dist', 'copy:statics', 'copy:js']
         },
         jshint : {
             test : ['<%= paths.app %>/javascripts/**/*.js']
