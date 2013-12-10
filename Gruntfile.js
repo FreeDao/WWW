@@ -177,6 +177,14 @@ module.exports = function (grunt) {
                     debugInfo : true
                 }
             },
+            staging : {
+                options : {
+                    cssDir : '<%= paths.dist %>/stylesheets',
+                    generatedImagesDir : '<%= paths.dist %>/images',
+                    outputStyle : 'compressed',
+                    relativeAssets : false
+                }
+            },
             dist : {
                 options : {
                     cssDir : '<%= paths.dist %>/stylesheets',
@@ -224,6 +232,7 @@ module.exports = function (grunt) {
         },
         concurrent: {
             server : ['copy:server', 'compass:server'],
+            staging : ['copy:dist', 'compass:staging'],
             dist : ['copy:dist', 'compass:dist']
         },
         jshint : {
@@ -366,13 +375,14 @@ module.exports = function (grunt) {
 
     grunt.registerTask('build:staging', [
         'clean:dist',
-        'concurrent:dist',
+        'concurrent:staging',
         'stencil:staging',
         'useminPrepare',
         'concat',
         'uglify',
         'imagemin',
         'htmlmin',
+        'rev',
         'usemin'
     ]);
 
