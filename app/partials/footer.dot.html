@@ -79,14 +79,9 @@
 
 {{= it.include('baidu') }}
 
-
-<!--[if IE 6]>
-<script type="text/javascript" src="javascripts/png-hack.js?v=201302051430"></script>
-<![endif]-->
-
-
 {{? !it.noNav }}
 
+<!-- build:js javascripts/www/footer-pack.js -->
 <script src="javascripts/lib/jquery-1.7.1.js"></script>
 <script src="javascripts/util/jquery.color.js"></script>
 <script src="javascripts/util/jquery.cookie.js"></script>
@@ -106,9 +101,9 @@
 <script src="javascripts/util/share.js"></script>
 <script src="javascripts/app/placeholder/placeholder.js"></script>
 <script src="javascripts/run/web/home.js"></script>
+<!-- endbuild -->
 
 {{?}}
-
 
 <!-- build:js javascripts/util/html5shiv.js -->
 <!--[if lte IE 8]>

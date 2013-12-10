@@ -358,7 +358,15 @@ module.exports = function (grunt) {
         'imagemin',
         'htmlmin',
         'rev',
-        'usemin',
+        'usemin'
+    ]);
+
+    grunt.registerTask('build:staging', [
+        'build'
+    ]);
+
+    grunt.registerTask('build:production', [
+        'build',
         'replace:cdn'
     ]);
 };
