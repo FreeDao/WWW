@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>豌豆荚 Alfred 插件登录</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="foundation.min.css" />
+</head>
+<body>
+<div style="width:800px; margin:50px auto 0;">
+<h2>感谢使用豌豆荚 Workflow for Alfred 2</h2>
+<p>
+<a href="wandoujia.alfredworkflow">下载豌豆荚 Workflow for Alfred 2</a>
+・
+<a href="https://account.wandoujia.com/v1/user/?do=login&callback=http://www.wandoujia.com/alfred/auth.php">如果没有登录，请点击</a>
+</p>
+<p>
+    请把对应手机的内容代码复制下来，粘贴在同时打开的 config.php 中间的部分。
+</p>
+<pre id="info" style="word-wrap: break-word; ">
+
+</pre>
+</div>
+
+
+<!-- build:js ../javascripts/www/alfred.js -->
+<script src="../javascripts/lib/jquery-1.7.1.js"></script>
+<script src="../javascripts/util/jquery.color.js"></script>
+<script src="../javascripts/util/jquery.cookie.js"></script>
+<script src="../javascripts/lib/underscore.js"></script>
+<script src="../javascripts/util/jquery.position.js"></script>
+<script src="../javascripts/app/suggestion/suggestion.js"></script>
+<script src="../javascripts/app/popup/popup.js"></script>
+<script src="../javascripts/app/bubble/bubble.v2.js"></script>
+<script src="../javascripts/util/device_tool.js"></script>
+<script src="../javascripts/app/MessengerJS/messenger.js"></script>
+<script src="../javascripts/util/snappea-account-hook.js"></script>
+<script src="../javascripts/lib/q.js"></script>
+<script src="../javascripts/util/snappea-account-sdk.js"></script>
+<script src="../javascripts/pool/login.js"></script>
+<script src="../javascripts/pool/app_install.js"></script>
+<script src="../javascripts/pool/share.js"></script>
+<script src="../javascripts/util/share.js"></script>
+<script src="../javascripts/app/placeholder/placeholder.js"></script>
+<!-- endbuild -->
+
+<script type="text/javascript">
+
+    $('document').ready(function () {
+
+        SnapPea.Account.checkUserLoginAsync({jsonp: !!($.browser.msie && $.browser.version.split(".")[0] < 7)})
+        .then(function() {
+            $.ajax({
+                url : 'https://account.wandoujia.com/v4/api/profile?fields=COMPLETE_DEVICE',
+                success : function(resp) {
+                    var devices = resp.member.devices;
+                    _.each(devices, function(device) {
+                        console.log(device)
+                        var ele = '<h3>' + device.model + '</h3><p>$did="' + device.udid + '"; <br />$cookie="wdj_auth=' + ($.cookie('wdj_auth') !== undefined ? $.cookie('wdj_auth') : '') + '; wdj_user=' + ($.cookie('wdj_user') !== undefined ? $.cookie('wdj_user') : '') + ';";';
+                        $('#info').append(ele);
+                    });
+                }
+            });
+        }).fail(function() {
+            location.href="https://account.wandoujia.com/v1/user/?do=login&callback=http://www.wandoujia.com/alfred/auth.html";
+        });
+
+
+    });
+
+</script>
+
+</body>
+</html>
