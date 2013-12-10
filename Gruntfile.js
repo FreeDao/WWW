@@ -365,7 +365,7 @@ module.exports = function (grunt) {
         'build'
     ]);
 
-    grunt.registerTask('build:staging', [
+    grunt.registerTask('build:production', [
         'build',
         'replace:cdn'
     ]);
