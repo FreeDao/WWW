@@ -295,6 +295,22 @@ module.exports = function (grunt) {
                     flatten : false
                 }]
             },
+            staging : {
+                options : {
+                    env : {
+                        title : '豌豆荚',
+                        prefix : ''
+                    }
+                },
+                files : [{
+                    expand : true,
+                    cwd : '<%= paths.app %>/pages/',
+                    src : '**/*.dot.html',
+                    dest : '<%= paths.tmp %>',
+                    ext : '.html',
+                    flatten : false
+                }]
+            },
             dist : {
                 options : {
                     env : {
@@ -348,10 +364,10 @@ module.exports = function (grunt) {
         'karma:travis'
     ]);
 
-    grunt.registerTask('build', [
+    grunt.registerTask('build:staging', [
         'clean:dist',
         'concurrent:dist',
-        'stencil:dist',
+        'stencil:staging',
         'useminPrepare',
         'concat',
         'uglify',
@@ -361,12 +377,17 @@ module.exports = function (grunt) {
         'usemin'
     ]);
 
-    grunt.registerTask('build:staging', [
-        'build'
-    ]);
-
     grunt.registerTask('build:production', [
-        'build',
+        'clean:dist',
+        'concurrent:dist',
+        'stencil:dist',
+        'useminPrepare',
+        'concat',
+        'uglify',
+        'imagemin',
+        'htmlmin',
+        'rev',
+        'usemin',
         'replace:cdn'
     ]);
 };
