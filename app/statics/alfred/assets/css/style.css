@@ -1,0 +1,118 @@
+/* Write your CSS! */
+html {
+  height: 100%;
+  font-family: "Avenir Next", "Helvetica", "Lantinghei SC", "Hiragino Sans GB", sans-serif; }
+
+body {
+  color: #666; }
+
+a {
+  color: #666;
+  text-decoration: none; }
+  a:hover {
+    color: #6a0;
+    text-decoration: underline; }
+
+.container {
+  width: 960px;
+  margin: 0 auto; }
+
+header {
+  background: url(../pattern.png);
+  text-align: center;
+  padding-top: 30px;
+  border-bottom: 5px solid #ededed; }
+  header h1 {
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    padding-top: 20px; }
+    header h1 small {
+      font-size: 24px;
+      color: #999; }
+      header h1 small a {
+        font-weight: bold;
+        color: #999; }
+  header p {
+    font-size: 24px;
+    color: #999;
+    margin: 0 0 20px; }
+  header .dl_area {
+    padding-bottom: 20px; }
+    header .dl_area a[href$='.alfredworkflow'] {
+      height: 50px;
+      border-radius: 25px;
+      background: #85c650;
+      display: inline-block;
+      line-height: 50px;
+      color: #fff;
+      font-size: 24px;
+      width: 220px;
+      position: relative;
+      top: -10px; }
+      header .dl_area a[href$='.alfredworkflow'] span {
+        font-size: 18px; }
+      header .dl_area a[href$='.alfredworkflow']:hover {
+        background: #6a0;
+        text-decoration: none; }
+    header .dl_area div {
+      display: inline-block;
+      font-size: 14px;
+      line-height: 24px;
+      color: #ccc;
+      text-align: left;
+      margin: 0 0 0 10px; }
+      header .dl_area div a {
+        color: #6a0; }
+
+section {
+  width: 960px;
+  margin: 30px auto 0;
+  height: 740px; }
+  section ul li {
+    list-style-type: none;
+    clear: left; }
+    section ul li .wrap {
+      float: left;
+      text-align: center;
+      width: 550px; }
+    section ul li h2 {
+      padding-top: 40px; }
+    section ul li p {
+      font-size: 14px;
+      line-height: 24px;
+      color: #999; }
+    section ul li a {
+      color: #6a0; }
+
+.more {
+  clear: both;
+  text-align: center;
+  padding-bottom: 40px; }
+
+.morelink {
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+  background: #f2f2f2;
+  color: #666;
+  border-radius: 25px;
+  font-size: 24px;
+  width: 400px;
+  text-align: center; }
+  .morelink:hover {
+    background: #f7f8f9; }
+
+footer {
+  width: 960px;
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+  margin: 0 auto;
+  padding: 40px 40px 100px;
+  border-top: 2px solid #ededed; }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+  /* Don't forget your Retina CSS! */
+  body {
+    background-size: 72px 72px; } }
