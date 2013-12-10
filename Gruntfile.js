@@ -177,6 +177,14 @@ module.exports = function (grunt) {
                     debugInfo : true
                 }
             },
+            staging : {
+                options : {
+                    cssDir : '<%= paths.dist %>/stylesheets',
+                    generatedImagesDir : '<%= paths.dist %>/images',
+                    outputStyle : 'compressed',
+                    relativeAssets : false
+                }
+            },
             dist : {
                 options : {
                     cssDir : '<%= paths.dist %>/stylesheets',
@@ -224,6 +232,7 @@ module.exports = function (grunt) {
         },
         concurrent: {
             server : ['copy:server', 'compass:server'],
+            staging : ['copy:dist', 'compass:staging'],
             dist : ['copy:dist', 'compass:dist']
         },
         jshint : {
@@ -295,6 +304,22 @@ module.exports = function (grunt) {
                     flatten : false
                 }]
             },
+            staging : {
+                options : {
+                    env : {
+                        title : '豌豆荚',
+                        prefix : ''
+                    }
+                },
+                files : [{
+                    expand : true,
+                    cwd : '<%= paths.app %>/pages/',
+                    src : '**/*.dot.html',
+                    dest : '<%= paths.tmp %>',
+                    ext : '.html',
+                    flatten : false
+                }]
+            },
             dist : {
                 options : {
                     env : {
@@ -348,10 +373,10 @@ module.exports = function (grunt) {
         'karma:travis'
     ]);
 
-    grunt.registerTask('build', [
+    grunt.registerTask('build:staging', [
         'clean:dist',
-        'concurrent:dist',
-        'stencil:dist',
+        'concurrent:staging',
+        'stencil:staging',
         'useminPrepare',
         'concat',
         'uglify',
@@ -361,12 +386,17 @@ module.exports = function (grunt) {
         'usemin'
     ]);
 
-    grunt.registerTask('build:staging', [
-        'build'
-    ]);
-
     grunt.registerTask('build:production', [
-        'build',
+        'clean:dist',
+        'concurrent:dist',
+        'stencil:dist',
+        'useminPrepare',
+        'concat',
+        'uglify',
+        'imagemin',
+        'htmlmin',
+        'rev',
+        'usemin',
         'replace:cdn'
     ]);
 };
