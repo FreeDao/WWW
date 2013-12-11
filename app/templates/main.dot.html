@@ -22,6 +22,6 @@
     </div>
     {{?}}
 
-    {{= it.include('footer') }}
+    {{= it.include('footer', {noNav : it.document.noNav || false, noScript : it.document.noScript || false}) }}
 </body>
 </html>
