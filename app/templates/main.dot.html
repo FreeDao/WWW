@@ -8,7 +8,7 @@
     <meta name="description" content="豌豆荚让您的安卓手机简单好用，轻松管理手机，免费下载应用、视频和音乐，管理通讯录，快速备份手机。" >
 
     <!-- build:css stylesheets/www/{{= it.document.stylesheet }}.css -->
-    <link rel="stylesheet" type="text/css" href="stylesheets/www/{{= it.document.stylesheet }}.css" />
+    <link rel="stylesheet" type="text/css" href="{{= it.document.path || ''}}stylesheets/www/{{= it.document.stylesheet }}.css" />
     <!-- endbuild -->
 </head>
 <body>
@@ -22,6 +22,6 @@
     </div>
     {{?}}
 
-    {{= it.include('footer', {noNav : it.document.noNav || false, noScript : it.document.noScript || false}) }}
+    {{= it.include('footer', {noNav : it.document.noNav || false, noScript : it.document.noScript || false, path : it.document.path || '', script : it.document.script}) }}
 </body>
 </html>
