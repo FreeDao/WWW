@@ -1,0 +1,104 @@
+{
+  "template" : "main",
+  "stylesheet" : "android",
+  "title" : "下载豌豆荚 - 豌豆荚",
+  "noNav" : true,
+  "noScript" : true
+}
+
+<div id="hero" class="windowsbanner featbanner">
+    <div class="grid-15">
+        &nbsp;
+    </div>
+    <div id="description" class="featdesc grid-9">
+        <h2>感谢下载豌豆荚 :)</h2>
+        <h3>你的下载会立刻开始！</h3>
+        <div class="instruction"><span>如果下载没有开始，请 <a track="download/client2/download_notstart" href="http://mir.wandoujia.com/getwdj/homepage" id="download-link">点击此处</a> </span></div>
+    </div>
+    <div class="clear"></div>
+</div>
+<ul id="features" class="featlist grid-23">
+    <li class="feature grid-11">
+        <h4>怎样开始使用豌豆荚？</h4>
+        <p>你可以浏览 <a href="/help">帮助中心</a> 解决您遇到的问题。</p>
+    </li>
+    <li class="feature grid-11">
+        <h4>应用游戏 实时推送</h4>
+        <p>注册豌豆荚帐号，从浏览器将喜欢的应用推送到您的手机。</p>
+        <p id="login-register">
+            <a href="http://www.wandoujia.com/account/web.html?callback=http://www.wandoujia.com#login" track="login/downloadpage">登录</a> | 
+            <a href="http://www.wandoujia.com/account/web.html?callback=http://www.wandoujia.com##register" track="register/downloadpage">注册新帐号»</a>
+        </p>
+    </li>
+</ul>
+
+<!-- build:js javascripts/www/download.js -->
+<script src="components/jquery/jquery.js"></script>
+<script src="components/jquery-migrate/jquery-migrate.js"></script>
+<script src="components/jquery-color/jquery.color.js"></script>
+<script src="components/jquery-cookie/jquery.cookie.js"></script>
+<script src="components/underscore/underscore.js"></script>
+<script src="components/MessengerJS/messenger.js"></script>
+<script src="components/q/q.js"></script>
+
+<script src="javascripts/util/jquery.position.js"></script>
+<script src="javascripts/app/suggestion/suggestion.js"></script>
+<script src="javascripts/app/popup/popup.js"></script>
+<script src="javascripts/app/bubble/bubble.v2.js"></script>
+<script src="javascripts/util/device_tool.js"></script>
+
+<script src="javascripts/util/snappea-account-hook.js"></script>
+<script src="javascripts/util/snappea-account-sdk.js"></script>
+<script src="javascripts/pool/login.js"></script>
+<script src="javascripts/pool/app_install.js"></script>
+<script src="javascripts/pool/share.js"></script>
+<script src="javascripts/util/share.js"></script>
+<script src="javascripts/app/placeholder/placeholder.js"></script>
+<!-- endbuild -->
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        function getParam(name){  
+          var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"),  
+              queryResult = location.search.substr(1).match(reg);  
+          return queryResult ? unescape(queryResult[2]) : null;  
+        }
+        var downloadType = getParam('type'),
+            src = getParam('src') || getParam('utm_source'),
+            downloadLink = document.getElementById('download-link'),
+            link;
+
+        switch (downloadType){
+            case 'zh-TW':
+                link = 'http://dl.wandoujia.com/installer/zh_tw/WanDouJiaSetup.exe';
+                break;
+            case 'ent':
+                link = 'http://dl.wandoujia.com/installer/entertainment/WanDouJiaEntSetup.zip';
+                break;
+            case 'third':
+                if(src != "" && src != null) {
+                    link = 'http://dl.wandoujia.com/files/third/WanDouJiaSetup_'+ src + '.exe';
+                }
+                else {
+                    link = 'http://dl.wandoujia.com/files/third/WanDouJiaSetup_ad.exe';
+                }
+                break;
+            default: 
+                link = 'http://mir.wandoujia.com/getwdj/homepage'
+        }
+
+        var timestamp = new Date().getTime();
+        link = link + '?timestamp=' + timestamp;        
+
+        downloadLink.href = link;
+        downloadLink.track = 'download/client1x/download_notstart/' + downloadType;
+
+        if(link && downloadType!= 'release'){
+            window.open(link, '_self');
+            if(typeof _gaq != 'undefined' && _gaq){
+                _gaq.push(['_trackEvent', "download", "client2", downloadType ]);
+            }
+        }
+
+    });
+</script>

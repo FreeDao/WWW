@@ -66,46 +66,36 @@
 </footer>
 
 {{? !it.debug }}
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-15790641-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
+{{= it.include('ga') }}
 {{?}}
 
 {{= it.include('baidu') }}
 
-{{? !it.noNav }}
+{{? !it.noScript }}
 
 <!-- build:js javascripts/www/footer-pack.js -->
-<script src="components/jquery/jquery.js"></script>
-<script src="components/jquery-migrate/jquery-migrate.js"></script>
-<script src="components/jquery-color/jquery.color.js"></script>
-<script src="components/jquery-cookie/jquery.cookie.js"></script>
-<script src="components/underscore/underscore.js"></script>
-<script src="components/MessengerJS/messenger.js"></script>
-<script src="components/q/q.js"></script>
+<script src="{{= it.path}}components/jquery/jquery.js"></script>
+<script src="{{= it.path}}components/jquery-migrate/jquery-migrate.js"></script>
+<script src="{{= it.path}}components/jquery-color/jquery.color.js"></script>
+<script src="{{= it.path}}components/jquery-cookie/jquery.cookie.js"></script>
+<script src="{{= it.path}}components/underscore/underscore.js"></script>
+<script src="{{= it.path}}components/MessengerJS/messenger.js"></script>
+<script src="{{= it.path}}components/q/q.js"></script>
 
-<script src="javascripts/util/jquery.position.js"></script>
-<script src="javascripts/app/suggestion/suggestion.js"></script>
-<script src="javascripts/app/popup/popup.js"></script>
-<script src="javascripts/app/bubble/bubble.v2.js"></script>
-<script src="javascripts/util/device_tool.js"></script>
+<script src="{{= it.path}}javascripts/util/jquery.position.js"></script>
+<script src="{{= it.path}}javascripts/app/suggestion/suggestion.js"></script>
+<script src="{{= it.path}}javascripts/app/popup/popup.js"></script>
+<script src="{{= it.path}}javascripts/app/bubble/bubble.v2.js"></script>
+<script src="{{= it.path}}javascripts/util/device_tool.js"></script>
 
-<script src="javascripts/util/snappea-account-hook.js"></script>
-<script src="javascripts/util/snappea-account-sdk.js"></script>
-<script src="javascripts/pool/login.js"></script>
-<script src="javascripts/pool/app_install.js"></script>
-<script src="javascripts/pool/share.js"></script>
-<script src="javascripts/util/share.js"></script>
-<script src="javascripts/app/placeholder/placeholder.js"></script>
-<script src="javascripts/run/web/home.js"></script>
+<script src="{{= it.path}}javascripts/util/snappea-account-hook.js"></script>
+<script src="{{= it.path}}javascripts/util/snappea-account-sdk.js"></script>
+<script src="{{= it.path}}javascripts/pool/login.js"></script>
+<script src="{{= it.path}}javascripts/pool/app_install.js"></script>
+<script src="{{= it.path}}javascripts/pool/share.js"></script>
+<script src="{{= it.path}}javascripts/util/share.js"></script>
+<script src="{{= it.path}}javascripts/app/placeholder/placeholder.js"></script>
+<script src="{{= it.path}}javascripts/run/web/{{= it.script || 'home'}}.js"></script>
 <!-- endbuild -->
 
 {{?}}
