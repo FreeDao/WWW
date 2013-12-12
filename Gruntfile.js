@@ -132,7 +132,7 @@ module.exports = function (grunt) {
                 files : [{
                     expand : true,
                     cwd : '<%= paths.tmp %>',
-                    src : ['*.html'],
+                    src : ['**/*.html'],
                     dest : '<%= paths.dist %>'
                 }]
             }
