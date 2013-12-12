@@ -311,7 +311,8 @@ module.exports = function (grunt) {
                 options : {
                     env : {
                         title : '豌豆荚',
-                        prefix : ''
+                        prefix : '',
+                        debug : true
                     }
                 },
                 files : [{
@@ -327,7 +328,8 @@ module.exports = function (grunt) {
                 options : {
                     env : {
                         title : '豌豆荚',
-                        prefix : ''
+                        prefix : '',
+                        debug : true
                     }
                 },
                 files : [{
@@ -343,7 +345,8 @@ module.exports = function (grunt) {
                 options : {
                     env : {
                         title : '豌豆荚',
-                        prefix : 'http://www.wandoujia.com'
+                        prefix : 'http://www.wandoujia.com',
+                        debug : false
                     }
                 },
                 files : [{
