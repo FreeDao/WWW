@@ -6,35 +6,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
+  <link rel='stylesheet' href='/alfred/85ff01e493b8e06713d3fe26518fe0f4.css'>
+  <script src='/alfred/7807589aab158b5446fecf7333200c64.js'></script>
   
-        <!-- Hammer reload -->
-          <script>
-            setInterval(function(){
-              try {
-                if(typeof ws != 'undefined' && ws.readyState == 1){return true;}
-                ws = new WebSocket('ws://'+(location.host || 'localhost').split(':')[0]+':35353')
-                ws.onopen = function(){ws.onclose = function(){document.location.reload()}}
-                ws.onmessage = function(){
-                  var links = document.getElementsByTagName('link'); 
-                    for (var i = 0; i < links.length;i++) { 
-                    var link = links[i]; 
-                    if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) { 
-                      href = link.href.replace(/((&|\?)hammer=)[^&]+/,''); 
-                      link.href = href + (href.indexOf('?')>=0?'&':'?') + 'hammer='+(new Date().valueOf());
-                    }
-                  }
-                }
-              }catch(e){}
-            }, 1000)
-          </script>
-        <!-- /Hammer reload -->
-      
-  
-  <link rel='stylesheet' href='85ff01e493b8e06713d3fe26518fe0f4.css'>
-  <script src='7807589aab158b5446fecf7333200c64.js'></script>
-  
-  <link href="assets/favicon.ico" rel="shortcut icon">
-  <link href="assets/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="/alfred/assets/favicon.ico" rel="shortcut icon">
+  <link href="/alfred/assets/apple-touch-icon.png" rel="apple-touch-icon">
   
   <title>豌豆荚 Workflow</title>
   
@@ -44,7 +20,7 @@
 
   <header>
     <div class="container">
-    <img src="assets/logo.png" alt="logo">
+    <img src="/alfred/assets/logo.png" alt="logo">
     <h1>豌豆荚 Workflow <small>for <a href="http://www.alfredapp.com" target="_blank">Alfred 2</a></small></h1>
     <p>Mac + Android 使用者的神器</p>
     <div class="dl_area">
@@ -61,21 +37,21 @@
   <section>
     <ul>
         <li>
-            <div class="wrap"><img src="assets/wdj-search.jpg" alt="logo"></div>
+            <div class="wrap"><img src="/alfred/assets/wdj-search.jpg" alt="logo"></div>
             <h2>最全的应用搜索，即搜即装</h2>
             <p>
                 呼出 Alfred，输入你想装的应用关键词<br/>立刻就可推送到手机，50万安卓应用近在指边。
             </p>
         </li>
         <li>
-            <div class="wrap"><img src="assets/wdj-rec.jpg" alt="logo"></div>
+            <div class="wrap"><img src="/alfred/assets/wdj-rec.jpg" alt="logo"></div>
             <h2>精品应用推荐，绝不错过</h2>
             <p>
                 无论是每周一期的 <a href="http://www.wandoujia.com/award" target="_blank">豌豆荚设计奖</a>，还是每天的应用推荐<br/>豌豆们都会把最新最好的应用给你，记得常来看
             </p>
         </li>
         <li>
-            <div class="wrap"><img src="assets/worklflow.jpg" alt="logo"></div>
+            <div class="wrap"><img src="/alfred/assets/worklflow.jpg" alt="logo"></div>
             <h2>代码开放，随您定义</h2>
             <p>
                 豌豆荚 Workflow 可随意修改直到满意。<br/>不过瘾的话，<a href="http://www.wandoujia.com/join" target="_blank" onclick="(_gaq||[]).push(['_trackEvent', 'alfred', 'join', 'link'])">来加入豌豆</a>？
