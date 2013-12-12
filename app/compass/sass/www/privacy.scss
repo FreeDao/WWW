@@ -13,6 +13,7 @@ $blueprint-container-size: 990px;
 
 @import "basic";
 @import "header";
+@import "device";
 @import "footer";
 
 @import "featbanner";
@@ -20,4 +21,8 @@ $blueprint-container-size: 990px;
 
 a {
     color:#38d;
+}
+
+.privacy > h3 {
+    margin: 6px 0 6px 40px
 }
