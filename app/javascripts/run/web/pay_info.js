@@ -24,7 +24,6 @@
 
         SnapPea.Account.checkUserLoginAsync()
         .then(function() {
-            console.log(111)
             $.ajax({
                 url: 'https://pay.wandoujia.com/pay/web/query?wdj_auth=' + wdj_auth,
                 dataType: 'jsonp',
@@ -42,7 +41,6 @@
                 }
             });
         }).fail(function() {
-            console.log(222)
             loading.hide();
             $('.j-status-logout').show();
         });
