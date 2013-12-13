@@ -122,7 +122,7 @@ module.exports = function (grunt) {
             }
         },
         usemin: {
-            html : ['<%= paths.dist %>/*.html'],
+            html : ['<%= paths.tmp %>/**/*.html'],
             options : {
                 dirs : ['<%= paths.dist %>']
             }
@@ -381,7 +381,7 @@ module.exports = function (grunt) {
         'connect:server',
         // 'karma:server',
         'stencil:server',
-        'open',
+        // 'open',
         'watch'
     ]);
 
