@@ -4,11 +4,11 @@
   "stylesheet" : "static"
 }
 
-{if isset($logined) && $logined}
+<!-- {if isset($logined) && $logined} -->
 <div class="unsubscribe">
 	<h3>退订来自豌豆荚的邮件</h3>
 	<div class="txt">
-		<p>您在豌豆荚注册的邮件地址是：{$email}</p>
+		<p>您在豌豆荚注册的邮件地址是：<!-- {$email} --></p>
 		<p>如果不希望再收到豌豆荚的邮件，请点击</p>
 		<a class="btn-green btn-small unsub-btn" href="javascript:;">确认退订</a>
 	</div>
@@ -16,8 +16,3 @@
 <div class="edm-banner">
 	<img src="http://s.wdjimg.com/style/images/wdj/edm/landing_banner.jpg" alt="一个全新的豌豆荚" width="818" height="434" />
 </div>
-{else}
-<script>
-// location.href = 'https://account.wandoujia.com/v1/user/?do=login&callback=http%3A%2F%2Fwww.wandoujia.com%2Funsubscribe.html';
-</script>
-{/if}
