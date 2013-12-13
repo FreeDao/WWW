@@ -1,7 +1,8 @@
 {
   "template" : "main",
   "title" : "豌豆荚·Android手机助手·安卓软件下载·影音下载·安全备份·通讯录管理·短信群发",
-  "stylesheet" : "api"
+  "stylesheet" : "api",
+  "script" : "static"
 }
 
 
@@ -104,9 +105,3 @@
             <div class="clear"></div>
         </div>
 
-
-        {if !empty($smarty.get.debug)}
-        <script src="{$smarty.const.WDJ_STYLE_URL}style/min/?g=jquery|web/pack|web/static|{math equation=rand(1,1000000)}.js&debug=1"></script>
-        {else}
-        <script src="{$smarty.const.WDJ_STYLE_URL}style/min/g=jquery|web/pack|web/static|{$smarty.const.WDJ_VERSION}.js"></script>
-        {/if}
