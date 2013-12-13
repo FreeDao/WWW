@@ -14,8 +14,6 @@
 @import "device";
 @import "footer";
 
-
-
 .page {
     background:#ebebeb;
     padding-top: 40px;
@@ -29,10 +27,12 @@
 
 .gooddev {
     @include use-sprite('gooddev');
+    display: inline-block;
     height: 15px;
     position: relative;
     top: 1px;
     vertical-align: top;
+    width: 17px;
 
 }
 
@@ -77,8 +77,7 @@
     margin-left: 30px;
 }
 
-
-.wdb-count {
+.wdb-count, .j-status-loading {
     font-size: 16px;
     font-weight: bold;
     color: #333;
@@ -127,4 +126,341 @@
             margin-top: 4px;
         }
     }
+}
+
+
+
+.form-horizontal .control-group {
+    margin-bottom: 20px;
+}
+
+.form-horizontal .control-label {
+    float: left;
+    width: 68px;
+    padding-top: 5px;
+    text-align: left;
+    display: block;
+    
+}
+
+label {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+
+
+.form-horizontal .controls {
+    margin-left: 90px;
+
+    .info {
+        vertical-align: middle;
+        line-height: 28px;
+    }
+}
+
+
+.quick-choose a {
+    cursor: pointer;
+    float: left;
+    width: 83px;
+    padding: 5px;
+    margin: 1px 5px 5px 0;
+    border: 1px solid #d2d2d2;
+    color: #676767;
+    background: #FFF;
+    text-decoration: none;
+    text-align: center;
+    overflow: hidden;
+    _zoom: 1;
+
+    &:hover, &.current {
+        width: 81px;
+        margin-top: 0;
+        margin-bottom: 4px;
+        border-width: 2px;
+        border-color: #2eb6aa;
+        text-decoration: none;
+    }
+}
+
+.custom-choose-tips {
+    color: red;
+    margin-left: 15px;
+}
+
+
+
+.wdb-buy {
+    padding: 5px 0;
+    width: 90px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+
+.pay-area {
+
+    .pay-type {
+        position: relative;
+        margin: 10px 0;
+        padding: 0 0 0 18px;
+        font-size: 14px;
+        cursor: pointer;
+        color: #333;
+        line-height: 22px;
+
+        i {
+            
+            position: absolute;
+            top: 8px;
+            left: 2px;
+            _left: -16px;
+            width: 9px;
+            height: 5px;
+            overflow: hidden;
+            background: generated-image-url('www//wdb-arrow-icon.png') 0 0 no-repeat;
+        }
+
+        &.open {
+            i {
+                background-position: 0 -10px;
+            }
+        }
+    }
+
+    .bank-list {
+        width: 610px;
+        display: none;
+
+        li {
+            float: left;
+            margin: 0 30px 10px 0;
+
+            .radio {
+                float: left;
+                width: 13px;
+                margin-top: 10px;
+                margin-left: 1px;
+            }
+
+
+            .bank-ABC {
+                background-position: 0 -20px;
+            }
+
+            .bank-CCB {
+                background-position: 0 -58px;
+            }
+
+            .bank-CEB {
+                background-position: 0 -98px;
+            }
+
+            .bank-CMBC {
+                background-position: 0 -138px;
+            }
+            
+            .bank-COMM {
+                background-position: 0 -178px;
+            }
+
+            .bank-GDB {
+                background-position: 0 -220px;
+            }
+
+            .bank-CITIC {
+                background-position: 0 -258px;
+            }
+
+            .bank-ICBC {
+                background-position: 0 -378px;
+            }
+
+            .bank-SPDB {
+                background-position: 0 -338px;
+            }
+
+            .bank-CMB {
+                background-position: 0 -418px;
+            }
+
+            .bank-PSBC {
+                background-position: 0 -500px;
+            }
+
+            .bank-BJBANK {
+                background-position: 0 -588px;
+            }
+
+
+            .bank-SPABANK {
+                background-position: 0 -874px;
+            }
+
+            .bank-BOC {
+                background-position: 0 -911px;
+            }
+
+            .bank {
+                float: left;
+                width: 145px;
+                height: 32px;
+                margin-left: 5px;
+                border: 1px solid #DDD;
+                background-image: generated-image-url('www//wdb-bank.png');
+                background-repeat: no-repeat;
+                cursor: pointer;
+                text-indent: -9999px;
+            }
+
+
+            .bank-alipay {
+                background-position: 0 -1023px;
+            }
+        }
+    }
+
+}
+
+
+.area-active {
+    .bank-list {
+        display: block !important;
+    }
+}
+
+.quick-choose {
+    margin: 6px 0;
+}
+
+
+#custom-money {
+    height: 20px;
+    padding: 4px 6px;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.btn-wrap {
+    margin-top: 30px;
+}
+
+.contact-tip {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #666;
+    height: 28px;
+    line-height: 28px;
+}
+
+
+.finish-btn {
+    padding: 5px 0;
+    width: 90px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+
+.back-wrap {
+    margin-top: 20px;
+}
+
+.back-link {
+    color: #2f7c2f;
+    font-size: 14px;
+}
+
+.wdb-modal {
+    width: 450px;
+    .wdb-header {
+        border-bottom: 1px solid #eee;
+
+        h3 {
+            line-height: 30px;
+            font-size: 16px;
+        }
+    }
+
+    .wdb-body {
+        padding: 10px 20px;
+
+        .info {
+            
+            background: url(http://img.wdjimg.com/image/www/wdb-alert.png) no-repeat 0 0;
+            height: 64px;
+            line-height: 64px;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+
+        .tip {
+            font-size: 14px;
+        }
+        p {
+            padding-left: 70px;
+            font-size: 14px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+    }
+
+    .wdb-footer {
+        padding-left: 90px;
+    }
+}
+
+
+.alert {
+    width: 200px;
+    position: absolute;
+    top: 2px;
+    left: 35%;
+    background: #fcf8e3;
+    color: #c09853;
+    padding: 8px 35px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 4px;   
+}
+
+
+.popup-layer {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #000;
+        z-index: 99;
+}
+.popup-main {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        z-index: 100;
+        background: #fff;
+        padding: 10px 20px;
+        border: 1px solid #b9b9b9;
+        box-shadow: 0 0 5px #9c9c9c;
+        zoom: 1;
+}
+.popop-close {
+        position: absolute;
+        right: 5px;
+        top: 3px;
+        display: block;
+        height: 16px;
+        width: 16px;
+        font: normal 19px Arial;
+        color: #999 !important;
+        text-decoration: none !important;
 }

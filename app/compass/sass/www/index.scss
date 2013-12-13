@@ -2,20 +2,10 @@
 @import "compass";
 @import "compass/reset";
 @import "compass/css3";
-// @import "blueprint";
-// @import "compass/utilities/general/hacks";
-
-// @include all-icons-sprites;
-
-// $blueprint_grid_columns: 20;
-// $blueprint_grid_width: 45px;
-// $blueprint-container-size: 990px;
-
-// $sprite-default-size: 16px;
 @import "mixins/retina";
 
 @import "basic";
-// @import "suggestion";
+@import "suggestion";
 @import "button";
 @import "header";
 @import "device";
