@@ -122,7 +122,7 @@ module.exports = function (grunt) {
             }
         },
         usemin: {
-            html : ['<%= paths.tmp %>/**/*.html'],
+            html : ['<%= paths.dist %>/**/*.html'],
             options : {
                 dirs : ['<%= paths.dist %>']
             }
