@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>豌豆币充值 - 豌豆荚</title>
+    <meta name="keywords" content="豌豆荚,安卓游戏,安卓软件下载,安卓游戏下载,安卓手机助手" />
+    <meta name="description" content="豌豆荚让您的安卓手机简单好用，轻松管理手机，免费下载应用、视频和音乐，管理通讯录，快速备份手机。" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/www/pay.css" />
+</head>
+<body>
+    
+    {{= it.include('header') }}
+ 
+    <div class="page">
+        <div class="container">
+            <div class="title">豌豆币充值</div>
+
+            <form class="form-horizontal">
+                <div class="control-group clearfix">
+                    <label class="control-label">账号余额</label>
+                    <div class="controls">
+                        <div class="info" id="balance">0 豌豆币</div>
+                    </div>
+                </div>
+
+                <div class="control-group clearfix">
+                    <label class="control-label">充值金额</label>
+                    <div class="controls">
+                        <div class="info">1 豌豆币 = 1 元</div>
+                        <div class="quick-choose clearfix">
+                            <label class="control-label">快速选择</label>
+
+                            <a class="quick-num" data-money="50">50元</a>
+                            <a class="current quick-num" data-money="100">100元</a>
+                            <a class="quick-num" data-money="200">200元</a>
+                            <a class="quick-num" data-money="500">500元</a>
+                            <a class="quick-num" data-money="1000">1000元</a>
+                            <a class="quick-num" data-money="5000">5000元</a>
+                        </div>
+                        <div class="custom-choose">
+                            <label>自定义金额</label>
+                            <input type="text" name="custom-money" id="custom-money" />
+                        </div>    
+                    </div>
+                </div>
+
+                <div class="control-group clearfix">
+                    <label class="control-label">支付方式</label>
+
+                    <input type="hidden" id="money" name="money" value="100"/>
+                    <input type="hidden" id="channel_inst" name="channel_inst" value="ICBC"/>
+                    <input type="hidden" id="charge_type" name="charge_type" value="ALIPAYWEB"/>
+
+                    <input type="hidden" id="order_id" name="order_id" value=""/>
+
+
+                    <div class="controls">
+
+                        <div class="wdb-pay">
+                            <div class="pay-area area-active">
+                                <div class="pay-type open"><i></i>网上银行支付</div>
+                                <ul class="bank-list clearfix">
+                                    <li>
+                                        <input checked class="radio" type="radio" id="ABC" name="bank-type" value="ABC"/>
+                                        <label class="bank bank-ABC" title="中国农业银行" for="ABC"></label>
+                                    </li>
+
+                                    <li>
+                                        <input class="radio" type="radio" id="CCB" name="bank-type" value="CCB" />
+                                        <label class="bank bank-CCB" title="中国建设银行" for="CCB"></label>
+                                    </li>
+
+                                    <li>
+                                        <input class="radio" type="radio" id="CEB" name="bank-type" value="CEB" />
+                                        <label class="bank bank-CEB" title="中国光大银行" for="CEB"></label>
+                                    </li>
+
+                                    <li>
+                                        <input class="radio" type="radio" id="CMBC" name="bank-type" value="CMBC" />
+                                        <label class="bank bank-CMBC" title="中国民生银行" for="CMBC"></label>
+                                    </li>
+
+
+                                    <li>
+                                        <input class="radio" type="radio" id="COMM" name="bank-type" value="COMM" />
+                                        <label class="bank bank-COMM" title="交通银行" for="COMM"></label>
+                                    </li>
+
+                                    <li>
+                                        <input class="radio" type="radio" id="GDB" name="bank-type" value="GDB" />
+                                        <label class="bank bank-GDB" title="广东发展银行" for="GDB"></label>
+                                    </li>
+
+                                    <li>
+                                        <input class="radio" type="radio" id="CITIC" name="bank-type" value="CITIC" />
+                                        <label class="bank bank-CITIC" title="中信银行" for="CITIC"></label>
+                                    </li>
+
+                                    <li>
+                                        <input class="radio" type="radio" id="ICBC" name="bank-type" value="ICBC" />
+                                        <label class="bank bank-ICBC" title="中国工商银行" for="ICBC"></label>
+                                    </li>
+
+                                    <li>
+                                        <input class="radio" type="radio" id="CMB" name="bank-type" value="CMB" />
+                                        <label class="bank bank-CMB" title="招商银行" for="CMB"></label>
+                                    </li>
+
+                                    <li>
+                                        <input class="radio" type="radio" id="PSBC" name="bank-type" value="PSBC" />
+                                        <label class="bank bank-PSBC" title="中国邮政储蓄银行" for="PSBC"></label>
+                                    </li>
+
+                                    <li>
+                                        <input class="radio" type="radio" id="BJBANK" name="bank-type" value="BJBANK" />
+                                        <label class="bank bank-BJBANK" title="北京银行" for="BJBANK"></label>
+                                    </li>
+
+                                    <li>
+                                        <input class="radio" type="radio" id="SPDB" name="bank-type" value="SPDB" />
+                                        <label class="bank bank-SPDB" title="上海浦东发展银行" for="SPDB"></label>
+                                    </li>
+
+                                    <li>
+                                        <input class="radio" type="radio" id="SPABANK" name="bank-type" value="SPABANK" />
+                                        <label class="bank bank-SPABANK" title="平安银行" for="SPABANK"></label>
+                                    </li>
+
+                                    <li>
+                                        <input class="radio" type="radio" id="BOC" name="bank-type" value="BOC" />
+                                        <label class="bank bank-BOC" title="中国银行" for="BOC"></label>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                            <div class="pay-area">
+                                <div class="pay-type"><i></i>支付宝支付</div>
+                                <ul class="bank-list clearfix">
+                                    <li>
+                                        <input class="radio" type="radio" id="ALIPAY" name="bank-type" value="ALIPAY"/>
+                                        <label class="bank bank-alipay" title="支付宝" for="ALIPAY"></label>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div>
+                            <a target="_blank" class="wdb-buy button-green" href="javascript:void(0);" id="wdb-buy">立即充值</a>
+                        </div>
+                    </div>
+
+                </div>     
+
+            </form> 
+
+            <div class="contact-tip">支付过程中遇到问题请致电 400 870 6205 或邮件至 payment@wandoujia.com 与我们联系</div>
+
+
+        </div>    
+    </div>    
+
+    {{= it.include('footer', {noScript : true}) }}
+
+    <!-- build:js javascripts/www/payjs -->
+    <script src="../javascripts/lib/jquery-1.7.1.js"></script>
+    <script src="/components/jquery-cookie/jquery.cookie.js"></script>
+    <script src="/components/underscore/underscore.js"></script>
+    <script src="/components/MessengerJS/messenger.js"></script>
+    <script src="/components/q/q.js"></script>
+
+    <script src="/javascripts/util/jquery.position.js"></script>
+    <script src="/javascripts/app/suggestion/suggestion.js"></script>
+    <script src="/javascripts/app/popup/popup.js"></script>
+    <script src="/javascripts/util/device_tool.js"></script>
+
+    <script src="/javascripts/util/snappea-account-hook.js"></script>
+    <script src="/javascripts/util/snappea-account-sdk.js"></script>
+    <script src="/javascripts/pool/login.js"></script>
+    <script src="/javascripts/pool/app_install.js"></script>
+    <script src="/javascripts/app/placeholder/placeholder.js"></script>
+    <script src="/javascripts/run/web/pay_submit.js"></script>
+    <!-- endbuild -->
+
+
+    <div class="wdb-modal" style="display: none;">
+        <div class="wdb-header">
+            <h3>充值结果</h3>
+        </div>
+        <div class="wdb-body">
+            <p class="info">请您在新打开的页面上完成付款</p>
+            <p class="tip">付款完成前请不要关闭此窗口！</p>
+            <p class="tip">完成付款后请根据您的情况点击下面的按钮：</p>
+        </div>
+        <div class="wdb-footer">
+            <a class="finish-btn btn-light button-green" href="javascript:void(0);">已完成付款</a>
+            <p class="back-wrap">
+                <a class="back-link" href="javascript:closePopup();">返回选择其他支付方式</a> 
+            </p> 
+        </div>
+    </div>
+
+</body>
+</html>

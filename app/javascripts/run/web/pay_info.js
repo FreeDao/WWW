@@ -18,10 +18,13 @@
 
 
     $(function () {
-
         //获取豌豆币的数目
-        var wdj_auth = $.cookie('wdj_auth');
-        if (SnapPea.Account.isLogined() && wdj_auth) {
+        var wdj_auth = $.cookie('wdj_auth'),
+            loading = $('.j-status-loading');
+
+        SnapPea.Account.checkUserLoginAsync()
+        .then(function() {
+            console.log(111)
             $.ajax({
                 url: 'https://pay.wandoujia.com/pay/web/query?wdj_auth=' + wdj_auth,
                 dataType: 'jsonp',
@@ -33,10 +36,16 @@
                             balance = basicJson.balance;
                         }
                         $('#wdb-num').text(balance);
+                        loading.hide();
+                        $('.j-status-logined').show();
                     }
                 }
             });
-        }
+        }).fail(function() {
+            console.log(222)
+            loading.hide();
+            $('.j-status-logout').show();
+        });
 
     });
 

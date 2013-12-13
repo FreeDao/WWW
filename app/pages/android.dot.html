@@ -14,9 +14,9 @@
         <div class="install-tips" id="step-tip">
             <h4>手机上安装豌豆荚：</h4>
             <ul>
-                <li>手机浏览器打开<strong>wandoujia.com</strong>，按照提示下载安装（推荐）。或<a rel="nofollow" href="{$androidRelease|replace:"wap.apk":"web.apk"}" track="download/phoenix2/page_android">下载安装文件</a>手动安装。</li>
+                <li>手机浏览器打开<strong>wandoujia.com</strong>，按照提示下载安装（推荐）。或<a rel="nofollow" id="download-p3" href="http://dl.wandoujia.com/files/phoenix/latest/phoenix2-wandoujia_wap.apk" track="download/phoenix2/page_android">下载安装文件</a>手动安装。</li>
                 <li>你也可以通过扫描右边的二维码来下载安装。</li>
-                <li>要在电脑上安装豌豆荚: <a href="/windows" rel="nofollow">查看&raquo;</a></li>
+                <li>要在电脑上安装豌豆荚: <a href="/" rel="nofollow">查看&raquo;</a></li>
             </ul>
             <img src="http://img.wdjimg.com/image/www/qr.png" alt="豌豆荚安卓版二维码" class="phoenix-qr">
         </div>
@@ -43,3 +43,7 @@
           <p>全新的应用推送功能，在网页上轻轻一点就可以魔术般的安装应用到手机。（需要手机连接 Wi-Fi 并登录豌豆荚账号）</p>
     </li>
 </ul>
+
+<script type="text/javascript">
+    document.getElementById('download-p3').href +=  '?timestamp=' + new Date().getTime();
+</script>
