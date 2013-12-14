@@ -14,7 +14,7 @@
 
             <div class="others">
                 <span>其他下载：</span>
-                <a href="http://mir.wandoujia.com/getwdj/beta_" data-track="download/clientbeta/home" id="beta-download" target="_self">Beta 测试版</a>
+                <a href="http://mir.wandoujia.com/getwdj/beta_" id="download-beta" data-track="download/clientbeta/home" id="beta-download" target="_self">Beta 测试版</a>
                 <a href="{{= it.prefix }}/android"  >在手机上安装豌豆荚</a>
             </div>
         </div>
@@ -68,5 +68,6 @@
 </section>
 
 <script type="text/javascript">
-    document.getElementById('download-windows').href + new Date().getTime();
+    document.getElementById('download-windows').href += new Date().getTime();
+    document.getElementById('download-beta').href += new Date().getTime();
 </script>
