@@ -10,11 +10,11 @@
             <strong class="slogan">您的安卓手机加油站</strong>
             <p class="full">最丰富的应用、游戏、音乐、视频和壁纸免费下载到手机。</p>
 
-            <a rel="nofollow" id="download-windows" href="http://mir.wandoujia.com/getwdj/homepage" data-track="download/client2/{$src}" id="downloadbutton" target="_self" class="button-green button-medium"><i class="pngFix"></i>下载豌豆荚</a>
+            <a rel="nofollow" id="download-windows" href="http://mir.wandoujia.com/getwdj/homepage_" data-track="download/client2/{$src}" id="downloadbutton" target="_self" class="button-green button-medium"><i class="pngFix"></i>下载豌豆荚</a>
 
             <div class="others">
                 <span>其他下载：</span>
-                <a href="{$beta['url']}" data-track="download/clientbeta/home" id="beta-download" target="_self">Beta 测试版</a>
+                <a href="http://mir.wandoujia.com/getwdj/beta_" id="download-beta" data-track="download/clientbeta/home" id="beta-download" target="_self">Beta 测试版</a>
                 <a href="{{= it.prefix }}/android"  >在手机上安装豌豆荚</a>
             </div>
         </div>
@@ -68,5 +68,6 @@
 </section>
 
 <script type="text/javascript">
-    document.getElementById('download-windows').href +=  '?timestamp=' + new Date().getTime();
+    document.getElementById('download-windows').href += new Date().getTime();
+    document.getElementById('download-beta').href += new Date().getTime();
 </script>
