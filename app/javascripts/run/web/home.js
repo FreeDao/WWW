@@ -109,11 +109,12 @@ $(function() {
     }
 
     function checkLang() {
-        var al = tip.data('lang');
+        var al = navigator.language || '';
 
         if (!al) {
             return false;
         }
+
 
         var tmp = al.split(','),
             lang,
@@ -137,26 +138,19 @@ $(function() {
     }
 
     function checkIp() {
-        var ip = tip.data('ip'),
-            state = false;
-        if (!ip || ip === '::1') {
-            return false;
-        }
-
-
         $.ajax({
             async: false,
-            url: 'http://api.hostip.info/country.php?ip=' + ip,
+            url: 'http://ipinfo.io/json',
             success: function(data) {
-                if (data !== 'ZH' && data !== 'XX') {
+                var country = data.country;
+                if (country !== 'ZH' && country !== 'XX') {
                     state = true;
-                    updateHello(data);
+                    updateHello(country);
                 } else {
                     state = false;
                 }
             }
         });
-
         return state;
 
     }
@@ -170,7 +164,6 @@ $(function() {
 
 
     $('.international-tip .close').click(function() {
-        console.log(111)
         localStorage.setItem('international-user', 'yes');
         _gaq.push(['_trackEvent', 'tips', 'hide', 'international']);
         tip.hide();
