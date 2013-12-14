@@ -174,8 +174,24 @@
         float: right;
     }
     .more {
-        margin: 10px 12px 0 0;
         float: right;
+    }
+}
+
+.more {
+    color: #2f7c2f;
+    display: inline-block;
+    margin: 10px 12px 0 0;
+
+    .more-arrow {
+        @include use-sprite('more_arrow');
+        display: inline-block;
+        height: 13px;
+        line-height: 13px;
+        margin: -3px 0 0 5px;
+        overflow: hidden;
+        vertical-align: middle;
+        width: 13px;
     }
 }
 
@@ -247,8 +263,5 @@
     }
 }
 
-/* ----------- wandou-son ------------ */
-.txts {
-    position: relative;
-}
+
 

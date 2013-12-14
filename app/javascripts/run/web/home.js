@@ -2,7 +2,7 @@
  * @desc www.wandoujia.com首页
  * @author jintian
  */
-$(function () {
+$(function() {
 
     var status = 0;
 
@@ -10,13 +10,13 @@ $(function () {
         if ($(document).scrollTop() > 420 && status === 0) {
             status = 1;
             $.ajax({
-                url : 'http://apps.wandoujia.com/api/v1/apps?type=superiorFirst&max=9&ads_count=0&pos=t/www&tag=全部软件,全部游戏&opt_fields=apps.packageName,apps.title,apps.ad,apps.icons.px48',
-                dataType : 'jsonp',
-                success : function (resp) {
-                    _.each(resp, function (apps, index) {
+                url: 'http://apps.wandoujia.com/api/v1/apps?type=superiorFirst&max=9&ads_count=0&pos=t/www&tag=全部软件,全部游戏&opt_fields=apps.packageName,apps.title,apps.ad,apps.icons.px48',
+                dataType: 'jsonp',
+                success: function(resp) {
+                    _.each(resp, function(apps, index) {
                         var li = '';
                         var i = index;
-                        _.each(apps['apps'], function (app, index) {
+                        _.each(apps['apps'], function(app, index) {
                             if (!app.ad) {
                                 li += '<li class="app-item"><a href="http://www.wandoujia.com/apps/' + app.packageName + '"><img alt="' + app.title + '" src="' + app.icons.px48 + '"><span class="name">' + app.title + '</span></a></li>';
                             }
@@ -38,9 +38,9 @@ $(function () {
 
     // 搜索提示
     $('.search-ipt').suggestion();
-    
+
     var trackEvent = function(opt) {
-        if (typeof _gaq != 'undefined' && _gaq){
+        if (typeof _gaq != 'undefined' && _gaq) {
             var _act, _cat, _lbl, _val;
             if (opt) {
                 _cat = opt.category || "";
@@ -51,18 +51,18 @@ $(function () {
             }
         }
     };
-    
+
     // GA tracking
     if (typeof _gaq !== 'undefined' && _gaq) {
-        $('a[data-track]').live('click', function (e) {
+        $('a[data-track]').live('click', function(e) {
             var trackCode = $(this).data('track'),
                 codes = trackCode.split('/');
-            
+
             if (codes.length > 2) {
                 trackEvent({
-                    category : codes[0],
-                    action : codes[1],
-                    label : codes[2]
+                    category: codes[0],
+                    action: codes[1],
+                    label: codes[2]
                 });
             }
         });
@@ -76,7 +76,7 @@ $(function () {
         this.submit();
     });
 
-    $('.search-btn').click(function () {
+    $('.search-btn').click(function() {
         $('.search-box').submit();
     });
 
@@ -91,17 +91,17 @@ $(function () {
     function updateHello(lang) {
         var hello;
         switch (lang) {
-        case 'PT' :
-            hello = 'Oi!';
-            break;
-        case 'ES' :
-            hello = 'Hola!';
-            break;
-        case 'DE' :
-            hello = 'Hallo!';
-            break;
-        default :
-            hello = '';
+            case 'PT':
+                hello = 'Oi!';
+                break;
+            case 'ES':
+                hello = 'Hola!';
+                break;
+            case 'DE':
+                hello = 'Hallo!';
+                break;
+            default:
+                hello = '';
         }
         if (hello) {
             $('.hello').text(hello);
@@ -147,7 +147,7 @@ $(function () {
         $.ajax({
             async: false,
             url: 'http://api.hostip.info/country.php?ip=' + ip,
-            success: function (data) {
+            success: function(data) {
                 if (data !== 'ZH' && data !== 'XX') {
                     state = true;
                     updateHello(data);
@@ -162,19 +162,19 @@ $(function () {
     }
 
     if (html5StorageSupported && !localStorage.getItem('international-user')) {
-
         if (checkLang() && checkIp()) {
             tip.show();
             _gaq.push(['_trackEvent', 'tips', 'display', 'international']);
         }
-
-        $('.close').click(function() {
-            localStorage.setItem('international-user', 'yes');
-            _gaq.push(['_trackEvent', 'tips', 'hide', 'international']);
-            tip.hide();
-        });
-
     }
+
+
+    $('.international-tip .close').click(function() {
+        console.log(111)
+        localStorage.setItem('international-user', 'yes');
+        _gaq.push(['_trackEvent', 'tips', 'hide', 'international']);
+        tip.hide();
+    });
 
 
 });
