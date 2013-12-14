@@ -44,7 +44,8 @@
         "grunt-conventional-changelog" : "~1.0.0",
         "grunt-stencil" : "~1.0.1",
         "grunt-connect-rewrite" : "~0.2.0",
-        "grunt-text-replace" : "~0.3.7"
+        "grunt-text-replace" : "~0.3.7",
+        "grunt-wandoulabs-deploy" : "git+ssh://git@github.com:wandoulabs/grunt-wandoulabs-deploy.git"
     },
     "engines" : {
         "node" : ">=0.8.0"
