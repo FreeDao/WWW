@@ -367,10 +367,10 @@ module.exports = function (grunt) {
                 overwrite : true,
                 replacements : [{
                     from: /<script(.+)src=['"]([^"']+)["']/gm,
-                    to: '<script$1src="http://s.wdjimg.com/www/$2"'
+                    to: '<script$1src="http://s.wdjimg.com/www$2"'
                 }, {
                     from : /<link([^\>]+)href=['"]([^"']+)["']/gm,
-                    to: '<link$1href="http://s.wdjimg.com/www/$2"'
+                    to: '<link$1href="http://s.wdjimg.com/www$2"'
                 }]
             }
         }
