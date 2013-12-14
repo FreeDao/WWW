@@ -373,6 +373,22 @@ module.exports = function (grunt) {
                     to: '<link$1href="http://s.wdjimg.com/www$2"'
                 }]
             }
+        },
+        wandoulabs_deploy : {
+            options : {
+                authKey : '.wdrc'
+            },
+            product : {
+                deployCDN : {
+                    src : '<%= paths.dist %>',
+                    target : 'www'
+                },
+                deployStatic : {
+                    src : '<%= paths.dist %>',
+                    target : 'www',
+                    product : true
+                }
+            }
         }
     });
 
@@ -423,6 +439,7 @@ module.exports = function (grunt) {
         'htmlmin',
         'rev',
         'usemin',
-        'replace:cdn'
+        'replace:cdn',
+        'wandoulabs_deploy:product'
     ]);
 };
