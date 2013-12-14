@@ -124,6 +124,8 @@ module.exports = function (grunt) {
         usemin: {
             html : ['<%= paths.dist %>/**/*.html'],
             options : {
+                assetsDirs : ['<%= paths.dist %>'],
+                root : '<%= paths.tmp %>',
                 dirs : ['<%= paths.dist %>']
             }
         },
