@@ -229,7 +229,7 @@ $(function() {
     }
 
     if (html5StorageSupported && !localStorage.getItem('international-user')) {
-        if (checkIp()) {
+        if (checkLang() && checkIp()) {
             tip.show();
             _gaq.push(['_trackEvent', 'tips', 'display', 'international']);
         }
