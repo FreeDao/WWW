@@ -6,6 +6,82 @@ $(function() {
 
     var status = 0;
 
+    function getParam(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"),
+            queryResult = location.search.substr(1).match(reg);
+        return queryResult ? unescape(queryResult[2]) : null;
+    }
+
+    var campaign = getParam('utm_campaign'),
+        source = $.cookie('__utmz') || '',
+        isPmt = !! campaign || source.indexOf('_pmt') >= 0,
+        src = getParam('src') || getParam('utm_source'),
+        durl;
+
+    if (!isPmt) {
+        if (src !== null) {
+            durl = 'http://dl.wandoujia.com/files/third/WanDouJiaSetup_' + (src ? src : 'ad') + '.exe';
+        }
+    } else {
+        if (!campaign) {
+            if (source.indexOf('utmccn=app_pmt') > 0) {
+
+                var semDurl = 'a20';
+
+                if (source.indexOf('utmcsr=bdpmt_essentialapp') > 0) {
+                    semDurl = 'bdpmt_essentialapp';
+                }
+                if (source.indexOf('utmcsr=bdpmt_mm') > 0) {
+                    semDurl = 'bdpmt_mm';
+                }
+                if (source.indexOf('utmcsr=bdpmt_hotgame') > 0) {
+                    semDurl = 'bdpmt_hotgame';
+                }
+                if (source.indexOf('utmcsr=bdpmt_exact') > 0) {
+                    semDurl = 'bdpmt_exact';
+                }
+                if (source.indexOf('utmcsr=bdpmt_rovio') > 0) {
+                    semDurl = 'bdpmt_rovio';
+                }
+                if (source.indexOf('utmcsr=bdpmt_competingapp') > 0) {
+                    semDurl = 'bdpmt_competingapp';
+                }
+                if (source.indexOf('utmcsr=bdpmt_websites') > 0) {
+                    semDurl = 'bdpmt_websites';
+                }
+                if (source.indexOf('utmcsr=bdpmt_keywords') > 0) {
+                    semDurl = 'bdpmt_keywords';
+                }
+                if (source.indexOf('utmcsr=bdpmt_interests') > 0) {
+                    semDurl = 'bdpmt_interests';
+                }
+
+                durl = 'http://apps.wandoujia.com/redirect?pos=www/download/home&url=http://dl.wandoujia.com/files/third/WanDouJiaSetup_' + semDurl + '.exe';
+
+            } else if (source.indexOf('utmccn=adwords_pmt') > 0) {
+                durl = 'http://apps.wandoujia.com/redirect?pos=www/download/home&url=http://dl.wandoujia.com/files/third/WanDouJiaSetup_a19.exe';
+            } else if (source.indexOf('utmccn=sogou_pmt') > 0) {
+                durl = 'http://apps.wandoujia.com/redirect?pos=www/download/home&url=http://dl.wandoujia.com/files/third/WanDouJiaSetup_a18.exe';
+            }
+
+
+        } else {
+            if (campaign === 'app_pmt') {
+                durl = 'http://apps.wandoujia.com/redirect?pos=www/download/home&url=http://dl.wandoujia.com/files/third/WanDouJiaSetup_a20.exe';
+            } else if (campaign === 'adwords_pmt') {
+                durl = 'http://apps.wandoujia.com/redirect?pos=www/download/home&url=http://dl.wandoujia.com/files/third/WanDouJiaSetup_a19.exe';
+            } else if (campaign === 'sogou_pmt') {
+                durl = 'http://apps.wandoujia.com/redirect?pos=www/download/home&url=http://dl.wandoujia.com/files/third/WanDouJiaSetup_a18.exe';
+            }
+
+        }
+    }
+
+    if (durl !== undefined) {
+        $('#download-windows').attr('href', durl);
+    }
+
+
     $(window).scroll(function() {
         if ($(document).scrollTop() > 420 && status === 0) {
             status = 1;
@@ -32,9 +108,6 @@ $(function() {
             });
         }
     });
-
-
-
 
     // 搜索提示
     $('.search-ipt').suggestion();
@@ -68,7 +141,7 @@ $(function() {
         });
     }
 
-    $('.search-box').submit(function (event) {
+    $('.search-box').submit(function(event) {
         event.preventDefault();
         if ($.trim($('.search-ipt').val()) === '') {
             return false;

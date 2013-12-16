@@ -1,4 +1,4 @@
-<footer class="w-footer">
+<div class="footer w-footer">
     <div class="ft-inner">
         {{? !it.noNav }}
         <dl class="clearfix">
@@ -63,7 +63,7 @@
             </p>
         </div>
     </div>
-</footer>
+</div>
 
 {{= it.include('ga') }}
 
@@ -98,14 +98,8 @@
 
 {{?}}
 
-<!-- build:js(app) /javascripts/util/html5shiv.js -->
-<!--[if lte IE 8]>
-<script type="text/javascript" src="/javascripts/util/html5shiv.js"></script>
-<![endif]-->
-<!-- endbuild -->
-
-<!-- build:js(app) /javascripts/util/png-hack.js -->
 <!--[if IE 6]>
+<!-- build:js /javascripts/util/png-hack.js -->
 <script type="text/javascript" src="/javascripts/util/png-hack.js"></script>
-<![endif]-->
 <!-- endbuild -->
+<![endif]-->
