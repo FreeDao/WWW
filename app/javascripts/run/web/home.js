@@ -211,16 +211,16 @@ $(function() {
     }
 
     function checkIp() {
+        var state = false;
         $.ajax({
             async: false,
             url: 'http://ipinfo.io/json',
+            dataType: 'jsonp',
             success: function(data) {
                 var country = data.country;
                 if (country !== 'ZH' && country !== 'XX') {
                     state = true;
                     updateHello(country);
-                } else {
-                    state = false;
                 }
             }
         });
@@ -229,7 +229,7 @@ $(function() {
     }
 
     if (html5StorageSupported && !localStorage.getItem('international-user')) {
-        if (checkLang() && checkIp()) {
+        if (checkIp()) {
             tip.show();
             _gaq.push(['_trackEvent', 'tips', 'display', 'international']);
         }
