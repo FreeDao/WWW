@@ -29,7 +29,7 @@ module.exports = function (grunt) {
             },
             test : {
                 files : ['<%= paths.app %>/javascripts/**/*.js'],
-                tasks : ['jshint:test', 'karma:server:run'],
+                tasks : ['jshint:test'],
                 options : {
                     spawn : false
                 }
@@ -124,6 +124,8 @@ module.exports = function (grunt) {
         usemin: {
             html : ['<%= paths.dist %>/**/*.html'],
             options : {
+                assetsDirs : ['<%= paths.dist %>'],
+                root : '<%= paths.tmp %>',
                 dirs : ['<%= paths.dist %>']
             }
         },
@@ -257,35 +259,6 @@ module.exports = function (grunt) {
         jshint : {
             test : ['<%= paths.app %>/javascripts/**/*.js']
         },
-        karma : {
-            options : {
-                configFile : '<%= paths.test %>/karma.conf.js',
-                browsers : ['Chrome_without_security']
-            },
-            server : {
-                reporters : ['progress'],
-                background : true
-            },
-            test : {
-                reporters : ['progress', 'junit', 'coverage'],
-                preprocessors : {
-                    '<%= paths.app %>/javascripts/**/*.js' : 'coverage'
-                },
-                junitReporter : {
-                    outputFile : '<%= paths.test %>/output/test-results.xml'
-                },
-                coverageReporter : {
-                    type : 'html',
-                    dir : '<%= paths.test %>/output/coverage/'
-                },
-                singleRun : true
-            },
-            travis : {
-                browsers : ['PhantomJS'],
-                reporters : ['progress'],
-                singleRun : true
-            }
-        },
         bump : {
             options : {
                 files : ['package.json', 'bower.json'],
@@ -365,11 +338,27 @@ module.exports = function (grunt) {
                 overwrite : true,
                 replacements : [{
                     from: /<script(.+)src=['"]([^"']+)["']/gm,
-                    to: '<script$1src="http://s.wdjimg.com/www/$2"'
+                    to: '<script$1src="http://s.wdjimg.com/www$2"'
                 }, {
                     from : /<link([^\>]+)href=['"]([^"']+)["']/gm,
-                    to: '<link$1href="http://s.wdjimg.com/www/$2"'
+                    to: '<link$1href="http://s.wdjimg.com/www$2"'
                 }]
+            }
+        },
+        wandoulabs_deploy : {
+            options : {
+                authKey : '.wdrc'
+            },
+            product : {
+                deployCDN : {
+                    src : '<%= paths.dist %>',
+                    target : 'www'
+                },
+                deployStatic : {
+                    src : '<%= paths.dist %>',
+                    target : 'www',
+                    product : true
+                }
             }
         }
     });
@@ -379,20 +368,17 @@ module.exports = function (grunt) {
         'concurrent:server',
         'configureRewriteRules',
         'connect:server',
-        // 'karma:server',
         'stencil:server',
         // 'open',
         'watch'
     ]);
 
     grunt.registerTask('test', [
-        'jshint:test',
-        'karma:test'
+        'jshint:test'
     ]);
 
     grunt.registerTask('test:travis', [
-        'jshint:test',
-        'karma:travis'
+        'jshint:test'
     ]);
 
     grunt.registerTask('build:staging', [
@@ -421,6 +407,7 @@ module.exports = function (grunt) {
         'htmlmin',
         'rev',
         'usemin',
-        'replace:cdn'
+        'replace:cdn',
+        'wandoulabs_deploy:product'
     ]);
 };
