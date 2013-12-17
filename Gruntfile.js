@@ -180,7 +180,7 @@ module.exports = function (grunt) {
                     cwd : '<%= paths.app %>/statics/',
                     dest : '<%= paths.dist %>',
                     src : [
-                        '**/*.{html,js,css,gif,png,jpg,jpeg,json}'
+                        '**/*.{html,js,css,gif,png,jpg,jpeg,json,alfredworkflow}'
                     ]
                 }]
             }
