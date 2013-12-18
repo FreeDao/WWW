@@ -410,6 +410,6 @@ module.exports = function (grunt) {
         'usemin',
         'replace:cdn',
         'copy:statics',
-        // 'wandoulabs_deploy:product'
+        'wandoulabs_deploy:product'
     ]);
 };
