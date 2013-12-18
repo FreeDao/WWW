@@ -1,0 +1,748 @@
+footer {
+    border-top: none;
+}
+
+.main-frame {
+    text-shadow: none;
+    position: relative;
+    margin: 50px auto 0;
+    padding-top: 450px;
+    width: 940px;
+    box-shadow: 0 1px 2px #D6D6D6;
+    background: #fff url("http://img.wdjimg.com/ios-landing-page/images/bg.jpg") 0 0 no-repeat;
+}
+
+.main-frame .ios-features {
+    *zoom: 1;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.main-frame .ios-features li {
+    margin: 140px 120px;
+}
+
+.main-frame .ios-features li .desc {
+    float: left;
+    overflow: hidden;
+    width: 300px;
+}
+
+.main-frame .ios-features li .figure {
+    float: right;
+    position: relative;
+}
+
+.main-frame .ios-features li.even .desc {
+    float: right;
+}
+
+.main-frame .ios-features li.even .figure {
+    float: left;
+}
+
+.main-frame .ios-features .desc h2 {
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 3;
+}
+
+.main-frame .ios-features .desc p {
+    font-size: 13px;
+    color: #999;
+    line-height: 2;
+}
+
+.main-frame .ios-features .desc p a {
+    color: #2f7c2f;
+}
+
+.main-frame h1 {
+    font-size: 34px;
+    line-height: 2;
+    color: #fff;
+    position: absolute;
+    left: 120px;
+    top: 202px;
+}
+
+.main-frame h1 .ios-icon {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 0;
+    top: -137px;
+    background-image: url('http://img.wdjimg.com/ios-landing-page/images/big-icons-s37764f8f0d.png');
+    background-position: 0 -39px;
+    background-repeat: no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
+    .main-frame h1 .ios-icon {
+        background-image: url('http://img.wdjimg.com/ios-landing-page/images/big-icons-retina-s973aec701b.png');
+        background-size: 370px 1288px;
+        background-position: 0 -389px;
+    }
+}
+
+.main-frame h3 {
+    font-size: 20px;
+    line-height: 2;
+    color: #fff;
+    position: absolute;
+    left: 120px;
+    top: 259px;
+}
+
+.main-frame .download-button {
+    position: absolute;
+    top: 315px;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #fff;
+    background: #3baa24;
+    text-align: center;
+}
+
+.main-frame .download-button:hover {
+    color: #fff;
+    text-decoration: none;
+    background: #47c52d;
+}
+
+.main-frame .download-button:active {
+    background: #2f7c2f;
+}
+
+.main-frame .download-button i {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    margin-top: 11px;
+}
+
+.main-frame .iphone-download {
+    left: 120px;
+}
+
+.main-frame .iphone-download i {
+    width: 19px;
+    height: 23px;
+    background-image: url('http://img.wdjimg.com/ios-landing-page/images/big-icons-s37764f8f0d.png');
+    background-position: 0 -1233px;
+    background-repeat: no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
+    .main-frame .iphone-download i {
+        background-image: url('http://img.wdjimg.com/ios-landing-page/images/big-icons-retina-s973aec701b.png');
+        background-size: 370px 1288px;
+        background-position: 0 -1220px;
+    }
+}
+
+.main-frame .android-download {
+    left: 290px;
+}
+
+.main-frame .android-download i {
+    width: 20px;
+    height: 23px;
+    background-image: url('http://img.wdjimg.com/ios-landing-page/images/big-icons-s37764f8f0d.png');
+    background-position: 0 -1283px;
+    background-repeat: no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
+    .main-frame .android-download i {
+        background-image: url('http://img.wdjimg.com/ios-landing-page/images/big-icons-retina-s973aec701b.png');
+        background-size: 370px 1288px;
+        background-position: 0 -1265px;
+    }
+}
+
+.main-frame .btn-bottom {
+    top: 1540px;
+}
+
+.main-frame .iphone-download.btn-bottom {
+    left: 310px;
+}
+
+.main-frame .android-download.btn-bottom {
+    left: 480px;
+}
+
+.main-frame .weibo-share {
+    position: absolute;
+    right: -8px;
+    top: 30px;
+    width: 114px;
+    height: 35px;
+    line-height: 30px;
+    text-indent: 40px;
+    background-image: url('http://img.wdjimg.com/ios-landing-page/images/big-icons-s37764f8f0d.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
+    .main-frame .weibo-share {
+        background-image: url('http://img.wdjimg.com/ios-landing-page/images/big-icons-retina-s973aec701b.png');
+        background-size: 370px 1288px;
+        background-position: 0 -1183px;
+    }
+}
+
+.main-frame .weibo-share:hover {
+    text-decoration: none;
+}
+
+.main-frame .link-to-cloud {
+    position: absolute;
+    top: 390px;
+    left: 120px;
+    color: #fff;
+}
+
+.main-frame .link-to-cloud a {
+    color: #fff;
+}
+
+.main-frame .figure-sync .iphone-frame {
+    float: right;
+    width: 107px;
+    height: 225px;
+    background-image: url('http://img.wdjimg.com/ios-landing-page/images/big-icons-s37764f8f0d.png');
+    background-position: 0 -788px;
+    background-repeat: no-repeat;
+    margin-left: 40px;
+    position: relative;
+    z-index: 2;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
+    .main-frame .figure-sync .iphone-frame {
+        background-image: url('http://img.wdjimg.com/ios-landing-page/images/big-icons-retina-s973aec701b.png');
+        background-size: 370px 1288px;
+        background-position: 0 -741px;
+    }
+}
+
+.main-frame .figure-sync .android-frame {
+    float: right;
+    width: 124px;
+    height: 228px;
+    background-image: url('http://img.wdjimg.com/ios-landing-page/images/big-icons-s37764f8f0d.png');
+    background-position: 0 -163px;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 2;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
+    .main-frame .figure-sync .android-frame {
+        background-image: url('http://img.wdjimg.com/ios-landing-page/images/big-icons-retina-s973aec701b.png');
+        background-size: 370px 1288px;
+        background-position: 0 -511px;
+    }
+}
+
+.main-frame .figure-sync .mask {
+    position: absolute;
+    left: 9px;
+    top: 27px;
+    width: 106px;
+    height: 178px;
+    background: #fff;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.main-frame .figure-sync .mask .scroll-image {
+    width: 424px;
+    height: 178px;
+    background: url("http://img.wdjimg.com/ios-landing-page/images/android-scroll.png") 0 0 no-repeat;
+    -webkit-animation: phone-scroll 5s infinite;
+    animation: phone-scroll 5s infinite;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.main-frame .figure-sync .imask {
+    left: 165px;
+}
+
+.main-frame .figure-cloud .bg-mask {
+    width: 320px;
+    height: 115px;
+    overflow: hidden;
+}
+
+.main-frame .figure-cloud .bg-mask .scroll-bg {
+    width: 320px;
+    height: 240px;
+    background-image: url('http://img.wdjimg.com/ios-landing-page/images/big-icons-s37764f8f0d.png');
+    background-position: 0 -395px;
+    background-repeat: no-repeat;
+    -webkit-animation: bg-scroll 4s steps(5) infinite;
+    animation: bg-scroll 4s steps(5) infinite;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
+    .main-frame .figure-cloud .bg-mask .scroll-bg {
+        background-image: url('http://img.wdjimg.com/ios-landing-page/images/big-icons-retina-s973aec701b.png');
+        background-size: 370px 1288px;
+        background-position: 0 0;
+    }
+}
+
+.main-frame .figure-cloud .sb {
+    width: 293px;
+    height: 129px;
+    position: absolute;
+    left: 30px;
+    top: 15px;
+    background-image: url('http://img.wdjimg.com/ios-landing-page/images/big-icons-s37764f8f0d.png');
+    background-position: 0 -655px;
+    background-repeat: no-repeat;
+    -webkit-animation: sb-jump 1.5s infinite;
+    animation: sb-jump 1.5s infinite;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
+    .main-frame .figure-cloud .sb {
+        background-image: url('http://img.wdjimg.com/ios-landing-page/images/big-icons-retina-s973aec701b.png');
+        background-size: 370px 1288px;
+        background-position: 0 -258px;
+    }
+}
+
+.main-frame .figure-cloud .sb-shadow {
+    width: 179px;
+    height: 19px;
+    position: absolute;
+    left: 70px;
+    top: 185px;
+    background-image: url('http://img.wdjimg.com/ios-landing-page/images/big-icons-s37764f8f0d.png');
+    background-position: 0 -1260px;
+    background-repeat: no-repeat;
+    -webkit-animation: sb-shadow 1.5s infinite;
+    animation: sb-shadow 1.5s infinite;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
+    .main-frame .figure-cloud .sb-shadow {
+        background-image: url('http://img.wdjimg.com/ios-landing-page/images/big-icons-retina-s973aec701b.png');
+        background-size: 370px 1288px;
+        background-position: 0 -1244px;
+    }
+}
+
+.main-frame .figure-web .mac-frame {
+    width: 370px;
+    height: 212px;
+    background-image: url('http://img.wdjimg.com/ios-landing-page/images/big-icons-s37764f8f0d.png');
+    background-position: 0 -1017px;
+    background-repeat: no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 2) {
+    .main-frame .figure-web .mac-frame {
+        background-image: url('http://img.wdjimg.com/ios-landing-page/images/big-icons-retina-s973aec701b.png');
+        background-size: 370px 1288px;
+        background-position: 0 -969px;
+    }
+}
+
+.main-frame .figure-web .mac-frame .mask {
+    width: 264px;
+    height: 165px;
+    position: absolute;
+    left: 53px;
+    top: 13px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.main-frame .figure-web .mac-frame .mask .scroll-image {
+    background: url("http://img.wdjimg.com/ios-landing-page/images/mac-scroll.png");
+    width: 230px;
+    height: 365px;
+    margin-left: 17px;
+    -webkit-animation: mac-scroll 5s linear infinite;
+    animation: mac-scroll 5s linear infinite;
+}
+
+.main-frame [data-animate] {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+.main-frame .ios-features>li:hover [data-animate] {
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+}
+
+.main-frame .figure-demo {
+    position: absolute;
+    right: 0;
+    top: -25px;
+    width: 490px;
+    height: 567px;
+    background: url("http://img.wdjimg.com/ios-landing-page/images/hand.png") 0 0 no-repeat;
+}
+
+.main-frame .figure-demo>.screenshot {
+    width: 340px;
+    height: 380px;
+    position: absolute;
+    left: 40px;
+    top: 45px;
+    background: url("http://img.wdjimg.com/ios-landing-page/images/screen.jpg") 0 0 no-repeat;
+    opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.main-frame .figure-demo>.screenshot1 {
+    -webkit-animation: screen1 6s infinite;
+    animation: screen1 6s infinite;
+}
+
+.main-frame .figure-demo>.screenshot2 {
+    background-position: 0 -380px;
+    -webkit-animation: screen2 6s infinite;
+    animation: screen2 6s infinite;
+}
+
+.main-frame .figure-demo>.screenshot3 {
+    background-position: 0 -760px;
+    -webkit-animation: screen3 6s infinite;
+    animation: screen3 6s infinite;
+}
+
+@-webkit-keyframes mac-scroll {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        -webkit-transform: translate3d(0, -200px, 0);
+    }
+}
+
+@keyframes mac-scroll {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(0, -200px, 0);
+    }
+}
+
+@-webkit-keyframes phone-scroll {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    33.3% {
+        margin-left: -100%;
+    }
+
+    53.3% {
+        margin-left: -100%;
+    }
+
+    66.7% {
+        margin-left: -200%;
+    }
+
+    86.7% {
+        margin-left: -200%;
+    }
+
+    100% {
+        margin-left: -300%;
+    }
+}
+
+@keyframes phone-scroll {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    33.3% {
+        margin-left: -100%;
+    }
+
+    53.3% {
+        margin-left: -100%;
+    }
+
+    66.7% {
+        margin-left: -200%;
+    }
+
+    86.7% {
+        margin-left: -200%;
+    }
+
+    100% {
+        margin-left: -300%;
+    }
+}
+
+@-webkit-keyframes bg-scroll {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        -webkit-transform: translate3d(0, -160px, 0);
+    }
+}
+
+@keyframes bg-scroll {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(0, -160px, 0);
+    }
+}
+
+@-webkit-keyframes sb-jump {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+        -webkit-animation-timing-function: ease-out;
+    }
+
+    25% {
+        -webkit-transform: translate3d(0, -5px, 0);
+        -webkit-animation-timing-function: ease-in-out;
+    }
+
+    75% {
+        -webkit-transform: translate3d(0, 5px, 0);
+        -webkit-animation-timing-function: ease-in;
+    }
+
+    100% {
+        -webkit-transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes sb-jump {
+    0% {
+        transform: translate3d(0, 0, 0);
+        animation-timing-function: ease-out;
+    }
+
+    25% {
+        transform: translate3d(0, -5px, 0);
+        animation-timing-function: ease-in-out;
+    }
+
+    75% {
+        transform: translate3d(0, 5px, 0);
+        animation-timing-function: ease-in;
+    }
+
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@-webkit-keyframes sb-shadow {
+    0% {
+        -webkit-transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+    }
+
+    25% {
+        -webkit-transform: scale(0.9);
+        -webkit-animation-timing-function: ease-in-out;
+    }
+
+    75% {
+        -webkit-transform: scale(1.1);
+        -webkit-animation-timing-function: ease-in;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+    }
+}
+
+@keyframes sb-shadow {
+    0% {
+        transform: scale(1);
+        animation-timing-function: ease-out;
+    }
+
+    25% {
+        transform: scale(0.9);
+        animation-timing-function: ease-in-out;
+    }
+
+    75% {
+        transform: scale(1.1);
+        animation-timing-function: ease-in;
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes screen1 {
+    0% {
+        opacity: 0;
+    }
+
+    12.5% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 1;
+        -webkit-animation-timing-function: step-end;
+    }
+
+    87.5% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes screen2 {
+    0% {
+        opacity: 0;
+    }
+
+    37.5% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+        -webkit-animation-timing-function: step-end;
+    }
+
+    87.5% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes screen3 {
+    0% {
+        opacity: 0;
+    }
+
+    62.5% {
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 1;
+    }
+
+    87.5% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes screen1 {
+    0% {
+        opacity: 0;
+    }
+
+    12.5% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 1;
+        animation-timing-function: step-end;
+    }
+
+    87.5% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes screen2 {
+    0% {
+        opacity: 0;
+    }
+
+    37.5% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+        animation-timing-function: step-end;
+    }
+
+    87.5% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes screen3 {
+    0% {
+        opacity: 0;
+    }
+
+    62.5% {
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 1;
+    }
+
+    87.5% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
