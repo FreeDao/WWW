@@ -158,7 +158,8 @@ module.exports = function (grunt) {
                     cwd : '<%= paths.app %>',
                     dest : '<%= paths.dist %>',
                     src : [
-                        'images/**/*.{webp,gif,png,jpg,jpeg,ico}'
+                        'images/**/*.{webp,gif,png,jpg,jpeg,ico}',
+                        '*.ico'
                     ]
                 }]
             },
@@ -254,7 +255,7 @@ module.exports = function (grunt) {
         concurrent: {
             server : ['copy:server', 'compass:server'],
             staging : ['copy:dist', 'compass:staging', 'copy:statics', 'copy:js'],
-            dist : ['copy:dist', 'compass:dist', 'copy:statics', 'copy:js']
+            dist : ['copy:dist', 'compass:dist', 'copy:js']
         },
         jshint : {
             test : ['<%= paths.app %>/javascripts/**/*.js']
@@ -334,7 +335,7 @@ module.exports = function (grunt) {
         },
         replace : {
             cdn : {
-                src : ['<%= paths.dist %>/*.html'],
+                src : ['<%= paths.dist %>/**/*.html'],
                 overwrite : true,
                 replacements : [{
                     from: /<script(.+)src=['"]([^"']+)["']/gm,
@@ -408,6 +409,7 @@ module.exports = function (grunt) {
         'rev',
         'usemin',
         'replace:cdn',
+        'copy:statics',
         'wandoulabs_deploy:product'
     ]);
 };
