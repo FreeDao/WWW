@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>云相册 - 豌豆荚</title>
+    <meta name="keywords" content="豌豆荚,云相册">
+    <meta name="description" content="豌豆荚云相册自动同步 iPhone 和 Android 的照片">
+    <!-- build:css(.tmp) /stylesheets/www/ios.css -->
+    <link rel="stylesheet" href="/stylesheets/www/static.css">
+    <link rel="stylesheet" href="/stylesheets/www/ios.css">
+    <!-- endbuild -->
+
+</head>
+<body>
+    {{= it.include('header') }}
+
+    <div class="main-frame">
+        <h1>云相册<i class="ios-icon"></i></h1>
+        <h3>自动同步 iPhone 和 Android 的照片</h3>
+        <a target="_blank" href="https://itunes.apple.com/cn/app/wan-dou-jia-yun-xiang-ce/id700821148?mt=8" class="download-button iphone-download" onclick="(_gaq || []).push(['_trackEvent', 'iOS', 'Click', 'iPhone']);"><i></i>iPhone 版</a>
+        <a target="_blank" href="http://www.wandoujia.com/android" class="download-button android-download" onclick="(_gaq || []).push(['_trackEvent', 'iOS', 'Click', 'Android']);"><i></i>Android 版</a>
+        <ul class="ios-features">
+            <li class="clearfix">
+                <div class="desc">
+                    <h2>跨平台同步</h2>
+                    <p>用 iPhone，又用 Android？云相册帮助您同步 iPhone 和 Android 上的照片。连入 Wi-Fi 时自动同步。不用想照片在哪台手机，它就在云相册。</p>
+                </div>
+                <div class="figure figure-sync">
+                    <div class="iphone-frame"></div>
+                    <div class="mask imask">
+                        <div class="scroll-image" data-animate></div>
+                    </div>
+                    <div class="android-frame"></div>
+                    <div class="mask">
+                        <div class="scroll-image" data-animate></div>
+                    </div>
+                </div>
+            </li>
+            <li class="clearfix even">
+                <div class="desc">
+                    <h2>免费储存空间</h2>
+                    <p>所有照片免费保存在云端。好照片太多放不下？再也不用担心手机容量问题了，云相册帮您照看。</p>
+                </div>
+                <div class="figure figure-cloud">
+                    <div class="bg-mask">
+                        <div class="scroll-bg" data-animate></div>
+                    </div>
+                    <div class="sb" data-animate></div>
+                    <div class="sb-shadow" data-animate></div>
+                </div>
+            </li>
+            <li class="clearfix">
+                <div class="desc">
+                    <h2>网页版云相册</h2>
+                    <p>从手机小屏幕，到电脑大屏幕，照片都在您的身边。您可以用电脑访问 <a href="http://www.wandoujia.com/cloud/#photos">云相册</a>，用浏览器管理手机中的照片，高效的操作让管理照片不再繁琐。</p>
+                </div>
+                <div class="figure figure-web">
+                    <div class="mac-frame">
+                        <div class="mask">
+                            <div class="scroll-image" data-animate></div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="figure-demo">
+            <div class="screenshot screenshot1"></div>
+            <div class="screenshot screenshot2"></div>
+            <div class="screenshot screenshot3"></div>
+        </div>
+        <a class="weibo-share" target="_blank" href="http://service.weibo.com/share/share.php?appkey=1483181040&relateUid=1727978503&title=%E7%BA%B3%E5%B0%BC%EF%BC%9F%40%E8%B1%8C%E8%B1%86%E8%8D%9A%20%E5%B1%85%E7%84%B6%E5%87%BA%20iPhone%20%E7%89%88%E5%95%A6%EF%BC%81%E7%BB%88%E4%BA%8E%E5%8F%AF%E4%BB%A5%E5%9C%A8%20iPhone%20%E4%B8%8A%E5%90%8C%E6%AD%A5%E7%85%A7%E7%89%87%E4%BA%86%EF%BC%81%E4%BB%A5%E5%90%8E%E6%89%8B%E6%9C%BA%E9%87%8C%E7%9A%84%E7%85%A7%E7%89%87%E5%9C%A8%20iPhone%E3%80%81Android%20%E5%92%8C%E7%94%B5%E8%84%91%E4%B8%8A%E9%83%BD%E8%83%BD%E9%9A%8F%E6%97%B6%E6%9F%A5%E7%9C%8B%E5%95%A6%EF%BC%8C%E7%9C%9F%E6%98%AF%E6%84%9F%E5%8A%A8%E5%91%A2%EF%BC%81%5B%E9%BC%93%E6%8E%8C%5D%20%E4%B8%8B%E8%BD%BD%E6%88%B3%E5%8F%B3%E8%BE%B9%EF%BC%9A&url=https%3A%2F%2Fitunes.apple.com%2Fcn%2Fapp%2Fwan-dou-jia-yun-xiang-ce%2Fid700821148%3Fmt%3D8&pic=http%3A%2F%2Fimg.wdjimg.com%2Fios-landing-page%2Fimages%2Fweibo-share.jpg" onclick="(_gaq || []).push(['_trackEvent', 'iOS', 'Click', 'Sina']);">分享给好友</a>
+        <span class="link-to-cloud">前往网页版云相册 <a  href="http://www.wandoujia.com/cloud/#photos" target="_blank"> http://www.wandoujia.com/cloud</a></span>
+        <a target="_blank" href="https://itunes.apple.com/cn/app/wan-dou-jia-yun-xiang-ce/id700821148?mt=8" class="download-button iphone-download btn-bottom" onclick="(_gaq || []).push(['_trackEvent', 'iOS', 'Click', 'iPhone']);"><i></i>iPhone 版</a>
+        <a target="_blank" href="http://www.wandoujia.com/android" class="download-button android-download btn-bottom" onclick="(_gaq || []).push(['_trackEvent', 'iOS', 'Click', 'Android']);"><i></i>Android 版</a>
+    </div>
+
+    {{= it.include('footer') }}
+</body>
+</html>
