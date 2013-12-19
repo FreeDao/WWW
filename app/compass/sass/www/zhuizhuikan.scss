@@ -1,0 +1,80 @@
+.sprites-sprite, .w-btn-download, .w-highlight .w-highlight-video .w-btn-video, .w-highlight .w-highlight-video .w-btn-share, .w-highlight .w-highlight-text {
+    background-image: generated-image-url('www/zhuizhuikan.png');
+    background-repeat:no-repeat
+}
+a, img {
+    border:0
+}
+.w-container {
+    background-color:#fff;
+    border:#f0f0f0;
+    margin:20px auto;
+    width:940px;
+    overflow:hidden
+}
+.w-btn-download {
+    background-position:0 -320px;
+    height:50px;
+    width:170px;
+    display:block;
+    text-indent:-9876px
+}
+.w-highlight {
+    position:relative;
+    padding:40px 40px 70px
+}
+.w-highlight .w-highlight-video {
+    width:484px
+}
+.w-highlight .w-highlight-video .w-btn-video {
+    background-position:0 0;
+    height:320px;
+    width:484px;
+    display:block;
+    text-indent:-9876px
+}
+.w-highlight .w-highlight-video iframe {
+    display:none
+}
+.w-highlight .w-highlight-video .w-btn-share {
+    background-position:0 -370px;
+    height:17px;
+    width:86px;
+    display:block;
+    text-indent:-9876px;
+    float:right;
+    margin-top:10px
+}
+.w-highlight .w-highlight-video.w-show-video .w-btn-video {
+    display:none
+}
+.w-highlight .w-highlight-video.w-show-video iframe {
+    display:block
+}
+.w-highlight .w-highlight-text {
+    background-position:0 -387px;
+    height:188px;
+    width:322px;
+    position:absolute;
+    top:80px;
+    right:65px
+}
+.w-highlight .w-highlight-text .w-btn-download {
+    position:absolute;
+    top:200px
+}
+.w-highlight .w-highlight-text .w-highlight-qr {
+    position:absolute;
+    top:174px;
+    left:180px
+}
+.w-banner {
+    margin:20px 0;
+    text-align:center
+}
+.w-banner-download {
+    margin:100px 0 40px
+}
+.w-banner-download .w-btn-download {
+    margin:0 auto
+}
