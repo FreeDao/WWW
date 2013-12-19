@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>豌豆币充值 - 豌豆荚</title>
+    <title>豌豆币充值中心 - 豌豆荚</title>
     <meta name="keywords" content="豌豆荚,安卓游戏,安卓软件下载,安卓游戏下载,安卓手机助手" />
     <meta name="description" content="豌豆荚让您的安卓手机简单好用，轻松管理手机，免费下载应用、视频和音乐，管理通讯录，快速备份手机。" />
     <link rel="stylesheet" type="text/css" href="/stylesheets/www/pay.css" />
@@ -13,7 +13,11 @@
  
     <div class="page">
         <div class="container">
+
+            <div class="alert" style="display:none;">充值没有完成，请您重试！</div>
+
             <div class="title">豌豆币充值</div>
+            <div class="use-tip">*豌豆币是豌豆荚推出的虚拟货币，可用于购买游戏中的虚拟付费项目，例如道具、关卡、游戏币等，1 豌豆币=1 元</div>
 
             <form class="form-horizontal">
                 <div class="control-group clearfix">
@@ -40,6 +44,7 @@
                         <div class="custom-choose">
                             <label>自定义金额</label>
                             <input type="text" name="custom-money" id="custom-money" />
+                            <label style="display: none;" class="custom-choose-tips">请充值整数金额的豌豆币</label>
                         </div>    
                     </div>
                 </div>
@@ -48,7 +53,7 @@
                     <label class="control-label">支付方式</label>
 
                     <input type="hidden" id="money" name="money" value="100"/>
-                    <input type="hidden" id="channel_inst" name="channel_inst" value="ICBC"/>
+                    <input type="hidden" id="channel_inst" name="channel_inst" value="ALIPAY"/>
                     <input type="hidden" id="charge_type" name="charge_type" value="ALIPAYWEB"/>
 
                     <input type="hidden" id="order_id" name="order_id" value=""/>
@@ -61,7 +66,7 @@
                                 <div class="pay-type open"><i></i>网上银行支付</div>
                                 <ul class="bank-list clearfix">
                                     <li>
-                                        <input checked class="radio" type="radio" id="ABC" name="bank-type" value="ABC"/>
+                                        <input class="radio" type="radio" id="ABC" name="bank-type" value="ABC"/>
                                         <label class="bank bank-ABC" title="中国农业银行" for="ABC"></label>
                                     </li>
 
@@ -134,11 +139,11 @@
                                 </ul>
                             </div>
 
-                            <div class="pay-area">
-                                <div class="pay-type"><i></i>支付宝支付</div>
+                            <div class="pay-area area-active">
+                                <div class="pay-type open"><i></i>支付宝支付</div>
                                 <ul class="bank-list clearfix">
                                     <li>
-                                        <input class="radio" type="radio" id="ALIPAY" name="bank-type" value="ALIPAY"/>
+                                        <input checked class="radio" type="radio" id="ALIPAY" name="bank-type" value="ALIPAY"/>
                                         <label class="bank bank-alipay" title="支付宝" for="ALIPAY"></label>
                                     </li>
                                 </ul>
@@ -155,7 +160,7 @@
 
             </form> 
 
-            <div class="contact-tip">支付过程中遇到问题请致电 400 870 6205 或邮件至 payment@wandoujia.com 与我们联系</div>
+            <div class="contact-tip">支付过程中遇到问题请致电 400 652 8705 或邮件至 payment@wandoujia.com 与我们联系</div>
 
 
         </div>    
