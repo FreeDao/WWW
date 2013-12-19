@@ -37,7 +37,7 @@
 
 
         //查一下余额
-        if (SnapPea.Account.isLogined() && wdj_auth) {
+        if (wdj_auth) {
             $.ajax({
                 url: 'https://pay.wandoujia.com/pay/web/query?wdj_auth=' + wdj_auth,
                 dataType: 'jsonp',
@@ -55,7 +55,7 @@
         }
 
         //需要请求order_id
-        if (SnapPea.Account.isLogined() && wdj_auth) {
+        if (wdj_auth) {
             $.ajax({
                 url: 'https://pay.wandoujia.com/pay/web/create?wdj_auth=' + wdj_auth,
                 dataType: 'jsonp',
