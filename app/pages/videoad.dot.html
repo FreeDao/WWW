@@ -5,8 +5,8 @@
     <title>视频追追看 - 豌豆荚</title>
     <meta name="keywords" content="安卓软件,安卓视频,安卓游戏" >
     <meta name="description" content="豌豆荚为您提供海量、安全的安卓应用下载，您可以在这里找到安卓软件、安卓游戏最权威的下载排行，把好玩的安卓软件和游戏免费下载到手机。" >
-    <!-- build:css(.tmp) /stylesheets/www/static.css -->
-    <link rel="stylesheet" type="text/css" href="/stylesheets/www/static.css">
+    <!-- build:css(.tmp) /stylesheets/www/index.css -->
+    <link rel="stylesheet" type="text/css" href="/stylesheets/www/index.css">
     <!-- endbuild -->
 
     <style rel="stylesheet" type="text/css">
@@ -152,7 +152,7 @@
                 <p class="intro">你想看的，都在那里...</p>
             </div>
             <div class="download-area">
-                <a rel="nofollow" href="{$durl}" data-track="download/client2/{$src}" id="downloadbutton" target="_blank" class="button-green button-medium" onclick="_gaq.push(['_trackEvent', 'campaign', 'zhuizhuikan-ad', 'download']);"> <i class="pngFix"></i>
+                <a rel="nofollow" href="http://mir.wandoujia.com/getwdj/homepage_" data-track="download/client2/videoad" id="downloadbutton" target="_blank" class="button-green button-medium" onclick="_gaq.push(['_trackEvent', 'campaign', 'zhuizhuikan-ad', 'download']);"> <i class="pngFix"></i>
                     下载豌豆荚
                 </a>
                 <img src="http://img.wdjimg.com/campaign/oscar/videoad/checkmark.png" alt="结果大不同"></div>
@@ -168,7 +168,7 @@
         </div>
     </div>
 
-    {{= it.include('footer') }}
+    {{= it.include('footer')}}
 
     <script>
         function renderDramaList (json) {
@@ -185,8 +185,12 @@
                 $('.drama-list').append(template);
             }
         }
-    </script>
-    <script src="http://video.wandoujia.com/api/v1/search/?max=6&start=0&opt_fields=id,title,cover.l&content_type=tv&callback=renderDramaList">
+
+        var script = document.createElement('script');
+        script.src = "http://video.wandoujia.com/api/v1/search/?max=6&start=0&opt_fields=id,title,cover.l&content_type=tv&callback=renderDramaList";
+        var body = document.getElementsByTagName('body')[0];
+        body.appendChild(script);
+
     </script>
 </body>
 </html>
