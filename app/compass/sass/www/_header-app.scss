@@ -1,0 +1,217 @@
+@import "compass";
+@import "blueprint";
+
+$blueprint-container-size: 960px;
+
+.header {
+    background: #f7f7f7;
+    @include background(linear-gradient(#fafbf9, #f6f6f3));
+    border-bottom: 1px solid #ddd;
+    @include box-shadow(0 1px 0 #fff);
+    .unnecessary {
+        margin: 0 auto;
+        width: 960px;
+        overflow: hidden;
+    }
+    .header-inner {
+        @include container;
+        position: relative;
+        height: 52px;
+    }
+    .logo {
+        display: inline-block;
+        padding: 0;
+        margin-top: -3px;
+        float: left;
+
+        a {
+            @include use-sprite('logo_word');
+            text-indent: -9876px;
+            height: 50px;
+            width: 78px;
+            display: block;
+            cursor: pointer;
+            &:hover {
+                color: $minor-color;
+                text-decoration: none;
+            }
+            _height: 50px;
+            _background: generated-image-url('www/logo_word.png') no-repeat 0 0;
+        }
+    }
+    .functions {
+        position: absolute;
+        right: 0;
+    }
+    .search-box {
+        float: right;
+        width: 200px;
+        height: 28px;
+        margin: 12px 0;
+        padding-right: 20px;
+    }
+    .search-ipt {
+        height: 20px;
+        width: 175px;
+        padding: 3px 20px 3px 3px;
+        display: inline-block;
+        font-size: 12px;
+        line-height: 18px;
+        border: 1px solid #cbcbcb;
+        outline: none;
+        vertical-align: middle;
+        margin-right: -5px;
+    }
+
+    .search-btn {
+        width: 30px;
+        line-height: 26px;
+        height: 26px;
+        margin-left: -25px;
+        cursor: pointer;
+
+        input {
+            border: none;
+            background-color: transparent;
+            line-height: 15px;
+            cursor: pointer;
+            vertical-align: middle;
+            text-indent: -9876px;
+            @include use-sprite('search');
+            height: 16px;
+            width: 16px;
+        }
+    }
+
+    .promotion {
+        float: right;
+        height: 30px;
+        margin-left: 20px;
+        padding: 12px 0 10px;
+    }
+    .button-small {
+        padding: 3px 10px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+
+.app-nav {
+    left: 88px;
+    position: absolute;
+    width: 350px;
+    line-height: 52px;
+
+    ul {
+        @include container;    
+    }
+
+
+    li {
+        float: left;
+    }
+    .current {
+    }
+    a {
+        display: block;
+        line-height: 42px;
+        font-size: 13px;
+        color: $minor-color;
+        padding: 5px 10px;
+
+        &:hover {
+            color: #2f7c2f;
+            text-decoration: none;
+            @include transition(background 0.1s linear);
+        }
+    }
+    .current a {
+        border-top: 2px solid #6ab600;
+        padding-top: 3px;
+        color: $green;
+    }
+}
+
+/* device infos */
+#device-info {
+    float: right;
+    margin: 8px 0 0 0;
+    height: 52px;
+    overflow: hidden;
+    *width: 140px;
+    .devicecenter .actions {
+        margin: -5px 0 0 0;
+        padding: 10px 0;
+        width: auto;
+        float: right;
+    }
+    .device-states {
+        @include use-sprite('offline_dot');
+        display: inline-block;
+        vertical-align: middle;
+        width: 9px;
+        height: 9px;
+        margin-right: -3px;
+    }
+    .device-online {
+        @include use-sprite('online_dot');
+    }
+    .account-info {
+        height: 24px;
+        line-height: 24px;
+        padding: 1px 5px 1px 10px;
+        border: 1px solid #ddd;
+        border-radius: 2px;
+        margin-top: 4px;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#e7e7e7));
+        background-image: -moz-linear-gradient(0 25% 270deg, #f2f2f2,#e7e7e7);
+        filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#f2f2f2',EndColorStr='#e7e7e7');
+        *width:120px;
+    }
+    .username {
+        display: inline-block;
+        *width: 80px;
+        *overflow: hidden;
+        *text-overflow:ellipsis;
+        *float: left;
+        *margin-top: 5px;
+    }
+    .device-info {
+        *float: right;
+        *width: 40px;
+        *margin-top: 3  px;
+        display: inline-block;
+        margin-left: 5px;
+    }
+    .syncing-tip,.register-tip {
+        display: inline;
+    }
+}
+
+.dcw-widget-container .dcw-device-thumb {
+    display: none;
+}
+
+.dcw-comp .menu-photos a {
+    color: #333;
+    &:hover {
+        color: #38d;
+    }
+}
+.devicecenter.devicecenter-signin .device-menu .icon {
+    display: none;
+}
+#device-info .devicecenter .actions, #device-info .devicecenter a{
+    color: $minor-color;
+    &:hover{
+        color: $minor-color;
+        text-decoration: none;
+    }
+}
+
+/* ie6 下 push 用的手机列表会被其他元素遮挡 */
+.header {
+    z-index: 99;
+    position: relative;
+}   
+
