@@ -186,6 +186,8 @@
             }
         }
 
+        document.getElementById('downloadbutton').href += new Date().getTime();
+
         var script = document.createElement('script');
         script.src = "http://video.wandoujia.com/api/v1/search/?max=6&start=0&opt_fields=id,title,cover.l&content_type=tv&callback=renderDramaList";
         var body = document.getElementsByTagName('body')[0];
