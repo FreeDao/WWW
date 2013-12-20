@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{{= it.document.title || it.title }}</title>
+    <meta http-equiv="mobile-agent" content="format=html5; url=http://m.wandoujia.com">
+    <meta name="keywords" content="豌豆荚,安卓游戏,安卓软件下载,安卓游戏下载,安卓手机助手">
+    <meta name="description" content="豌豆荚让您的安卓手机简单好用，轻松管理手机，免费下载应用、视频和音乐，管理通讯录，快速备份手机。" >
+
+    <!-- build:css(.tmp) /stylesheets/www/{{= it.document.stylesheet }}.css -->
+    <link rel="stylesheet" type="text/css" href="/stylesheets/www/{{= it.document.stylesheet }}.css" />
+    <!-- endbuild -->
+</head>
+<body>
+    {{? it.document.stylesheet === 'index'}}
+    <div class="international-tip" style="display: none">
+        <span class="hello">Hello!</span>&nbsp;&nbsp;Looking for our international version? It's here: <a href="http://www.snappea.com/?utm_source=wandoujia&utm_medium=toptip&utm_campaign=international" data-track="tips/click/snappea">www.snappea.com</a>
+
+        <span class="close"></span>
+    </div>
+    {{?}}
+
+    {{= it.include('header-app') }}
+
+    {{? it.document.noWrap }}
+        {{= it.document }}
+    {{??}}
+    <div class="grid-24 wrapper">
+        {{= it.document }}
+    </div>
+    {{?}}
+
+    {{= it.include('footer', {noNav : it.document.noNav || false, noScript : it.document.noScript || false, script : it.document.script}) }}
+</body>
+</html>
