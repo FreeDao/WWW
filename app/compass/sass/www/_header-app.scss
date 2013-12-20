@@ -36,7 +36,7 @@ $blueprint-container-size: 960px;
                 text-decoration: none;
             }
             _height: 50px;
-            _background: url('/style/images/www/icons/logo_word.png') no-repeat 0 0;
+            _background: generated-image-url('www/logo_word.png') no-repeat 0 0;
         }
     }
     .functions {
@@ -213,24 +213,5 @@ $blueprint-container-size: 960px;
 .header {
     z-index: 99;
     position: relative;
-}
-/* 2x resolutaion, retina */
-@media 
-(-webkit-min-device-pixel-ratio: 2), 
-(min-resolution: 192dpi) { 
-    .header .logo a {
-        background: url('/style/images/www/iconsx/logo_word@2x.png') no-repeat;
-        background-size: 78px 50px;
-    }
-    #device-info {
-        .device-states {
-            background: url('/style/images/www/iconsx/offline_dot@2x.png') no-repeat;
-            background-size: 9px 9px;
-        }
-        .device-online {
-            background: url('/style/images/www/iconsx/online_dot@2x.png') no-repeat;
-            background-size: 9px 9px;
-        }
-    }
 }   
 
