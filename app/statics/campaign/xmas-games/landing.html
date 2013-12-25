@@ -29,11 +29,11 @@
 <body>
 
 <div class="banner">
-    <img src="http://img.wdjimg.com/md/2013/%E5%9C%A3%E8%AF%9E%E8%8A%82banner-2013-320x240%E7%BA%A2.jpg">
+    <img src="http://img.wdjimg.com/md/2013/%E5%9C%A3%E8%AF%9E%E8%8A%82banner-2013-320x240%E7%BA%A2.jpg" />
 </div>
 
 <div class="nav">
-    <a class="join" href="#">下载豌豆荚参与活动</a>
+    <a id="down" class="join" href="#">下载豌豆荚参与活动</a>
 
 </div>
 <div class="block">
@@ -46,6 +46,16 @@
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-46681037-1']);
   _gaq.push(['_trackPageview']);
+
+
+  function getParam(name){
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"),
+        queryResult = location.search.substr(1).match(reg);
+        return queryResult ? unescape(queryResult[2]) : null;
+  }
+
+  var downloadURL = getParam('utm_source') || 'bdpmttwx_xmas';
+  document.getElementById('down').setAttribute('href', 'http://dl.wandoujia.com/files/phoenix/latest/wandoujia-' + downloadURL + '.apk');
 
   (function() {
     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
