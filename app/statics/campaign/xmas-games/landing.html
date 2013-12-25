@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>圣诞・元旦・七天乐</title>
+    <title>圣诞・元旦・七天乐 - 豌豆荚</title>
     <style>
     * { margin: 0; padding: 0; }
     a, a:hover { text-decoration: none; }
@@ -54,7 +54,7 @@
         return queryResult ? unescape(queryResult[2]) : null;
   }
 
-  var downloadURL = getParam('utm_source') || 'bdpmttwx_xmas';
+  var downloadURL = getParam('utm_source') || 'bdpmtwx_xmas';
   document.getElementById('down').setAttribute('href', 'http://dl.wandoujia.com/files/phoenix/latest/wandoujia-' + downloadURL + '.apk');
 
   (function() {
