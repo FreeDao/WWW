@@ -93,6 +93,32 @@
                 <div>将生成的代码加到应用下载页面, 完成一键安装</div>
                 <div class="well"><pre id="code_panel"></pre></div>
             </li>
+            <script type="text/javascript">
+                  function generateCode() {
+                    var apkname = $('#apkname').val();
+                    var apkurl = $('#apkurl').val();
+                    if (apkname == '') {
+                      alert('请填写您的应用名字!');
+                      return false;
+                    }
+                    if (apkurl == '') {
+                      alert('请填写您的 APK 地址!');
+                      return false;
+                    }
+                    $('#generated_result').show();
+                    $('#demobutton').attr({
+                      href: apkurl,
+                      name: apkname,
+                      title: '通过豌豆荚一键安装' + apkname
+                    });
+                    $('#generated_code').html('&lt;a href=&quot;' + apkurl +
+                        '&quot; name=&quot;' + apkname +
+                        '&quot; \n    onclick=&quot;return wdapi_apkdl(this);&quot; title=&quot;通过豌豆荚一键安装 ' +
+                        apkname + '&quot;&gt;\n  &lt;img alt=&quot;豌豆荚一键安装&quot; src=&quot;http://wandoujia.com/logo/install-via-wdj-xlarge.png&quot; /&gt;\n&lt;/a&gt;');
+                    $('span.nosense').hide();
+                    return false;
+                  }
+                </script>
         </ol>
         <h3>联系我们</h3>
         <ul>
