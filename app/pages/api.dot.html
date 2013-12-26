@@ -91,7 +91,7 @@
             </li>
             <li>
                 <div>将生成的代码加到应用下载页面, 完成一键安装</div>
-                <div class="well"><pre id="code_panel"></pre></div>
+                <div class="well" id="generated_result"><pre id="generated_code"></pre></div>
             </li>
             <script type="text/javascript">
                   function generateCode() {
@@ -113,7 +113,7 @@
                     });
                     $('#generated_code').html('&lt;a href=&quot;' + apkurl +
                         '&quot; name=&quot;' + apkname +
-                        '&quot; \n    onclick=&quot;return wdapi_apkdl(this);&quot; title=&quot;通过豌豆荚一键安装 ' +
+                        '&quot;    onclick=&quot;return wdapi_apkdl(this);&quot; title=&quot;通过豌豆荚一键安装 ' +
                         apkname + '&quot;&gt;\n  &lt;img alt=&quot;豌豆荚一键安装&quot; src=&quot;http://wandoujia.com/logo/install-via-wdj-xlarge.png&quot; /&gt;\n&lt;/a&gt;');
                     $('span.nosense').hide();
                     return false;
